@@ -1,6 +1,6 @@
 # Site Aggregator
 
-A lightweight content aggregation system that collects, stores, and displays articles from web URLs and RSS feeds, hosted on GitHub Pages.
+A lightweight content aggregation system that collects, stores, and displays articles from web URLs and RSS feeds, hosted on GitHub Pages
 
 ## Tech Stack
 
