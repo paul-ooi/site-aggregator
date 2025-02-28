@@ -1,6 +1,6 @@
 # Site Aggregator
 
-A lightweight content aggregation system that collects, stores, and displays articles from web URLs and RSS feeds, hosted on GitHub Pages
+A lightweight content aggregation system that collects, stores, and displays articles from web URLs and RSS feeds, hosted on GitHub Pages.
 
 ## Tech Stack
 
@@ -110,5 +110,3 @@ The site is automatically deployed to GitHub Pages when:
 - Changes are pushed to the main branch
 - Content collection workflow runs
 - Manual workflow dispatch is triggered
-
-Visit the deployed site at: `https://<username>.github.io/site-aggregator`
