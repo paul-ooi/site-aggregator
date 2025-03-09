@@ -1,6 +1,6 @@
 name: Collect Content
 on:
-  schedule:
+  # schedule:
     # - cron: '0 */6 * * *'  # Run every 6 hours
   workflow_dispatch:
 
