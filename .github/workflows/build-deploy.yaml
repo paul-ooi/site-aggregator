@@ -5,18 +5,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  cache-and-install:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - uses: pnpm/action-setup@v4
         name: Install pnpm
-        with:
-          version: 10
-          run_install: false
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -26,10 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4    
+
       - name: Build Site
         run: pnpm run build
       
