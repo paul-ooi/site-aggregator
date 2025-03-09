@@ -34,6 +34,7 @@ export default defineNuxtConfig({
 
   // Build optimization
   nitro: {
+    static: true,
     prerender: {
       routes: ['/']
     }
