@@ -6,8 +6,9 @@
   "license": "MIT",
   "engines": {
     "node": ">=22.0.0",
-    "npm": ">=10.9.0"
+    "pnpm": ">=10.0.0"
   },
+  "packageManager": "pnpm@10.0.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
