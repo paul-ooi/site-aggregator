@@ -33,18 +33,19 @@ A lightweight content aggregation system that collects, stores, and displays art
 
 ```plaintext
 site-aggregator/
+├── .output/   
+    └── public/     # public output files
 ├── .github/
 │   └── workflows/
 │       ├── build-deploy.yml
 │       └── collect-content.yml
-├── src/
-│   ├── components/     # Vue components
-│   ├── composables/    # Nuxt composables
-│   ├── pages/         # Route pages
-│   ├── collectors/    # Content collectors
-│   ├── storage/       # Storage handlers
-│   ├── client/        # Browser utils
-│   └── utils/         # Helper functions
+├── components/     # Vue components
+├── composables/    # Nuxt composables
+├── pages/         # Route pages
+├── collectors/    # Content collectors
+├── storage/       # Storage handlers
+├── client/        # Browser utils
+├── utils/         # Helper functions
 ├── types/            # TypeScript declarations
 ├── config/          # Configuration files
 ├── content/         # Stored articles

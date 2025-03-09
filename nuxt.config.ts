@@ -44,12 +44,12 @@ export default defineNuxtConfig({
     strict: true,
     typeCheck: true,
     tsConfig: {
+    compileOnSave: true,
       compilerOptions: {
         target: 'esnext',
         module: 'es6',
         strict: true,
         esModuleInterop: true,
-        jsx: 'preserve',
         sourceMap: true,
         types:[
           "node",
