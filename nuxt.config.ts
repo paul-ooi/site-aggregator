@@ -1,3 +1,4 @@
+let development = 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -28,7 +29,7 @@ export default defineNuxtConfig({
   // Runtime configuration
   runtimeConfig: {
     public: {
-      baseURL: process.env.BASE_URL || 'http://localhost:3000'
+      baseURL: (process.env.NODE_ENV == 'production') ? '/' : 'http://localhost:3000'
     }
   },
 
