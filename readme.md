@@ -56,8 +56,12 @@ site-aggregator/
 ```
 
 ## GitHub Actions Workflows
-- Collect content
-- Build and deploy to Github Pages
+- Collect content (on schedule)
+- Build and deploy to Github Pages (on push)
+  - Make sure to enable Pages to be deployed via workflow in Repository settings
+  - References:
+    - https://nuxt.com/deploy/github-pages
+    - https://github.com/actions/starter-workflows/blob/main/pages/nuxtjs.yml
 
 ## Configuration
 - Collection of RSS Feeds to check for content
