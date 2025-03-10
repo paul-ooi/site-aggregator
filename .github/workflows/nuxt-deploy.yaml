@@ -51,7 +51,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "lts:*"
+          node-version: "20"
           check-latest: true
           cache: ${{ steps.detect-package-manager.outputs.manager }}
           cache-dependency-path: 'pnpm-lock.yaml'
