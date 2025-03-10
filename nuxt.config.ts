@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-
+  ssr: true,
   // Build settings
   app: {
     // baseURL: '/',
@@ -35,6 +35,7 @@ export default defineNuxtConfig({
   // Build optimization
   nitro: {
     static: true,
+    compressPublicAssets: true,
     prerender: {
       routes: ['/']
     }
