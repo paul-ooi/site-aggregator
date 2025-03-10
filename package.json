@@ -5,7 +5,7 @@
   "description": "A lightweight content aggregation system that collects, stores, and displays articles from web URLs and RSS feeds",
   "license": "MIT",
   "engines": {
-    "node": ">=22.0.0",
+    "node": ">=20.0.0",
     "pnpm": ">=10.0.0"
   },
   "packageManager": "pnpm@10.0.0",
