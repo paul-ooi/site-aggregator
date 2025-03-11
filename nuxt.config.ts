@@ -20,10 +20,10 @@ export default defineNuxtConfig({
   //   '@nuxt/content'
   // ],
 
-  // // Style configuration
-  // css: [
-  //   '@/assets/styles/main.scss'
-  // ],
+  // Style configuration
+  css: [
+    '~/assets/styles/main.scss'
+  ],
 
   // Runtime configuration
   runtimeConfig: {
