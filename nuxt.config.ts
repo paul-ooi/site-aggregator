@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
+
   // Build settings
   app: {
     // baseURL: '/',
@@ -14,10 +15,9 @@ export default defineNuxtConfig({
       ]
     }
   },
-
   // // Module configuration
   // modules: [
-  //   '@nuxt/content'
+  //   '@nuxt/image'
   // ],
 
   // Style configuration
@@ -49,7 +49,7 @@ export default defineNuxtConfig({
     compileOnSave: true,
       compilerOptions: {
         target: 'esnext',
-        module: 'es6',
+        module: 'esnext',
         strict: true,
         esModuleInterop: true,
         sourceMap: true,
@@ -62,5 +62,6 @@ export default defineNuxtConfig({
       }
     }
   },
-  compatibilityDate: '2025-03-08'
+
+  compatibilityDate: '2025-03-08',
 })

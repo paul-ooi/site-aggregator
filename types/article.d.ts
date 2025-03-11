@@ -4,7 +4,10 @@ export interface Article {
   content: string
   url: string
   source: string
-  publishDate: string
+  organitzation: string
+  repostedDate: string
+  sourcePublishDate?: string
+  author?: string
   tags?: string[]
   summary?: string
 }
