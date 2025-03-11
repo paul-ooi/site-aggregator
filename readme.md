@@ -71,13 +71,13 @@ site-aggregator/
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Start development server
-npm run dev
+pnpm run dev
 
 # Build for production
-npm run build
+pnpm run build
 
 # Test GitHub Actions locally
 act -j build-and-deploy
