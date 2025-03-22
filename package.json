@@ -22,7 +22,8 @@
     "format": "prettier --write .",
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf .nuxt dist .output",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "collect": "node scripts/aggregator.js"
   },
   "dependencies": {
     "axios": "^1.6.7",

@@ -27,10 +27,18 @@ jobs:
       - name: Collect Content
         run: pnpm run collect
       
-      - name: Commit Changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add content/
-          git commit -m "Update content $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes"
-          git push
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update content collection"
+          title: "Content Update $(date +'%Y-%m-%d')"
+          body: |
+            Automated content collection update
+            - Fetched new content from configured sources
+            - Generated on: $(date +'%Y-%m-%d %H:%M:%S')
+          branch: update/content-collection
+          delete-branch: true
+          base: main
+          add-paths: |
+            content/**
