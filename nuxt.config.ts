@@ -1,8 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-
+import { fileURLToPath } from 'node:url';
 import { globSync } from "glob";
+
+// prep content files for prerendering
 const contentFiles = globSync('./content/**/*.md')
-    .map(path => {console.log(path); return path.slice(7, -3).replace(/\d+\./g, '').replace(/\\/g, '/')})
+    .map(path => path.slice(7, -3).replace(/\d+\./g, '').replace(/\\/g, '/'))
 console.log('Content files found:', contentFiles);
     
 
@@ -10,6 +12,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
 
+  alias: {
+    // must prefix with ~ to avoid conflicting with nuxt aliases
+    'components': fileURLToPath(new URL('./components', import.meta.url)),
+    'composables': fileURLToPath(new URL('./composables', import.meta.url)),
+    'images': fileURLToPath(new URL('./assets/images', import.meta.url)),
+    'styles': fileURLToPath(new URL('./assets/styles', import.meta.url)),
+    'scripts': fileURLToPath(new URL('./assets/scripts', import.meta.url))
+  },
   // Build settings
   app: {
     // baseURL: '/site-aggregator',
@@ -36,7 +46,7 @@ export default defineNuxtConfig({
   // Runtime configuration
   runtimeConfig: {
     public: {
-      baseURL: (process.env.NODE_ENV == 'production') ? '/' : 'http://localhost:3000'
+      baseURL: (process.env.NODE_ENV == 'production') ? '/site-aggregator/' : 'http://localhost:3000'
     }
   },
 
@@ -47,7 +57,6 @@ export default defineNuxtConfig({
     prerender: {
       routes: ['/', 'articles', ...contentFiles],
       crawlLinks: true,
-      failOnError: false
     },
     timing: true,
     hooks: {
