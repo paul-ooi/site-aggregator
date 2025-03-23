@@ -8,7 +8,6 @@
     "node": ">=20.0.0",
     "pnpm": ">=10.0.0"
   },
-  "packageManager": "pnpm@10.0.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -52,5 +51,9 @@
     "vite": "^5.0.0",
     "vitest": "^1.2.0",
     "vue-tsc": "^2.2.8"
+  },
+  "devEngines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
   }
 }
