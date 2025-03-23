@@ -3,7 +3,7 @@
 
 <template>
   <main>
-    <img src="/sa-logo.png" alt="Site Aggregator Logo" class="logo" />
+    <img src="~images/sa-logo.png" alt="Site Aggregator Logo" class="logo" />
     <h1>Site Aggregator</h1>
     <section>
       <h2>Latest Articles</h2>
