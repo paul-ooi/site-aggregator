@@ -61,7 +61,7 @@ jobs:
         env:
           NUXT_APP_BASE_URL: /site-aggregator/
         # Reference: https://nuxt.com/deploy/github-pages
-        run: pnpx nuxi generate --envName=production --logLevel=verbose --preset github_pages
+        run: pnpm nuxi build --prerender=true --envName=production --logLevel=verbose --preset github_pages
 
       - name: Upload static files as artifact
         if: always()
