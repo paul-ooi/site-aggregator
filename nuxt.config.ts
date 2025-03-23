@@ -42,7 +42,7 @@ export default defineNuxtConfig({
     static: true,
     compressPublicAssets: true,
     prerender: {
-      routes: ['/', '/articles/', ...contentFiles],
+      routes: ['/', '/articles/*', ...contentFiles],
       crawlLinks: true,
       failOnError: false
     },
