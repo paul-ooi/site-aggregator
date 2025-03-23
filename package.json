@@ -10,8 +10,9 @@
   },
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "dev": "nuxt dev  --envName=development --logLevel=verbose",
+    "generate:dev": "nuxt generate --envName=development --logLevel=verbose --preset github_pages",
+    "generate:production": "nuxt generate --envName=production --logLevel=verbose --preset github_pages",
     "preview": "nuxt preview",
     "test": "vitest",
     "test:watch": "vitest watch",
@@ -25,6 +26,7 @@
     "collect": "node scripts/aggregator.js"
   },
   "dependencies": {
+    "@nuxt/content": "3.4.0",
     "axios": "^1.6.7",
     "cheerio": "^1.0.0-rc.12",
     "feed-reader": "^1.1.6",
@@ -40,6 +42,7 @@
     "@vitejs/plugin-vue": "^5.0.0",
     "@vue/test-utils": "^2.4.0",
     "@vue/tsconfig": "^0.5.0",
+    "better-sqlite3": "^11.9.1",
     "eslint": "^9.22.0",
     "happy-dom": "^13.0.0",
     "husky": "^9.0.0",
@@ -55,5 +58,16 @@
   "devEngines": {
     "node": ">=20.0.0",
     "pnpm": ">=10.0.0"
+  },
+  "packageManager": "pnpm@10.6.2+sha512.47870716bea1572b53df34ad8647b42962bc790ce2bf4562ba0f643237d7302a3d6a8ecef9e4bdfc01d23af1969aa90485d4cebb0b9638fa5ef1daef656f6c1b",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "better-sqlite3",
+      "esbuild"
+    ],
+    "ignoredBuiltDependencies": [
+      "node-expat"
+    ]
   }
 }

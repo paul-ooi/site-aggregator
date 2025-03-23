@@ -15,13 +15,8 @@ export default defineNuxtConfig({
       ]
     }
   },
-  // // Module configuration
-  // modules: [
-  //   '@nuxt/image'
-  // ],
-  modules: [
-    '@nuxt/eslint'
-  ],
+  // Module configuration
+  modules: ['@nuxt/eslint', '@nuxt/content'],
 
   // Style configuration
   css: [
@@ -40,8 +35,9 @@ export default defineNuxtConfig({
     static: true,
     compressPublicAssets: true,
     prerender: {
-      routes: ['/']
-    }
+      routes: ['/', '/articles']
+    },
+    // preset: 'github',
   },
 
   // TypeScript settings

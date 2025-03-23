@@ -1,7 +1,6 @@
 export interface Article {
-  id: string
   title: string
-  content: string
+  description: string
   url: string
   source: string
   organitzation: string
