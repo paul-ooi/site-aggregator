@@ -60,10 +60,14 @@ jobs:
         run: pnpm install
 
       - name: Static HTML export with Nuxt
+        if: always()
+        env:
+          NUXT_APP_BASE_URL: /site-aggregator/
         # Reference: https://nuxt.com/deploy/github-pages
-        run: NUXT_APP_BASE_URL=/site-aggregator/ pnpx nuxi build --prerender --preset github_pages
+        run: pnpx nuxi build --prerender --preset github_pages
 
       - name: Upload static files as artifact
+        if: always()
         id: deployment
         uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
         with:
