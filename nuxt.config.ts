@@ -37,8 +37,17 @@ export default defineNuxtConfig({
     prerender: {
       routes: ['/', '/articles'],
       crawlLinks: false,
+      failOnError: false
     },
-    // preset: 'github',
+    timing: true,
+    hooks: {
+      'rollup:before': (nitro) => {
+        console.log('Starting build process...');
+      },
+      'prerender:routes': (routes) => {
+        console.log('Routes to prerender:', routes);
+      }
+    },
   },
 
   // TypeScript settings
