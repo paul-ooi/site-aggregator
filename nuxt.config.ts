@@ -36,7 +36,7 @@ export default defineNuxtConfig({
     compressPublicAssets: true,
     prerender: {
       routes: ['/'],
-      crawlLinks: false,
+      crawlLinks: true,
     },
     // preset: 'github',
   },
