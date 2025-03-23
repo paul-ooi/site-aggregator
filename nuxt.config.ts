@@ -19,6 +19,9 @@ export default defineNuxtConfig({
   // modules: [
   //   '@nuxt/image'
   // ],
+  modules: [
+    '@nuxt/eslint'
+  ],
 
   // Style configuration
   css: [
