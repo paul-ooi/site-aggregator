@@ -1,6 +1,6 @@
 ---
 title: 'Article 2'
-description: 'meta description of the page'
+description: 'meta description of the article 2'
 url: 'https://example.com'
 source: 'SourceExample'
 organization: 'OrgExample'
