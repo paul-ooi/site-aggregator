@@ -10,27 +10,14 @@ A lightweight content aggregation system that collects, stores, and displays art
 - **Build Tool**: Vite
 - **Deployment**: GitHub Pages
 
+## Project and Developer Information
+[Development Guide](/docs/development.md)
+[Roadmap](/docs/project-roadmap.md)
+
 ## Features
-
-- **Multi-source Collection**
-  - Direct URL scraping
-  - RSS feed monitoring
-  - Scheduled content updates
-
-- **Storage & Deployment**
-  - Flat file storage using Markdown
-  - Automated GitHub Pages deployment
-  - GitHub Actions for build and collection
-  - Content deduplication
-
-- **User Features**
-  - Browser-based favorites storage
-  - Reading history
-  - Custom tags and categories
-  - Personalized feed settings
+See [Work in Progress](/docs/feature-list.md)
 
 ## Project Structure
-
 ```plaintext
 site-aggregator/
 ├── .output/   
@@ -44,6 +31,7 @@ site-aggregator/
 ├── pages/         # Route pages
 ├── collectors/    # Content collectors
 ├── storage/       # Storage handlers
+├── docs/          # Project Documents
 ├── client/        # Browser utils
 ├── utils/         # Helper functions
 ├── types/            # TypeScript declarations
@@ -54,64 +42,3 @@ site-aggregator/
 ├── tsconfig.json   # TypeScript configuration
 └── package.json
 ```
-
-## GitHub Actions Workflows
-- Collect content (on schedule)
-- Build and deploy to Github Pages (on push)
-  - Make sure to enable Pages to be deployed via workflow in Repository settings
-  - References:
-    - https://nuxt.com/deploy/github-pages
-    - https://github.com/actions/starter-workflows/blob/main/pages/nuxtjs.yml
-
-## Configuration
-- Collection of RSS Feeds to check for content
-- Independent article URLs to gather content from and use as reference for original source content
-
-## Local Development
-
-```bash
-# Install dependencies
-pnpm install
-
-# Start development server
-pnpm run dev
-
-# Build for production
-pnpm run build
-
-# Test GitHub Actions locally
-act -j build-and-deploy
-```
-
-## Browser Storage Integration
-- Local Storage for customized experience for users
-```javascript
-// filepath: src/client/storage.js
-export class LocalStorageManager {
-  constructor(storageKey = 'site-aggregator') {
-    this.storageKey = storageKey;
-  }
-
-  saveFavorite(article) {
-    const favorites = this.getFavorites();
-    favorites.unshift({
-      id: article.id,
-      title: article.title,
-      addedAt: new Date().toISOString(),
-      tags: []
-    });
-    localStorage.setItem(`${this.storageKey}_favorites`, JSON.stringify(favorites));
-  }
-
-  getFavorites() {
-    return JSON.parse(localStorage.getItem(`${this.storageKey}_favorites`) || '[]');
-  }
-}
-```
-
-## Deployment
-
-The site is automatically deployed to GitHub Pages when:
-- Changes are pushed to the main branch
-- Content collection workflow runs
-- Manual workflow dispatch is triggered
