@@ -1,8 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 import { globSync } from "glob";
-const routes = globSync('./content/**/*.md')
-    .map(path => path.slice(7, -3).replace(/\d+\./g, '').replace(/\\/g, '/'))
+const contentFiles = globSync('./content/**/*.md')
+    .map(path => {console.log(path); return path.slice(7, -3).replace(/\d+\./g, '').replace(/\\/g, '/')})
+console.log('Content files found:', contentFiles);
+    
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -40,7 +42,7 @@ export default defineNuxtConfig({
     static: true,
     compressPublicAssets: true,
     prerender: {
-      routes: [...routes],
+      routes: ['/', '/articles/', ...contentFiles],
       crawlLinks: true,
       failOnError: false
     },
