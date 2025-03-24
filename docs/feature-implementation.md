@@ -43,10 +43,10 @@
   - [x] tsconfig.json setup
   - [x] Nuxt TypeScript settings
   - [x] ESLint TypeScript rules
-  - [ ] Path aliases
+  - [x] Path aliases
 
 - [ ] Type Definitions
-  - [ ] Article interface
+  - [x] Article interface
   - [ ] Feed interface
   - [ ] Storage interfaces
   - [ ] API response types
