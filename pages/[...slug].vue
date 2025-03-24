@@ -1,13 +1,9 @@
 <script lang="ts" setup>
 const route = useRoute()
 const { data: page } = await useAsyncData(route.path, () => {
-  console.log('fetching page', route.path)
   return queryCollection('content').path(route.path).first()
 })
 
-// definePageMeta({
-//   path: `${process.env.NUXT_APP_BASE_URL || ''}/${route}`,
-// })
 useSeoMeta({
   title: `${page?.value?.title} | Site Aggregator`,
   ogTitle: `${page?.value?.title} | Site Aggregator`,

@@ -11,7 +11,8 @@ result.value?.values().forEach((article) => {
   articles.push(<Article>{
     title: article.title,
     description: article.description,
-    url: article.url,
+    externalUrl: article.url,
+    internalUrl: article.path,
     source: article.source,
     organitzation: article.organization,
     repostedDate: article.repostedDate,

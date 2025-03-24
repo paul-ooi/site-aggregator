@@ -13,7 +13,7 @@ const formatDateTime = (dateString: string) => {
 
 <template>
   <article class="article-card">
-    <h2>{{ article.title }}</h2>
+    <h2><NuxtLink :to="article.internalUrl">{{ article.title }}</NuxtLink></h2>
     <p>{{ article.summary }}</p>
     <details class="article-meta">
       <summary>
@@ -21,7 +21,7 @@ const formatDateTime = (dateString: string) => {
       </summary>
       <span>{{ article.author }}</span>
       <span>{{ article.source }}</span>
-      <span>{{ article.url }}</span>
+      <NuxtLink :to="article.externalUrl" >{{ article.externalUrl }}</NuxtLink>
     </details>
     <!-- <button @click="saveFavorite(article)">Save</button> -->
   </article>

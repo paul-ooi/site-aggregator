@@ -1,7 +1,8 @@
 export interface Article {
   title: string
   description: string
-  url: string
+  externalUrl: string
+  internalUrl: string
   source: string
   organitzation: string
   repostedDate: string
