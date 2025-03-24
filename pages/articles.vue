@@ -23,6 +23,15 @@ result.value?.values().forEach((article) => {
   });
 });
 
+useHead({
+  link:[
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '~images/sa-logo.ico'
+    }
+  ]
+});
 </script>
 <template>
     <div>
