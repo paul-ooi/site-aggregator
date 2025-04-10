@@ -1,9 +1,8 @@
-@use 'variables' as *;
-
+// Typography styles
 h1 {
     font-size: 2em;
 }
 
 body {
-    color: $black;
+    color: var(--black);
 }

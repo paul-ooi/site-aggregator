@@ -11,12 +11,10 @@ useHead({
 </script>
 
 <template>
+  <SiteNavigation />
   <main>
-    <img src="~images/sa-logo.png" alt="Site Aggregator Logo" class="logo" />
     <h1>Site Aggregator</h1>
-    <section>
-      <h2>Latest Articles</h2>
-    </section>
+    <img src="~images/sa-logo.png" alt="Site Aggregator Logo" class="site-logo" />
     <!-- <aside v-if="favorites.length">
       <h2>Your Favorites</h2>
       <ArticleCard 
@@ -29,9 +27,13 @@ useHead({
 </template>
 
 <style scoped>
-.logo {
+.site-logo {
+  grid-area: content;
   max-width: 200px;
   height: auto;
   margin-bottom: 1rem;
+}
+h1 {
+  grid-area: sidebar;
 }
 </style>

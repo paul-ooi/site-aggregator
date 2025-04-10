@@ -34,7 +34,8 @@ useHead({
 });
 </script>
 <template>
-    <div>
+    <SiteNavigation />
+    <main>
         <ArticleList v-if="articles" :articles="articles" />
-    </div>
+    </main>
 </template>

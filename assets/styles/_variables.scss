@@ -1,5 +1,13 @@
-$whtie: #fff;
-$black: #252525;
+// Colors
+:root {
+  --white: #fff;
+  --black: #252525;
+  --primary: #007BFF; // Electric Blue
+  --secondary: #6C757D; // Cool Gray
+  --tertiary: #17A2B8; // Soft Cyan
+  --accent-yellow: #FFC107; // Bright Yellow
+  --accent-purple: #6F42C1; // Muted Purple
+}
 
 // Breakpoints
 $xs: 320px;
