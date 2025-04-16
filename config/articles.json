@@ -1,10 +1,10 @@
 [
   {
-    "url": "https://dubbot.com/dubblog/index.html",
-    "organization": "DubBlog",
-    "description": "DubBot creates web accessibility related software as a service (SaaS) for the web.",
+    "url": "https://paulooi.ca/blog/inclusive-design/",
+    "organization": "Independant",
+    "description": "Reflections from an accessibility conference",
     "language": "en",
-    "category": "technology",
+    "category": "technology,conference",
     "lastUpdated": "2025-01-01T12:00:00Z"
   }
 ]
