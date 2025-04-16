@@ -1,0 +1,18 @@
+[
+  {
+    "name": "DubBlog",
+    "url": "https://dubbot.com/dubblog/index.html",
+    "description": "DubBot creates web accessibility related software as a service (SaaS) for the web.",
+    "language": "en",
+    "category": "technology",
+    "lastUpdated": "2025-01-01T12:00:00Z"
+  },
+  {
+    "name": "GAAD Foundation",
+    "url": "https://gaad.foundation/news",
+    "description": "The team behind Global Accessibility Awareness Day",
+    "language": "en",
+    "category": "news",
+    "lastUpdated": "2025-01-01T12:00:00Z"
+  }
+]

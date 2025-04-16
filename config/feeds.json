@@ -1,0 +1,10 @@
+[
+  {
+    "name": "example",
+    "url": "https://example.com/feed.xml",
+    "description": "An example feed for demonstration purposes.",
+    "language": "en",
+    "category": "technology",
+    "lastUpdated": "2025-01-01T12:00:00Z"
+  }
+]
