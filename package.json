@@ -23,14 +23,15 @@
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf .nuxt dist .output",
     "prepare": "husky install",
-    "collect": "node scripts/aggregator.js"
+    "collect": "pnpx vue-tsc  scripts/**/*.ts --outDir dist && node dist/aggregator.js"
   },
   "dependencies": {
     "@nuxt/content": "3.4.0",
     "axios": "^1.6.7",
-    "cheerio": "^1.0.0-rc.12",
+    "cheerio": "^1.0.0",
     "feed-reader": "^1.1.6",
     "nuxt": "^3.10.0",
+    "rss-parser": "^3.13.0",
     "vue": "^3.4.0"
   },
   "devDependencies": {
