@@ -1,8 +1,8 @@
 [
   {
-    "name": "example",
-    "url": "https://example.com/feed.xml",
-    "description": "An example feed for demonstration purposes.",
+    "name": "WebAim",
+    "url": "https://webaim.org/blog/feed/",
+    "description": "The WebAIM Web Accessibility Blog",
     "language": "en",
     "category": "technology",
     "lastUpdated": "2025-01-01T12:00:00Z"
