@@ -1,13 +1,12 @@
 <script setup lang="ts">
-import type { Article } from '~/types/article'
+import type { Article } from '~types/article'
 import ArticleList from '~/components/ArticleList.vue';
 
 const { data: result } = await useAsyncData('articles', () => {
   return queryCollection('content').all()
 })
-
 const articles : Article[] = [];
-result.value?.values().forEach((article) => {
+result.value?.forEach((article) => {
   articles.push(<Article>{
     title: article.title,
     description: article.description,
