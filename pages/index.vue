@@ -24,6 +24,7 @@ useHead({
       />
     </aside> -->
   </main>
+  <Footer />
 </template>
 
 <style scoped>

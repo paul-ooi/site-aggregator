@@ -37,4 +37,5 @@ useHead({
     <main>
         <ArticleList v-if="articles" :articles="articles" />
     </main>
+    <Footer />
 </template>
