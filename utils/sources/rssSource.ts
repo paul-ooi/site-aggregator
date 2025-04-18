@@ -1,5 +1,5 @@
-import type { Source } from '~types/source';
-import type { Article } from '~types/article';
+import type { Source } from '../../types/source';
+import type { Article } from '../../types/article';
 import Parser from 'rss-parser';
 
 const parser = new Parser();
