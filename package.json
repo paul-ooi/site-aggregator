@@ -23,7 +23,7 @@
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf .nuxt dist .output",
     "prepare": "husky install",
-    "collect": "pnpx vue-tsc  scripts/**/*.ts --outDir dist && node dist/aggregator.js"
+    "collect": "pnpx vue-tsc  utils/**/*.ts --outDir util-dist && node util-dist/aggregator.js"
   },
   "dependencies": {
     "@nuxt/content": "3.4.0",

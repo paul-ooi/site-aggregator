@@ -1,6 +1,7 @@
 {
     "extends": "./.nuxt/tsconfig.json",
     // "compilerOptions": {
+    //     "outDir": "./util-dist",
     //     "module": "ESNext",
     //     "target": "ESNext",
     //     "moduleResolution": "node",
