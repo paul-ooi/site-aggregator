@@ -9,7 +9,7 @@ export class DirectSource implements Source {
   async fetchArticles(): Promise<Article[]> {
     const response = await axios.get(this.url);
     const $ = load(response.data);
-
+console.log('cheerio', load(response.data));
     return [
       {
         title: $('title').text().trim(),

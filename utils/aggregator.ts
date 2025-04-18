@@ -21,11 +21,12 @@ async function crawlFeeds(): Promise<Article[]> {
     for (const source of sources) {
       let handler;
 
-      if (configFile === 'feeds.json') {
-        // handler = new RSSSource(source.url, source.name);
-      } else if (configFile === 'blogs.json') {
-        // handler = new HTMLSource(source.url);
-      } else if (configFile === 'articles.json') {
+      // if (configFile === 'feeds.json') {
+      //   handler = new RSSSource(source.url, source.name);
+      // } else if (configFile === 'blogs.json') {
+      //   handler = new HTMLSource(source.url);
+      // } else if (configFile === 'articles.json') {
+      if (configFile === 'articles.json') {
         handler = new DirectSource(source.url);
       } else if (configFile === 'customSources.json') {
         if (source.customHandler) {

@@ -1,7 +1,7 @@
 import type { Source } from '~types/source';
 import type { Article } from '~types/article';
 import axios from 'axios';
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 
 export class HTMLSource implements Source {
   constructor(public url: string) {}
