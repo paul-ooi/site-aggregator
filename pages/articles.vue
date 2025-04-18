@@ -13,7 +13,7 @@ result.value?.forEach((article) => {
     externalUrl: article.url,
     internalUrl: article.path,
     source: article.source,
-    organitzation: article.organization,
+    organization: article.organization,
     repostedDate: article.repostedDate,
     sourcePublishDate: article.sourcePublishDate,
     author: article.author ?? '',
