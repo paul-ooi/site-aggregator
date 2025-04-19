@@ -8,6 +8,10 @@ pnpm install
 # Start development server
 pnpm run dev
 
+# Collect data and create markdown files for static site generation
+# currently implemented for directSource articles
+pnpm run prebuild
+
 # Build for production
 pnpm run build
 ```
