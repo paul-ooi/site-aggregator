@@ -52,7 +52,9 @@ async function crawlFeeds(): Promise<Article[]> {
             ...article,
             organization: article.organization || source.name || source.organization || '',
             description: article.description || source.description || '',
-            tags: article.tags || (source.tags ? source.tags.split(',') : []),
+            tags: Array.isArray(article.tags) && article.tags.length > 0 
+              ? article.tags 
+              : (source.tags ? source.tags.split(',').map((tag : string) => tag.trim()) : []),
             summary: article.summary || source.summary || ''
           }))
         );

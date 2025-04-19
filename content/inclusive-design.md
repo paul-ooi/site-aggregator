@@ -4,7 +4,9 @@ description: ''
 url: 'https://paulooi.ca/blog/inclusive-design/'
 source: 'paulooi.ca'
 organization: 'Paul Ooi Web Development'
-repostedDate: '2025-04-19T00:44:24.075Z'
+tags:
+  - accessibility
+  - conference
 sourcePublishDate: '2019-11-29T00:00:00.000Z'
 ---
 
