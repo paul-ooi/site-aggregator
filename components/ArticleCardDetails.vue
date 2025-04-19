@@ -6,18 +6,22 @@ defineProps<{
 }>()
 
 const formatDateTime = (dateString: string) => {
-  return new Date(dateString).toISOString()
+  return new Date(dateString).toISOString();
+}
+const prettyDate = (dateString: string) => {
+  const date = new Date(dateString)
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
 }
 </script>
 
 <template>
   <details class="article-meta" open>
     <summary>
-      <time :datetime="formatDateTime(article.repostedDate)">{{ article.repostedDate }}</time>
+      <time :datetime="article.repostedDate">{{ prettyDate(article.repostedDate) }}</time>
     </summary>
-    <span>{{ article.author }}</span>
-    <span>{{ article.source }}</span>
-    <NuxtLink class="article-link--external" :to="article.externalUrl" >{{ article.externalUrl }}</NuxtLink>
+    <span v-if="article.author">{{ article.author }}</span>
+    <span v-if="article.organization">{{ article.organization }}</span>
+    <p class="tags" v-if="article.tags?.length"><strong>Tags:</strong> {{ article.tags.join(', ') }}</p>
   </details>
 </template>
 
@@ -35,5 +39,9 @@ const formatDateTime = (dateString: string) => {
 }
 .article-meta .article-link:hover {
   text-decoration: underline;
+}
+.tags {
+  margin-block: 0;
+  text-transform: capitalize;
 }
 </style>
