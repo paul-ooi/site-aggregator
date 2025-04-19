@@ -11,7 +11,6 @@ function sanitizeFilename(title: string): string {
 async function crawlFeeds(): Promise<Article[]> {
   const configDir = path.join(__dirname, '../config');
   const configFiles = fs.readdirSync(configDir).filter(file => file.endsWith('.json'));
-
   const results: Article[] = [];
 
   for (const configFile of configFiles) {
@@ -51,9 +50,10 @@ async function crawlFeeds(): Promise<Article[]> {
         results.push(
           ...articles.map(article => ({
             ...article,
-            organitzation: source.name || source.organization || '',
-            description: source.description || '',
-            tags: source.category ? source.category.split(',') : []
+            organization: article.organization || source.name || source.organization || '',
+            description: article.description || source.description || '',
+            tags: article.tags || (source.tags ? source.tags.split(',') : []),
+            summary: article.summary || source.summary || ''
           }))
         );
       } catch (error) {
