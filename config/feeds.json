@@ -4,7 +4,7 @@
     "url": "https://webaim.org/blog/feed/",
     "description": "The WebAIM Web Accessibility Blog",
     "language": "en",
-    "category": "technology",
+    "tags": "accessibility",
     "lastUpdated": "2025-01-01T12:00:00Z"
   },
   {
@@ -12,7 +12,7 @@
     "url": "https://buttondown.com/access-ability/rss",
     "description": "All things relating to disability - Accessibility, DEI, employment, case law analysis, advice, and general rants.",
     "language": "en",
-    "category": "technology",
+    "tags": "accessibility",
     "lastUpdated": "2025-01-01T12:00:00Z"
   }
 ]
