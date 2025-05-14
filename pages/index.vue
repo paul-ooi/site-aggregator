@@ -1,12 +1,12 @@
 <script setup lang="ts">
 useHead({
-  link:[
+  link: [
     {
       rel: 'icon',
       type: 'image/x-icon',
-      href: '~images/sa-logo.ico'
-    }
-  ]
+      href: '~images/sa-logo.ico',
+    },
+  ],
 });
 </script>
 
@@ -36,5 +36,12 @@ useHead({
 }
 h1 {
   grid-area: sidebar;
+}
+
+main {
+  display: grid;
+  grid-template-areas: '. content .';
+  grid-template-columns: minmax(var(--gutter), 1fr) 3fr minmax(var(--gutter), 1fr);
+  grid-template-rows: minmax(0, auto);
 }
 </style>
