@@ -14,7 +14,7 @@ useHead({
   <SiteNavigation />
   <main>
     <h1>Site Aggregator</h1>
-    <img src="~images/sa-logo.png" alt="Site Aggregator Logo" class="site-logo" />
+    <img src="/images/sa-logo.png" alt="Site Aggregator Logo" class="site-logo" />
     <!-- <aside v-if="favorites.length">
       <h2>Your Favorites</h2>
       <ArticleCard 

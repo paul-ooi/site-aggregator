@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     // must prefix with ~ to avoid conflicting with nuxt aliases
     '~components': fileURLToPath(new URL('./components', import.meta.url)),
     '~composables': fileURLToPath(new URL('./composables', import.meta.url)),
-    '~images': fileURLToPath(new URL('./assets/images', import.meta.url)),
+    '~images': fileURLToPath(new URL('/images', import.meta.url)),
     '~styles': fileURLToPath(new URL('./assets/styles', import.meta.url)),
     '~scripts': fileURLToPath(new URL('./assets/scripts', import.meta.url)),
     '~types': fileURLToPath(new URL('./types', import.meta.url)),
