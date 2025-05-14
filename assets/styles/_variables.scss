@@ -2,11 +2,14 @@
 :root {
   --white: #fff;
   --black: #252525;
-  --primary: #007BFF; // Electric Blue
-  --secondary: #6C757D; // Cool Gray
-  --tertiary: #17A2B8; // Soft Cyan
-  --accent-yellow: #FFC107; // Bright Yellow
-  --accent-purple: #6F42C1; // Muted Purple
+  --primary: #007bff; // Electric Blue
+  --secondary: #6c757d; // Cool Gray
+  --tertiary: #17a2b8; // Soft Cyan
+  --accent-yellow: #ffc107; // Bright Yellow
+  --accent-purple: #6f42c1; // Muted Purple
+
+  // Spacing
+  --gutter: 5%;
 }
 
 // Breakpoints

@@ -1,24 +1,27 @@
 <script setup lang="ts">
-import type { Article } from '~types/article'
+import type { Article } from '~types/article';
 
 defineProps<{
-  article: Article
-}>()
-
+  article: Article;
+}>();
 </script>
 
 <template>
   <article class="article-card">
-    <h2 class="card-title" v-if="article.title "><NuxtLink class="article-link" :to="article.internalUrl">{{ article.title }}</NuxtLink></h2>
+    <h2 class="card-title" v-if="article.title">
+      <NuxtLink class="article-link" :to="article.internalUrl">{{ article.title }}</NuxtLink>
+    </h2>
     <p v-if="article.summary">{{ article.summary }}</p>
     <ArticleCardDetails :article="article" />
     <ArticleCardControls :article="article" />
   </article>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .article-card {
   position: relative;
+  border: 1px solid var(--black);
+  padding: 1rem;
 }
 .article-link {
   color: #007bff;
@@ -28,14 +31,14 @@ defineProps<{
   &:focus {
     text-decoration: underline;
   }
-  
+
   &::after {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0
+    bottom: 0;
   }
 }
 .article-link:hover {

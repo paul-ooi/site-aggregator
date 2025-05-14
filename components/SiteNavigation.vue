@@ -38,7 +38,6 @@
   color: var(--primary);
   font-weight: 500;
 }
-
 .nav-link:hover,
 .nav-link:focus {
   color: var(--tertiary);

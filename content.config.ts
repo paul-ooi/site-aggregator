@@ -1,4 +1,4 @@
-import { defineCollection, defineContentConfig, z } from '@nuxt/content'
+import { defineCollection, defineContentConfig, z } from '@nuxt/content';
 
 export default defineContentConfig({
   collections: {
@@ -15,8 +15,8 @@ export default defineContentConfig({
         sourcePublishDate: z.string(),
         author: z.string().optional(),
         tags: z.array(z.string()).optional(),
-        summary: z.string().optional()
-      })
-    })
-  }
-})
+        summary: z.string().optional(),
+      }),
+    }),
+  },
+});

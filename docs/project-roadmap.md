@@ -1,6 +1,7 @@
 # Project Development Roadmap
 
 ## Phase 1: Foundation (Current)
+
 - [x] Project setup with Nuxt 3
 - [x] TypeScript integration
 - [x] GitHub Pages deployment
@@ -8,7 +9,9 @@
 - [ ] Core type definitions
 
 ## Phase 2: Core Infrastructure
+
 - [ ] Content Collection System
+
   - [ ] RSS feed parser implementation
   - [ ] Web scraper development
   - [ ] Storage system implementation
@@ -20,7 +23,9 @@
   - [x] Deployment automation
 
 ## Phase 3: Testing Infrastructure
+
 - [ ] Unit Testing Setup
+
   - [ ] Vitest configuration
   - [ ] Component test framework
   - [ ] API mocking system
@@ -31,7 +36,9 @@
   - [ ] Performance testing
 
 ## Phase 4: Features & Refinement
+
 - [ ] User Features Implementation
+
   - [ ] Favorites system
   - [ ] Custom categories
   - [ ] Search functionality
@@ -42,8 +49,10 @@
   - [ ] Content refresh system
 
 ## Phase 5: Documentation & Release
+
 - [x] Project README
 - [ ] Technical Documentation
+
   - [ ] API documentation
   - [ ] Component documentation
   - [ ] Type documentation

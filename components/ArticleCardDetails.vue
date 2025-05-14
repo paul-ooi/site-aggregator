@@ -1,17 +1,21 @@
 <script setup lang="ts">
-import type { Article } from '~types/article'
+import type { Article } from '~types/article';
 
 defineProps<{
-  article: Article
-}>()
+  article: Article;
+}>();
 
 const formatDateTime = (dateString: string) => {
   return new Date(dateString).toISOString();
-}
+};
 const prettyDate = (dateString: string) => {
-  const date = new Date(dateString)
-  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
-}
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+};
 </script>
 
 <template>

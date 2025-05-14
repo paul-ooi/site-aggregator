@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { Article } from '~types/article'
+import type { Article } from '~types/article';
 
 defineProps<{
-  article: Article
-}>()
+  article: Article;
+}>();
 
 // const { favorites, toggleFavorite, readLater } = useFavorites()
 // const { user } = useUser()
@@ -16,5 +16,4 @@ defineProps<{
   </div>
 </template>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>

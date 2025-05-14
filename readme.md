@@ -11,16 +11,19 @@ A lightweight content aggregation system that collects, stores, and displays art
 - **Deployment**: GitHub Pages
 
 ## Project and Developer Information
+
 [Development Guide](/docs/development.md)
 [Roadmap](/docs/project-roadmap.md)
 
 ## Features
+
 See [Work in Progress](/docs/feature-list.md)
 
 ## Project Structure
+
 ```plaintext
 site-aggregator/
-├── .output/   
+├── .output/
     └── public/     # public output files
 ├── .github/
 │   └── workflows/

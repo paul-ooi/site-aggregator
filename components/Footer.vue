@@ -14,7 +14,7 @@
 // No additional logic needed for this simple footer
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .footer {
   padding: 1rem;
   background-color: #f8f9fa;

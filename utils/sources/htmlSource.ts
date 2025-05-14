@@ -22,7 +22,7 @@ export class HTMLSource implements Source {
         repostedDate: new Date().toISOString(),
         tags: [],
         summary: '',
-        sourceType: 'html'
+        sourceType: 'html',
       });
     });
 

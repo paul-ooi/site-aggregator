@@ -14,7 +14,7 @@ export class DirectSource implements Source {
   private extractTags($: CheerioAPI): string[] {
     const keywords = $('meta[name="keywords"]').attr('content');
     if (!keywords) return [];
-    return keywords.split(',').map(tag => tag.trim());
+    return keywords.split(',').map((tag) => tag.trim());
   }
 
   /**
@@ -22,10 +22,14 @@ export class DirectSource implements Source {
    * This is a basic implementation and may need to be adjusted for different websites.
    */
   private extractOrganization($: CheerioAPI): string {
-    const copyrightText = $('footer, .footer, .copyright').find('*').filter((_, el) => {
-      const text = $(el).text().toLowerCase();
-      return text.includes('©') || text.includes('copyright');
-    }).first().text();
+    const copyrightText = $('footer, .footer, .copyright')
+      .find('*')
+      .filter((_, el) => {
+        const text = $(el).text().toLowerCase();
+        return text.includes('©') || text.includes('copyright');
+      })
+      .first()
+      .text();
 
     if (!copyrightText) return '';
 
@@ -45,7 +49,7 @@ export class DirectSource implements Source {
   private determineSource($: CheerioAPI, defaultUrl: string): string {
     let hostname = new URL(defaultUrl).hostname;
     const canonical = $('head link[rel="canonical"]').attr('href');
-    
+
     if (canonical) {
       if (canonical.startsWith('http')) {
         const url = new URL(canonical);
@@ -55,7 +59,7 @@ export class DirectSource implements Source {
         hostname = url.hostname;
       }
     }
-    
+
     return hostname;
   }
 
@@ -70,17 +74,27 @@ export class DirectSource implements Source {
   private normalizeDate(dateStr: string): string | undefined {
     // Remove common text patterns
     dateStr = dateStr.replace(/published|posted|on|date|updated/gi, '').trim();
-    
+
     // Handle relative dates
     if (dateStr.match(/(\d+)\s*(hour|day|week|month|year)s?\s+ago/i)) {
       const [num, unit] = dateStr.match(/(\d+)\s*(hour|day|week|month|year)/i)!.slice(1);
       const date = new Date();
-      switch(unit.toLowerCase()) {
-        case 'hour': date.setHours(date.getHours() - parseInt(num)); break;
-        case 'day': date.setDate(date.getDate() - parseInt(num)); break;
-        case 'week': date.setDate(date.getDate() - parseInt(num) * 7); break;
-        case 'month': date.setMonth(date.getMonth() - parseInt(num)); break;
-        case 'year': date.setFullYear(date.getFullYear() - parseInt(num)); break;
+      switch (unit.toLowerCase()) {
+        case 'hour':
+          date.setHours(date.getHours() - parseInt(num));
+          break;
+        case 'day':
+          date.setDate(date.getDate() - parseInt(num));
+          break;
+        case 'week':
+          date.setDate(date.getDate() - parseInt(num) * 7);
+          break;
+        case 'month':
+          date.setMonth(date.getMonth() - parseInt(num));
+          break;
+        case 'year':
+          date.setFullYear(date.getFullYear() - parseInt(num));
+          break;
       }
       return date.toISOString();
     }
@@ -112,12 +126,12 @@ export class DirectSource implements Source {
     }
 
     // Check meta tags
-    const metaDate = 
+    const metaDate =
       $('meta[property="article:published_time"]').attr('content') ||
       $('meta[name="date"]').attr('content') ||
       $('meta[name="publish_date"]').attr('content') ||
       $('meta[name="published_date"]').attr('content');
-    
+
     if (metaDate) return new Date(metaDate).toISOString();
 
     // Check common date elements with expanded selectors
@@ -134,7 +148,7 @@ export class DirectSource implements Source {
       '.entry-date',
       '.meta-date',
       '.timestamp',
-      '.byline time'
+      '.byline time',
     ];
 
     for (const selector of dateSelectors) {
@@ -142,7 +156,7 @@ export class DirectSource implements Source {
       for (const element of elements) {
         const $el = $(element);
         const dateStr = $el.attr('datetime') || $el.attr('content') || $el.text();
-        
+
         if (dateStr) {
           const normalizedDate = this.normalizeDate(dateStr);
           if (normalizedDate) return normalizedDate;
@@ -156,7 +170,7 @@ export class DirectSource implements Source {
   async fetchArticles(): Promise<Article[]> {
     const response = await axios.get(this.url);
     const $ = load(response.data);
-    
+
     const source = this.determineSource($, this.url);
     const organization = this.extractOrganization($);
     const tags = this.extractTags($);
@@ -164,20 +178,23 @@ export class DirectSource implements Source {
     const sourcePublishDate = this.extractPublishDate($);
 
     const title = $('meta[property="og:title"]').attr('content') || $('title').text().trim();
-    const description = $('meta[property="og:description"]').attr('content') || $('meta[name="description"]').attr('content') || '';
+    const description =
+      $('meta[property="og:description"]').attr('content') || $('meta[name="description"]').attr('content') || '';
 
-    return [{
-      title,
-      description,
-      externalUrl: this.url,
-      internalUrl: '',
-      source,
-      organization: organization || source,
-      repostedDate: new Date().toISOString(),
-      sourcePublishDate,
-      tags,
-      summary,
-      sourceType: 'direct'
-    }];
+    return [
+      {
+        title,
+        description,
+        externalUrl: this.url,
+        internalUrl: '',
+        source,
+        organization: organization || source,
+        repostedDate: new Date().toISOString(),
+        sourcePublishDate,
+        tags,
+        summary,
+        sourceType: 'direct',
+      },
+    ];
   }
 }

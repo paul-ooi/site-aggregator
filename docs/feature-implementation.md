@@ -1,13 +1,16 @@
 # Application Features & Implementation Checklist
 
 ## Core Features
+
 - [ ] Article Collection
+
   - [ ] RSS feed integration
   - [ ] Direct URL scraping
   - [ ] Scheduled content updates
   - [ ] Content deduplication
 
 - [ ] Content Management
+
   - [ ] Article storage system
   - [ ] Category management
   - [ ] Tag system
@@ -20,12 +23,15 @@
   - [ ] Feed preferences
 
 ## Component Implementation
+
 - [ ] Navigation
+
   - [ ] Header with navigation links
   - [ ] Search bar
   - [ ] User preferences menu
 
 - [ ] Article Components
+
   - [ ] ArticleCard.vue
   - [ ] ArticleList.vue
   - [ ] ArticleDetail.vue
@@ -39,7 +45,9 @@
   - [ ] FeedSettings.vue
 
 ## TypeScript Implementation
+
 - [x] Initial Configuration
+
   - [x] tsconfig.json setup
   - [x] Nuxt TypeScript settings
   - [x] ESLint TypeScript rules
@@ -52,6 +60,7 @@
   - [ ] API response types
 
 ## State Management
+
 - [ ] Composables
   - [ ] useArticles.ts
   - [ ] useFavorites.ts
@@ -59,6 +68,7 @@
   - [ ] useSearch.ts
 
 ## Testing
+
 - [ ] Setup Vitest with TypeScript
 - [ ] Configure test environment
 - [ ] Add type utilities for testing

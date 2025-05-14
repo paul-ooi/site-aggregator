@@ -10,7 +10,7 @@ function sanitizeFilename(title: string): string {
 
 async function crawlFeeds(): Promise<Article[]> {
   const configDir = path.join(__dirname, '../config');
-  const configFiles = fs.readdirSync(configDir).filter(file => file.endsWith('.json'));
+  const configFiles = fs.readdirSync(configDir).filter((file) => file.endsWith('.json'));
   const results: Article[] = [];
 
   for (const configFile of configFiles) {
@@ -48,14 +48,17 @@ async function crawlFeeds(): Promise<Article[]> {
       try {
         const articles = await handler.fetchArticles();
         results.push(
-          ...articles.map(article => ({
+          ...articles.map((article) => ({
             ...article,
             organization: article.organization || source.name || source.organization || '',
             description: article.description || source.description || '',
-            tags: Array.isArray(article.tags) && article.tags.length > 0 
-              ? article.tags 
-              : (source.tags ? source.tags.split(',').map((tag : string) => tag.trim()) : []),
-            summary: article.summary || source.summary || ''
+            tags:
+              Array.isArray(article.tags) && article.tags.length > 0
+                ? article.tags
+                : source.tags
+                  ? source.tags.split(',').map((tag: string) => tag.trim())
+                  : [],
+            summary: article.summary || source.summary || '',
           }))
         );
       } catch (error) {

@@ -1,7 +1,7 @@
 name: Collect Content
 on:
   # schedule:
-    # - cron: '0 */6 * * *'  # Run every 6 hours
+  # - cron: '0 */6 * * *'  # Run every 6 hours
   workflow_dispatch:
 
 jobs:
@@ -23,15 +23,15 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
-        
+
       - name: Collect Content
         run: pnpm run collect
-      
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Update content collection"
+          commit-message: 'Update content collection'
           title: "Content Update $(date +'%Y-%m-%d')"
           body: |
             Automated content collection update

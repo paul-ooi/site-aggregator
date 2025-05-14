@@ -5,11 +5,14 @@ import Parser from 'rss-parser';
 const parser = new Parser();
 
 export class RSSSource implements Source {
-  constructor(public rssUrl: string, public url: string) {}
+  constructor(
+    public rssUrl: string,
+    public url: string
+  ) {}
 
   async fetchArticles(): Promise<Article[]> {
     const feed = await parser.parseURL(this.rssUrl);
-    return feed.items.map(item => ({
+    return feed.items.map((item) => ({
       title: item.title || '',
       description: item.contentSnippet || '',
       externalUrl: item.link || '',
@@ -21,7 +24,7 @@ export class RSSSource implements Source {
       author: item.creator || '',
       tags: [],
       summary: '',
-      sourceType: 'rss'
+      sourceType: 'rss',
     }));
   }
 }
