@@ -29,19 +29,24 @@ useHead({
 
 <style scoped>
 .site-logo {
-  grid-area: content;
+  /* grid-area: content; */
   max-width: 200px;
   height: auto;
   margin-bottom: 1rem;
 }
 h1 {
-  grid-area: sidebar;
+  /* grid-area: sidebar; */
 }
 
 main {
   display: grid;
   grid-template-areas: '. content .';
   grid-template-columns: minmax(var(--gutter), 1fr) 3fr minmax(var(--gutter), 1fr);
-  grid-template-rows: minmax(0, auto);
+  grid-template-rows: minmax(0,auto);
+  justify-items: center;
+
+  * {
+    grid-column: 2/-2;
+  }
 }
 </style>
