@@ -1,0 +1,38 @@
+---
+title: Diversity Managers — Here’s what you need to know about Disabilities 
+description: Diversity Managers — Here’s what you need to know about Disabilities 
+url: https://buttondown.com/access-ability/archive/63511144diversity-managers-heres-what-you/
+source: https://buttondown.com/access-ability
+organization: Access * Ability
+repostedDate: 2025-05-19T03:59:30.631Z
+tags:
+  - accessibility
+sourcePublishDate: 2024-08-28T14:14:20.000Z
+---
+
+Circle split into thirds showing Diversity flowing into Equity with the word Knowledge appearing in the overlap, Equity flowing into inclusion with the word Opportunity at the overlap, and inclusion flowing back into diversity with the word allyship at the overlap. In the center is the word Belonging.
+When I start a new contract or job, one of the first meetings I pursue is with the Chief Diversity Officer or if there isn’t one, whomever is at the top of the DEIB food chain. I have completed two DEI certification programs. In both cases, the instructors and my classmates knew nothing about disabilities or accessibility. Too often, disabilities are woefully underrepresented in diversity and inclusion efforts.
+Disability in Diversity — The Theory
+The purpose of diversity is to encompass the infinite range of individuals’ unique attributes, experiences, and abilities. However, in practical implementation, diversity and inclusion programs largely seem to represent non-disability differences such as ethnicity, gender identity, sexual orientation, age, military status and religion.
+Looking at the “disabled community” as a single group, people with disabilities represent 19 % of the American population, and are horribly unemployed / underemployed due to no fault of their own. The disabled community is the largest minority there is. Like race, gender and LGBTQI, disability is something you can be born with. All people currently without disabilities (and I mean EVERYONE) is only one twist of genetic fate or accident away from being temporarily or permanently disabled.
+It is also well understood that people identifying with multiple underrepresented communities face distinct disadvantages. Intersectionality looks at many forms of social stratification, such as class, race, sexual orientation, age, religion, creed, disability and gender identity. The theory behind intersectionality states that none of these issues exist independently, that they must be viewed as woven together. It is undeniable that when someone identifies as both disabled and being the member of another underrepresented group, that the disability influences the way they think about themselves. Disability is one of the most classic forms of diversity that exists and should specifically be included in any diversity and inclusion program.
+Disability in Diversity — The Practice
+Most large companies have a disability ERG (Employee Resource Group). Some companies run recruiting campaigns targeting people with disabilities. A few committed companies participate in the Disability:IN DEI survey every year. But I have yet to see a company take digital accessibility for their employees and contractors as seriously as they do for the members of the public.
+Why is this? The strongest argument is risk management. Who is more likely to sue you?
+
+a member of the public who has possibly built a “career” out of suing companies they have little or no connection with for inaccessible websites and apps, or
+
+one of your own employees or contractors who is tired of having to ask other people to help them access inaccessible internal corporate tools?
+
+It is most definitely the first group, despite the fact that the employees may be more adversely impacted by inaccessibility than the members of the public. Furthermore, companies are adversely impacting themselves when their tools are inaccessible and as a result employees and contractors with disabilities can’t operate at peak efficiency. WCAG doesn’t differentiate between public facing digital properties and employee facing properties, so why should your organization?
+Why don’t the employees and contractors with disabilities complain about inaccessible corporate tools? As of July 2024, the unemployment rate for people with disabilities in the United States is 8.2%, almost double the unemployment rate for people without disabilities which is 4.3%. If you are one of the persons with a disability lucky enough to have a job, you are going to think twice about rocking your employment boat by complaining about the inequities you face at your employer.
+Frequently people with disabilities are told by HR that corporate tools don’t have to be accessible, that a reasonable accommodation will be provided in place of real accessibility. This approach is ableist, and a parallel can be drawn to the “separate but equal” education doctrine now considered racist in the United States. Frequently, this “reasonable accommodation” is delivered in the form of assigning someone who is already overloaded with the task of helping the employee/contractor with a disability with the inaccessible training, or handling administrative tasks where the UI is inaccessible such as entering tickets, making travel arrangements or filing expense reports. This creates embarrassment for the disabled employee and can lead to resentment and a bad relationship with the person assigned to help them out. Either the employee with a disability, the person assigned to help them, or both are at risk of leaving resulting in expensive turnover.
+Even companies with good accessibility programs generally don’t fully address the inaccessibility of internal tools. Successfully dealing with the accessibility of homegrown websites and native apps requires a close relationship to IT and Customer Support. Successfully dealing with issues pertaining to internal tools requires a close relationship with the administrative side of the business (HR, Procurement, Learning Management, and Accounting, to name a few). Diversity and Inclusion efforts, unlike accessibility efforts, are generally well placed to influence administrative functions. However the accessibility efforts have the expertise to help the Diversity and Inclusion team successfully remediate and validate new internal tools. Also, it is important to be working off the same accessibility playbook. Working together is the best way to accomplish this.
+Conclusion
+It is unacceptable for a company to treat its employees and contractors worse than unknown members of the public. This can be ameliorated by:
+1) including disability as a specific component of diversity,
+and
+2) the accessibility team working with the diversity and inclusion team in addressing accessibility in ALL websites and native apps.
+When WCAG guidelines are followed, the resulting website or mobile application will generally be accessible to all, regardless of who the audience is or who developed it.
+By attacking this issue from two fronts (the accessibility team — closer to IT and the diversity team — closer to administrative functions) a better experience can be created for everyone who comes into contact with your company. This process works optimally when the accessibility efforts are aligned between those two groups. Create your “aha” moment by spending 20 minutes teaching every Diversity and Inclusion professional you know how to use Voiceover. It will literally change their lives forever. I know it did when I did this in my DEI certification programs.
+Subscribe now
