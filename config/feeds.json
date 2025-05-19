@@ -5,7 +5,11 @@
     "description": "The WebAIM Web Accessibility Blog",
     "language": "en",
     "tags": "accessibility",
-    "lastUpdated": "2025-01-01T12:00:00Z"
+    "lastUpdated": "2025-01-01T12:00:00Z",
+    "fieldMappings": {
+      "description": "description",
+      "summary": "content"
+    }
   },
   {
     "name": "Access * Ability",
@@ -13,6 +17,10 @@
     "description": "All things relating to disability - Accessibility, DEI, employment, case law analysis, advice, and general rants.",
     "language": "en",
     "tags": "accessibility",
-    "lastUpdated": "2025-01-01T12:00:00Z"
+    "lastUpdated": "2025-01-01T12:00:00Z",
+    "fieldMappings": {
+      "summary": "description",
+      "description": "title"
+    }
   }
 ]

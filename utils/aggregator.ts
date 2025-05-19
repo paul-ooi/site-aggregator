@@ -1,8 +1,12 @@
-import * as fs from 'fs';
-import * as path from 'path';
-import { RSSSource, HTMLSource, DirectSource, CustomSource } from './sources';
-import { generateMarkdown } from './markdownTemplate';
-import type { Article } from '../types/article';
+import * as fs from 'node:fs';
+import * as path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { RSSSource, HTMLSource, DirectSource, CustomSource } from '@sources/index.ts';
+import { generateMarkdown } from './markdownTemplate.ts';
+import type { Article } from '@appTypes/article.d.ts';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 function sanitizeFilename(title: string): string {
   return title.replace(/[^a-z0-9]/gi, '-').toLowerCase();
@@ -20,37 +24,37 @@ async function crawlFeeds(): Promise<Article[]> {
     for (const source of sources) {
       let handler;
 
-      // if (configFile === 'feeds.json') {
-      //   handler = new RSSSource(source.url, source.name);
+      if (configFile === 'feeds.json') {
+        handler = new RSSSource(source.url, source.name, source.fieldMappings);
       // } else if (configFile === 'blogs.json') {
       //   handler = new HTMLSource(source.url);
       // } else if (configFile === 'articles.json') {
-      if (configFile === 'articles.json') {
-        handler = new DirectSource(source.url);
+      // } else if (configFile === 'articles.json') {
+      //   handler = new DirectSource(source.url);
       } else if (configFile === 'customSources.json') {
-        if (source.customHandler) {
-          const handlerModule = require(`./customHandlers`)[source.customHandler];
-          if (handlerModule) {
-            handler = new CustomSource(source.url, handlerModule);
-          } else {
-            console.error(`Custom handler not found: ${source.customHandler}`);
-            continue;
-          }
-        } else {
-          console.error(`Missing customHandler for custom source in ${configFile}`);
-          continue;
-        }
+        // if (source.customHandler) {
+        //   const handlerModule = require(`./customHandlers`)[source.customHandler];
+        //   if (handlerModule) {
+        //     handler = new CustomSource(source.url, handlerModule);
+        //   } else {
+        //     console.error(`Custom handler not found: ${source.customHandler}`);
+        //     continue;
+        //   }
+        // } else {
+        //   console.error(`Missing customHandler for custom source in ${configFile}`);
+        //   continue;
+        // }
       } else {
         console.error(`Unsupported source type in ${configFile}`);
         continue;
       }
 
       try {
-        const articles = await handler.fetchArticles();
+        const articles = await handler?.fetchArticles() ?? [];
         results.push(
           ...articles.map((article) => ({
             ...article,
-            organization: article.organization || source.name || source.organization || '',
+            organization: article.organization || source.organization || source.name || '',
             description: article.description || source.description || '',
             tags:
               Array.isArray(article.tags) && article.tags.length > 0

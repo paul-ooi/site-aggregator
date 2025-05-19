@@ -3,11 +3,16 @@
     "rootDir": ".",
     "outDir": "../utils-dist",
     "target": "ESNext",
-    "module": "CommonJS",
-    "moduleResolution": "Node",
+    "module": "node18",
+    "moduleResolution": "nodenext",
+    "allowImportingTsExtensions": true,
     "esModuleInterop": true,
     "strict": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@sources/*": ["./sources/*"],
+      "@appTypes/*": ["../types/*"]
+    }
   },
   "include": ["./**/*.ts"],
   "exclude": ["node_modules"]

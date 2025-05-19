@@ -105,4 +105,8 @@ main.content {
   grid-template-columns: minmax(var(--gutter), 1fr) 1fr 3fr minmax(var(--gutter), 1fr);
   grid-template-rows: minmax(0, auto);
 }
+
+.summary {
+  grid-area: content;
+}
 </style>
