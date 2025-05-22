@@ -11,7 +11,7 @@ defineProps<{
     <h2 class="card-title" v-if="article.title">
       <NuxtLink class="article-link" :to="article.internalUrl">{{ article.title }}</NuxtLink>
     </h2>
-    <p v-if="article.summary">{{ article.summary }}</p>
+    <p v-if="article.description">{{ article.description }}...</p>
     <ArticleCardDetails :article="article" />
     <ArticleCardControls :article="article" />
   </article>
