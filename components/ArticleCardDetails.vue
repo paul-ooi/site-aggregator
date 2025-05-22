@@ -20,11 +20,9 @@ const prettyDate = (dateString: string) => {
 
 <template>
   <details class="article-meta" open>
-    <summary>
-      <time :datetime="article.repostedDate">{{ prettyDate(article.repostedDate) }}</time>
-    </summary>
+    <summary>{{ article.organization }}</summary>
+    <time v-if="article.sourcePublishDate" :datetime="article.sourcePublishDate">{{ prettyDate(article.sourcePublishDate) }}</time>
     <span v-if="article.author">{{ article.author }}</span>
-    <span v-if="article.organization">{{ article.organization }}</span>
     <p class="tags" v-if="article.tags?.length"><strong>Tags:</strong> {{ article.tags.join(', ') }}</p>
   </details>
 </template>
