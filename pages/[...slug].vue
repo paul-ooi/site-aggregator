@@ -59,7 +59,7 @@ const prettyDate = (dateStr: string) => {
   </main>
   <Footer />
 </template>
-<style scoped>
+<style scoped lang="scss">
 .content {
   margin: 0 auto;
 }
@@ -101,6 +101,7 @@ const prettyDate = (dateStr: string) => {
 
 main.content {
   display: grid;
+  gap: 1rem;
   grid-template-areas: '. sidebar content .';
   grid-template-columns: minmax(var(--gutter), 1fr) 1fr 3fr minmax(var(--gutter), 1fr);
   grid-template-rows: minmax(0, auto);
