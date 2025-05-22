@@ -34,26 +34,25 @@ const prettyDate = (dateStr: string) => {
   <main class="content">
     <aside v-if="page" class="sidebar">
       <h1 v-if="page.title">{{ page.title }}</h1>
-      <p v-if="page.description">{{ page.description }}</p>
+      <p v-if="page.sourcePublishDate">
+        <strong>Source published on: </strong>
+        <time class="date--published" :datetime="page.sourcePublishDate">{{ prettyDate(page.sourcePublishDate) }}</time>
+      </p>
       <p v-if="page.url">
-        <strong>Original URL:</strong>
+        <strong>Original URL: </strong>
         <a :href="page.url" target="_blank" rel="noopener noreferrer" class="external-link">{{ page.url }}</a>
       </p>
-      <p v-if="page.sourcePublishDate">
-        <strong>Source published on:</strong>
-        <time :datetime="page.sourcePublishDate">{{ prettyDate(page.sourcePublishDate) }}</time>
-      </p>
-      <p v-if="page.author"><strong>Author:</strong> {{ page.author }}</p>
+      <p v-if="page.author"><strong>Author: </strong>{{ page.author }}</p>
       <p v-if="page.source">
-        <strong>Source:</strong>
+        <strong>Source: </strong>
         <a :href="page.source" target="_blank" rel="noopener noreferrer" class="external-link">{{ page.source }}</a>
       </p>
-      <p v-if="page.organization"><strong>Organization:</strong> {{ page.organization }}</p>
+      <p v-if="page.organization"><strong>Organization: </strong>{{ page.organization }}</p>
       <p v-if="page.repostedDate">
-        <strong>Added:</strong>
-        <time :datetime="page.repostedDate">{{ prettyDate(page.repostedDate) }}</time>
+        <strong>Added: </strong>
+        <time class="date--reposted" :datetime="page.repostedDate">{{ prettyDate(page.repostedDate) }}</time>
       </p>
-      <p v-if="page.tags"><strong>Tags:</strong> {{ page.tags.join(', ') }}</p>
+      <p v-if="page.tags"><strong>Tags: </strong>{{ page.tags.join(', ') }}</p>
     </aside>
     <ContentRenderer v-if="page" :value="page" class="summary" />
   </main>
@@ -110,4 +109,10 @@ main.content {
 .summary {
   grid-area: content;
 }
+
+.date--published,
+.date--reposted {
+  white-space: nowrap;
+}
+
 </style>
