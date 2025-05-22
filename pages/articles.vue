@@ -3,7 +3,9 @@ import type { Article } from '~types/article';
 import ArticleList from '~/components/ArticleList.vue';
 
 const { data: result } = await useAsyncData('articles', () => {
-  return queryCollection('content').all();
+  return queryCollection('content')
+          .order('sourcePublishDate', 'DESC')
+          .all();
 });
 const articles: Article[] = [];
 result.value?.forEach((article) => {
