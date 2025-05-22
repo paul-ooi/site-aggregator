@@ -10,6 +10,7 @@ export interface Article {
   author?: string;
   tags?: string[];
   summary?: string;
+  rawDescriptionHtml: string; // Expecting the full HTML from RSS <description>
   sourceType?: 'rss' | 'html' | 'direct' | 'custom';
 }
 

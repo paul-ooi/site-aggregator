@@ -50,7 +50,7 @@ async function crawlFeeds(): Promise<Article[]> {
       }
 
       try {
-        const articles = await handler?.fetchArticles() ?? [];
+        const articles : Article[] = await handler?.fetchArticles() ?? [];
         results.push(
           ...articles.map((article) => ({
             ...article,

@@ -13,6 +13,7 @@ interface FieldMappings {
   author?: string | string[];
   tags?: string | string[]; // For Article.tags (from item.categories or similar)
   summary?: string | string[];  // For Article.summary
+  rawDescriptionHtml?: string | string[]; // For Article.rawDescriptionHtml
 }
 
 export class RSSSource implements Source {
@@ -66,6 +67,7 @@ export class RSSSource implements Source {
       const sourcePublishDate = this.getFieldValue(item, 'sourcePublishDate', ['isoDate', 'pubDate']);
       const author = this.getFieldValue(item, 'author', ['creator', 'author', 'dc:creator']);
       const summary = this.getFieldValue(item, 'summary', ['contentSnippet', 'description']); // Default: contentSnippet then description
+      const rawDescriptionHtml = this.getFieldValue(item, 'rawDescriptionHtml', ['content', 'description']); // Default: contentSnippet then description
 
       // Handle tags (categories) - they are often arrays or need special parsing
       let itemCategories: any[] | string | undefined;
@@ -102,6 +104,7 @@ export class RSSSource implements Source {
         author,
         tags,
         summary,
+        rawDescriptionHtml,
         sourceType: 'rss',
       };
     });
