@@ -44,7 +44,7 @@ export function generateMarkdown(article: Article): string {
     // Trucated first paragraph for Description (TODO: use AI summary)
     const firstParagraph = root.querySelector('p');
     if (firstParagraph) {
-      frontmatterDescription = firstParagraph.innerText.trim().substring(0, 250); // Limit length
+      frontmatterDescription = firstParagraph.innerText.trim().substring(0, 200); // Limit length
     }
 
     // Sanitize frontmatterDescription for YAML (escape double quotes, newlines)
