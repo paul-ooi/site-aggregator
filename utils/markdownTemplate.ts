@@ -1,6 +1,12 @@
 import type { Article } from '../types/article.d.ts';
 import { parse, HTMLElement } from 'node-html-parser';
 import TurndownService from 'turndown';
+import { createHash } from 'crypto';
+
+export function generateContentHash(article: Article): string {
+  const content = `${article.title}${article.content}${article.publishDate}`;
+  return createHash('md5').update(content).digest('hex');
+}
 
 export function generateMarkdown(article: Article): string {
   const tagsSection = article.tags?.length ? `tags:\n${article.tags.map((tag : string) => `  - ${tag}`).join('\n')}\n` : '';
@@ -57,6 +63,8 @@ export function generateMarkdown(article: Article): string {
   // Ensure title is also YAML safe
   const safeTitle = article.title.replace(/"/g, '\\"');
 
+  const contentHash = generateContentHash(article);
+
   return (
     `---\n` +
     `title: ${safeTitle}\n` +
@@ -67,6 +75,7 @@ export function generateMarkdown(article: Article): string {
     `repostedDate: ${article.repostedDate}\n` +
     `${tagsSection}` +
     `sourcePublishDate: ${article.sourcePublishDate || ''}\n` +
+    `contentHash: ${contentHash}\n` +
     `---\n\n` +
     `${figureMarkdown}` + // Prepend the figure Markdown
     `${bodyMarkdown}`
