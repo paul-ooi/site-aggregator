@@ -1,5 +1,5 @@
 import type { Source, CustomHandler } from '../../types/source.d.ts';
-import type { Article } from '@appTypes/article.d.ts';
+import type { Article } from '../../types/article.d.ts';
 import axios from 'axios';
 
 export class CustomSource implements Source {

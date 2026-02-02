@@ -1,14 +1,14 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { RSSSource, HTMLSource, DirectSource, CustomSource } from '@sources/index.ts';
+import { RSSSource, HTMLSource, DirectSource, CustomSource } from './sources/index.ts';
 import { generateMarkdown } from './markdownTemplate.ts';
-import type { Article } from '@appTypes/article.d.ts';
+import type { Article } from '../types/article.d.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-function sanitizeFilename(title: string): string {
+export function sanitizeFilename(title: string): string {
   return title.replace(/[^a-z0-9]/gi, '-').toLowerCase();
 }
 
@@ -19,7 +19,7 @@ async function updateSourceLastUpdated(configFile: string, sourceIndex: number):
   fs.writeFileSync(filePath, JSON.stringify(sources, null, 2));
 }
 
-async function isContentNewer(article: Article, lastUpdated?: string): Promise<boolean> {
+export async function isContentNewer(article: Article, lastUpdated?: string): Promise<boolean> {
   if (!lastUpdated) return true;
   const articleDate = article.publishDate ? new Date(article.publishDate) : new Date();
   return articleDate > new Date(lastUpdated);
@@ -65,7 +65,7 @@ async function crawlFeeds(): Promise<Article[]> {
       try {
         const rawArticles: Article[] = await handler?.fetchArticles() ?? [];
         const newArticles = await Promise.all(
-          rawArticles.filter(article => isContentNewer(article, source.lastUpdated))
+          rawArticles.filter((article: Article) => isContentNewer(article, source.lastUpdated))
         );
 
         if (newArticles.length > 0) {

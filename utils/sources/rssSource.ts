@@ -1,5 +1,5 @@
-import type { Source } from '@appTypes/source.d.ts';
-import type { Article } from '@appTypes/article.d.ts';
+import type { Source } from '../../types/source.d.ts';
+import type { Article } from '../../types/article.d.ts';
 import Parser from 'rss-parser';
 
 const parser = new Parser();

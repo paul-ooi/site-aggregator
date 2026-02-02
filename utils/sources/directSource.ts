@@ -193,6 +193,7 @@ export class DirectSource implements Source {
         sourcePublishDate,
         tags,
         summary,
+        rawDescriptionHtml: response.data,
         sourceType: 'direct',
       },
     ];

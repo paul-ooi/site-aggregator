@@ -1,6 +1,6 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import { Article } from '@appTypes/article.d.ts';
+import type { Article } from '../types/article.d.ts';
 
 export function getExistingContentHash(filePath: string): string | null {
   if (!fs.existsSync(filePath)) return null;

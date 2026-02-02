@@ -79,6 +79,7 @@ export default defineNuxtConfig({
         sourceMap: true,
         types: ['node', 'nuxt', '@types/node', 'vitest'],
       },
+      exclude: ['utils/**/*', 'utils-dist/**/*'],
     },
   },
 
