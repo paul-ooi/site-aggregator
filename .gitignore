@@ -5,3 +5,5 @@ node_modules
 .data
 dist
 utils-dist
+playwright-report
+test-results
