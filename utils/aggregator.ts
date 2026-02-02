@@ -12,6 +12,19 @@ function sanitizeFilename(title: string): string {
   return title.replace(/[^a-z0-9]/gi, '-').toLowerCase();
 }
 
+async function updateSourceLastUpdated(configFile: string, sourceIndex: number): Promise<void> {
+  const filePath = path.join(__dirname, '../config', configFile);
+  const sources = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  sources[sourceIndex].lastUpdated = new Date().toISOString();
+  fs.writeFileSync(filePath, JSON.stringify(sources, null, 2));
+}
+
+async function isContentNewer(article: Article, lastUpdated?: string): Promise<boolean> {
+  if (!lastUpdated) return true;
+  const articleDate = article.publishDate ? new Date(article.publishDate) : new Date();
+  return articleDate > new Date(lastUpdated);
+}
+
 async function crawlFeeds(): Promise<Article[]> {
   const configDir = path.join(__dirname, '../config');
   const configFiles = fs.readdirSync(configDir).filter((file) => file.endsWith('.json'));
@@ -21,7 +34,7 @@ async function crawlFeeds(): Promise<Article[]> {
     const filePath = path.join(configDir, configFile);
     const sources = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-    for (const source of sources) {
+    for (const [index, source] of sources.entries()) {
       let handler;
 
       if (configFile === 'feeds.json') {
@@ -50,9 +63,14 @@ async function crawlFeeds(): Promise<Article[]> {
       }
 
       try {
-        const articles : Article[] = await handler?.fetchArticles() ?? [];
-        results.push(
-          ...articles.map((article) => ({
+        const rawArticles: Article[] = await handler?.fetchArticles() ?? [];
+        const newArticles = await Promise.all(
+          rawArticles.filter(article => isContentNewer(article, source.lastUpdated))
+        );
+
+        if (newArticles.length > 0) {
+          // Process the articles first
+          const processedArticles = newArticles.map((article) => ({
             ...article,
             organization: article.organization || source.organization || source.name || '',
             description: article.description || source.description || '',
@@ -63,15 +81,32 @@ async function crawlFeeds(): Promise<Article[]> {
                   ? source.tags.split(',').map((tag: string) => tag.trim())
                   : [],
             summary: article.summary || source.summary || '',
-          }))
-        );
+          }));
+
+          // Add to results
+          results.push(...processedArticles);
+          
+          // Only update lastUpdated if everything was successful
+          await updateSourceLastUpdated(configFile, index);
+        }
       } catch (error) {
         console.error(`Error processing ${source.url}:`, error);
+        // Skip updating lastUpdated on error
       }
     }
   }
 
   return results;
+}
+
+function generateContentHash(article: Article): string {
+  // Implement a hash function for the content
+  return '';
+}
+
+function shouldUpdateContent(article: Article, filePath: string, newHash: string): boolean {
+  // Implement logic to compare hashes and decide if content should be updated
+  return true;
 }
 
 async function saveArticlesAsMarkdown(articles: Article[]): Promise<void> {
@@ -83,8 +118,12 @@ async function saveArticlesAsMarkdown(articles: Article[]): Promise<void> {
   for (const article of articles) {
     const filename = `${sanitizeFilename(article.title)}.md`;
     const filePath = path.join(contentDir, filename);
-    const content = generateMarkdown(article);
-    fs.writeFileSync(filePath, content);
+    const newHash = generateContentHash(article);
+    
+    if (shouldUpdateContent(article, filePath, newHash)) {
+      const content = generateMarkdown(article);
+      fs.writeFileSync(filePath, content);
+    }
   }
 }
 

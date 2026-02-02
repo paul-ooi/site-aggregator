@@ -6,6 +6,7 @@ export interface Article {
   source: string;
   organization: string;
   repostedDate: string;
+  publishDate?: string;
   sourcePublishDate?: string;
   author?: string;
   tags?: string[];
