@@ -12,6 +12,7 @@ A lightweight content aggregation system that collects, stores, and displays art
 
 ## Project and Developer Information
 
+[Project Summary](/docs/project-summary.md)
 [Development Guide](/docs/development.md)
 [Roadmap](/docs/project-roadmap.md)
 
