@@ -1,63 +1,44 @@
 # Project Development Roadmap
 
-## Phase 1: Foundation (Current)
+## Phase 1: Foundation & Core Infrastructure
 
 - [x] Project setup with Nuxt 3
 - [x] TypeScript integration
 - [x] GitHub Pages deployment
-- [ ] Basic component structure
-- [ ] Core type definitions
+- [x] Basic component structure (ArticleCard, ArticleCardDetails, ArticleList, SiteNavigation, Footer)
+- [x] Core type definitions (Article, FavoriteArticle, Source)
+- [x] RSS feed parser (`utils/sources/rssSource.ts` — tested)
+- [x] Direct URL scraper (`utils/sources/directSource.ts` — working, not yet wired into aggregator)
+- [x] Markdown storage system (`aggregator.ts` + `fileHelper.ts` + content hashing)
+- [x] Build optimization (caching, prerendering, asset compression)
+- [x] Deployment automation (`nuxt-deploy.yaml`)
+- [x] Vitest unit tests (6 test files) and Playwright E2E tests (4 spec files)
+- [ ] Scheduled content collection pipeline (`collect-content.yaml` exists but script reference is broken and cron is commented out — needs `aggregate:build` integration and correct script wiring)
+- [ ] CI test integration (tests exist but don't run in the deploy/collection workflows)
+- [ ] Vue component tests (only util/source unit tests exist so far)
 
-## Phase 2: Core Infrastructure
+> **Note:** The `collect-content.yaml` workflow references `pnpm run collect` which doesn't exist in `package.json` — this needs to be wired to `aggregate:build` when the scheduled pipeline is built out.
 
-- [ ] Content Collection System
+## Phase 2: User Features
 
-  - [ ] RSS feed parser implementation
-  - [ ] Web scraper development
-  - [ ] Storage system implementation
+- [ ] Favorites system (`useFavorites.ts` is a commented stub, `ArticleCardControls.vue` is empty)
+- [ ] Reading history
+- [ ] Custom tags/categories
+- [ ] Search functionality
+- [ ] Feed preferences
 
-- [ ] CI/CD Pipeline
-  - [ ] GitHub Actions setup
-  - [ ] Automated testing
-  - [ ] Build optimization
-  - [x] Deployment automation
+## Phase 3: Content Management & PWA
 
-## Phase 3: Testing Infrastructure
+- [ ] Cross-source deduplication (content hashing exists for change detection, but not true cross-source dedup)
+- [ ] Auto-categorization
+- [ ] PWA setup (manifest.json, service worker, @vite-pwa — zero implementation currently)
+- [ ] Offline support
 
-- [ ] Unit Testing Setup
+> **Note:** PWA is mentioned in `feature-list.md` and the README but has no implementation yet.
 
-  - [ ] Vitest configuration
-  - [ ] Component test framework
-  - [ ] API mocking system
-
-- [ ] Integration Testing
-  - [ ] E2E test setup
-  - [ ] User flow testing
-  - [ ] Performance testing
-
-## Phase 4: Features & Refinement
-
-- [ ] User Features Implementation
-
-  - [ ] Favorites system
-  - [ ] Custom categories
-  - [ ] Search functionality
-
-- [ ] Content Management
-  - [ ] Deduplication system
-  - [ ] Auto-categorization
-  - [ ] Content refresh system
-
-## Phase 5: Documentation & Release
+## Phase 4: Documentation & Release
 
 - [x] Project README
-- [ ] Technical Documentation
-
-  - [ ] API documentation
-  - [ ] Component documentation
-  - [ ] Type documentation
-
-- [ ] User Documentation
-  - [ ] Usage guides
-  - [ ] Contributing guide
-  - [ ] Development setup
+- [x] Project summary and development docs
+- [ ] API/component/type documentation
+- [ ] Usage guides and contributing guide

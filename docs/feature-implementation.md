@@ -2,21 +2,21 @@
 
 ## Core Features
 
-- [ ] Article Collection
+- Article Collection
 
-  - [ ] RSS feed integration
-  - [ ] Direct URL scraping
-  - [ ] Scheduled content updates
-  - [ ] Content deduplication
+  - [x] RSS feed integration
+  - [x] Direct URL scraping (implementation exists, not yet activated in aggregator)
+  - [ ] Scheduled content updates (workflow scaffolded, not functional)
+  - [ ] Content deduplication (hash-based change detection exists, not cross-source dedup)
 
-- [ ] Content Management
+- Content Management
 
-  - [ ] Article storage system
+  - [x] Article storage system
   - [ ] Category management
-  - [ ] Tag system
+  - [ ] Tag system (tags come from RSS metadata, no user management)
   - [ ] Search functionality
 
-- [ ] User Features
+- User Features
   - [ ] Browser-based favorites
   - [ ] Reading history
   - [ ] Custom tags/categories
@@ -24,20 +24,20 @@
 
 ## Component Implementation
 
-- [ ] Navigation
+- Navigation
 
-  - [ ] Header with navigation links
+  - [x] Header with navigation links (SiteNavigation.vue)
   - [ ] Search bar
   - [ ] User preferences menu
 
-- [ ] Article Components
+- Article Components
 
-  - [ ] ArticleCard.vue
-  - [ ] ArticleList.vue
-  - [ ] ArticleDetail.vue
+  - [x] ArticleCard.vue
+  - [x] ArticleList.vue
+  - [x] ArticleDetail — implemented as `pages/[...slug].vue`
   - [ ] ArticleFilter.vue
 
-- [ ] User Interface
+- User Interface
   - [ ] FavoritesList.vue
   - [ ] ReadingHistory.vue
   - [ ] TagManager.vue
@@ -53,23 +53,23 @@
   - [x] ESLint TypeScript rules
   - [x] Path aliases
 
-- [ ] Type Definitions
+- Type Definitions
   - [x] Article interface
-  - [ ] Feed interface
+  - [ ] Feed interface (Source interface exists, no Feed-specific type)
   - [ ] Storage interfaces
   - [ ] API response types
 
 ## State Management
 
-- [ ] Composables
-  - [ ] useArticles.ts
-  - [ ] useFavorites.ts
+- Composables
+  - [ ] useArticles.ts (fetching is inline in articles.vue, no dedicated composable)
+  - [ ] useFavorites.ts (commented stub)
   - [ ] useStorage.ts
   - [ ] useSearch.ts
 
 ## Testing
 
-- [ ] Setup Vitest with TypeScript
-- [ ] Configure test environment
+- [x] Setup Vitest with TypeScript
+- [x] Configure test environment
 - [ ] Add type utilities for testing
 - [ ] Add test type definitions
