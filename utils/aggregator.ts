@@ -40,11 +40,13 @@ async function crawlFeeds(): Promise<Article[]> {
       if (configFile === 'feeds.json') {
         handler = new RSSSource(source.url, source.name, source.fieldMappings);
       // } else if (configFile === 'blogs.json') {
+      // TODO: Implement HTMLSource handling
       //   handler = new HTMLSource(source.url);
       // } else if (configFile === 'articles.json') {
       // } else if (configFile === 'articles.json') {
       //   handler = new DirectSource(source.url);
       } else if (configFile === 'customSources.json') {
+        // TODO: Implement CustomSource handling
         // if (source.customHandler) {
         //   const handlerModule = require(`./customHandlers`)[source.customHandler];
         //   if (handlerModule) {
