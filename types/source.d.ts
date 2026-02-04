@@ -7,8 +7,14 @@ export interface ContentParserField {
 }
 
 export interface ContentParsers {
-  articleSelector?: string;
-  fields?: Record<string, ContentParserField>;
+  index: {
+    linkSelector: string;
+    linkAttribute?: string;
+  };
+  article: {
+    contentSelector: string;
+    fields: Record<string, ContentParserField>;
+  };
 }
 
 export interface Source {

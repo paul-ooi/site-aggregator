@@ -33,19 +33,16 @@
     "language": "en",
     "tags": "technology,accessibility",
     "contentParsers": {
-      "articleSelector": "h3",
-      "fields": {
-        "sourcePublishDate": {
-          "selector": "p",
-          "regex": "([A-Za-z]+ \\d{1,2}, \\d{4})"
-        },
-        "author": {
-          "selector": "p",
-          "regex": "^\\s*([^|]+?)\\s*\\|"
-        },
-        "externalUrl": {
-          "selector": "a",
-          "attribute": "href"
+      "index": {
+        "linkSelector": "a.button",
+        "linkAttribute": "href"
+      },
+      "article": {
+        "contentSelector": "#dubblog-post-content",
+        "fields": {
+          "title": { "selector": "h1.title" },
+          "sourcePublishDate": { "selector": "ul.subtitle li:first-child" },
+          "author": { "selector": "div.author strong" }
         }
       }
     }
