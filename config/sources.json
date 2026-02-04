@@ -7,9 +7,9 @@
     "language": "en",
     "tags": "accessibility",
     "fieldMappings": {
-      "description": "description",
+      "description": "content:encoded",
       "summary": "content",
-      "rawDescriptionHtml": "content"
+      "rawDescriptionHtml": "content:encoded"
     }
   },
   {
@@ -31,7 +31,24 @@
     "url": "https://dubbot.com/dubblog/index.html",
     "description": "DubBot creates web accessibility related software as a service (SaaS) for the web.",
     "language": "en",
-    "tags": "technology,accessibility"
+    "tags": "technology,accessibility",
+    "contentParsers": {
+      "articleSelector": "h3",
+      "fields": {
+        "sourcePublishDate": {
+          "selector": "p",
+          "regex": "([A-Za-z]+ \\d{1,2}, \\d{4})"
+        },
+        "author": {
+          "selector": "p",
+          "regex": "^\\s*([^|]+?)\\s*\\|"
+        },
+        "externalUrl": {
+          "selector": "a",
+          "attribute": "href"
+        }
+      }
+    }
   },
   {
     "type": "html",
