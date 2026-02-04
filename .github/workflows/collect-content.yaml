@@ -4,6 +4,10 @@ on:
     - cron: '0 9 1 * *'  # Run at 9:00 UTC on the 1st of each month
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   collect-content:
     runs-on: ubuntu-latest
