@@ -1,7 +1,7 @@
 name: Collect Content
 on:
-  # schedule:
-  # - cron: '0 */6 * * *'  # Run every 6 hours
+  schedule:
+    - cron: '0 9 1 * *'  # Run at 9:00 UTC on the 1st of each month
   workflow_dispatch:
 
 jobs:
@@ -42,3 +42,4 @@ jobs:
           base: main
           add-paths: |
             content/**
+            config/**
