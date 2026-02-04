@@ -27,7 +27,7 @@ async function crawlFeeds(): Promise<Article[]> {
         handler = new RSSSource(source.url, source.name, source.fieldMappings);
         break;
       case 'html':
-        handler = new HTMLSource(source.url);
+        handler = new HTMLSource(source.url, source.contentParsers);
         break;
       case 'direct':
         handler = new DirectSource(source.url);
