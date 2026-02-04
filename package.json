@@ -32,6 +32,7 @@
     "aggregate:dev": "ts-node --esm utils/aggregator.ts",
     "aggregate:watch": "ts-node --watch --esm utils/aggregator.ts",
     "aggregate:build": "NODE_OPTIONS=\"--trace-deprecation\" pnpm exec tsx --tsconfig utils/tsconfig.json utils/aggregator.ts",
+    "collect": "pnpm run aggregate:build",
     "prebuild": "pnpm aggregate:build"
   },
   "dependencies": {
