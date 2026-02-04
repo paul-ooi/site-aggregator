@@ -75,6 +75,7 @@ export function generateMarkdown(article: Article): string {
     `repostedDate: ${article.repostedDate}\n` +
     `${tagsSection}` +
     `sourcePublishDate: ${article.sourcePublishDate || ''}\n` +
+    `author: ${article.author || ''}\n` +
     `contentHash: ${contentHash}\n` +
     `---\n\n` +
     `${figureMarkdown}` + // Prepend the figure Markdown
