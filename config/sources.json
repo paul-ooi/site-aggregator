@@ -1,0 +1,52 @@
+[
+  {
+    "type": "rss",
+    "name": "WebAim",
+    "url": "https://webaim.org/blog/feed/",
+    "description": "The WebAIM Web Accessibility Blog",
+    "language": "en",
+    "tags": "accessibility",
+    "fieldMappings": {
+      "description": "description",
+      "summary": "content",
+      "rawDescriptionHtml": "content"
+    }
+  },
+  {
+    "type": "rss",
+    "name": "Access * Ability",
+    "url": "https://buttondown.com/access-ability/rss",
+    "description": "All things relating to disability - Accessibility, DEI, employment, case law analysis, advice, and general rants.",
+    "language": "en",
+    "tags": "accessibility",
+    "fieldMappings": {
+      "summary": "description",
+      "description": "title",
+      "rawDescriptionHtml": "description"
+    }
+  },
+  {
+    "type": "html",
+    "name": "DubBlog",
+    "url": "https://dubbot.com/dubblog/index.html",
+    "description": "DubBot creates web accessibility related software as a service (SaaS) for the web.",
+    "language": "en",
+    "tags": "technology,accessibility"
+  },
+  {
+    "type": "html",
+    "name": "GAAD Foundation",
+    "url": "https://gaad.foundation/news",
+    "description": "The team behind Global Accessibility Awareness Day",
+    "language": "en",
+    "tags": "news,accessibility"
+  },
+  {
+    "type": "direct",
+    "name": "Inclusive Design Blog Post",
+    "url": "https://paulooi.ca/blog/inclusive-design/",
+    "organization": "Independent",
+    "language": "en",
+    "tags": "accessibility,conference"
+  }
+]
