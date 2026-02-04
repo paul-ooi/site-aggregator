@@ -4,7 +4,7 @@ import TurndownService from 'turndown';
 import { createHash } from 'crypto';
 
 export function generateContentHash(article: Article): string {
-  const content = `${article.title}${article.rawDescriptionHtml}${article.publishDate}`;
+  const content = `${article.title}${article.rawDescriptionHtml}${article.sourcePublishDate}`;
   return createHash('md5').update(content).digest('hex');
 }
 
