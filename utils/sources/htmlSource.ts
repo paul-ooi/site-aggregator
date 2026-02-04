@@ -65,7 +65,7 @@ export class HTMLSource implements Source {
           }
 
           if (value) {
-            (article as Record<string, unknown>)[field] = value;
+            (article as unknown as Record<string, unknown>)[field] = value;
           }
         }
 
