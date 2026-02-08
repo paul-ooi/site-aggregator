@@ -8,10 +8,10 @@ Site Aggregator is a lightweight content aggregation system that collects and di
 ## Technology Stack
 
 - **Framework**: [Nuxt.js 3](https://nuxt.com)
-- **Language**: TypeScript
-- **Styling**: SCSS
-- **Build Tool**: Vite
-- **Hosting**: GitHub Pages
+- **Language**: [TypeScript](https://www.typescriptlang.org)
+- **Styling**: [SCSS](https://sass-lang.com)
+- **Build Tool**: [Vite](https://vite.dev)
+- **Hosting**: [GitHub Pages](https://pages.github.com)
 
 ## Content Collection
 
