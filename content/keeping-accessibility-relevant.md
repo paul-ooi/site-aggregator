@@ -4,13 +4,13 @@ description: With current shifts in public sentiment and external pressures rega
 url: https://dubbot.com/dubblog/2025/keeping-accessibility-relevant.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:02.007Z
+repostedDate: 2026-02-08T06:17:23.766Z
 tags:
   - technology
   - accessibility
 sourcePublishDate: 2025-08-12T00:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 5f74e211aa59bb8af8afc94f5427701e
+contentHash: 2dcaa3a9417bf69d313bfe498e7336b3
 ---
 
 With current shifts in public sentiment and external pressures regarding DEI, some organizations have paused, rebranded, or scaled back their initiatives.
@@ -43,7 +43,6 @@ In other words, investing in accessibility isn’t just the right thing to do—
 -   [Is the DOJ Web Accessibility Rule in Danger](https://convergeaccessibility.com/2025/06/02/doj-web-accessibility-rule-in-danger/ "This link leaves the DubBlog website.")?
 -   [Federal Digital Accessibility Disappearance on Trump Day One](https://browngold.com/blog/federal-digital-accessibility-disappearance-on-trump-day-one/ "This link leaves the DubBlog website.")
 -   [Recent Executive Orders on DEI Do Not Change Digital Accessibility Requirements](https://www.levelaccess.com/blog/digital-accessibility-in-2025-q1-update/ "This link leaves the DubBlog website.")
--   [Why is Web Accessibility Important for Your Business Website](https://webheadtech.com/blog/web-accessibility-important-business-website/#:~:text=Before%20you%20begin%20redoing%20your,automatically%20load%20on%20your%20website. "This link leaves the DubBlog website.")?
 -   [How to Convince People to Care and Invest in Accessibility](https://stephaniewalter.design/blog/how-to-convince-people-to-care-and-invest-in-accessibility/ "This link leaves the DubBlog website.")
 
   
