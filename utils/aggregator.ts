@@ -2,7 +2,7 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { RSSSource, HTMLSource, DirectSource } from './sources/index.ts';
-import { generateMarkdown, generateContentHash } from './markdownTemplate.ts';
+import { generateMarkdown, generateContentHash, hasMinimumContent } from './markdownTemplate.ts';
 import { shouldUpdateContent } from './fileHelper.ts';
 import type { Article } from '../types/article.d.ts';
 import type { Source } from '../types/source.d.ts';
@@ -69,6 +69,12 @@ async function saveArticlesAsMarkdown(articles: Article[]): Promise<void> {
   for (const article of articles) {
     const filename = `${sanitizeFilename(article.title)}.md`;
     const filePath = path.join(contentDir, filename);
+
+    if (!hasMinimumContent(article)) {
+      console.log(`[SKIP] ${filename} (insufficient content)`);
+      continue;
+    }
+
     const newHash = generateContentHash(article);
 
     if (shouldUpdateContent(article, filePath, newHash)) {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { generateContentHash, generateMarkdown } from '../../../utils/markdownTemplate';
+import { generateContentHash, generateMarkdown, hasMinimumContent } from '../../../utils/markdownTemplate';
 import type { Article } from '../../../types/article';
 
 function makeArticle(overrides: Partial<Article> = {}): Article {
@@ -83,5 +83,38 @@ describe('generateMarkdown', () => {
   it('includes contentHash in frontmatter', () => {
     const md = generateMarkdown(makeArticle());
     expect(md).toMatch(/contentHash: [a-f0-9]{32}/);
+  });
+});
+
+describe('hasMinimumContent', () => {
+  const loremWords = Array(100).fill('word').join(' ');
+
+  it('returns false for undefined rawDescriptionHtml', () => {
+    expect(hasMinimumContent(makeArticle({ rawDescriptionHtml: undefined }))).toBe(false);
+  });
+
+  it('returns false for empty rawDescriptionHtml', () => {
+    expect(hasMinimumContent(makeArticle({ rawDescriptionHtml: '' }))).toBe(false);
+  });
+
+  it('returns false for content under 100 words', () => {
+    const shortHtml = '<p>Happy holidays from our team! Wishing you a wonderful new year.</p>';
+    expect(hasMinimumContent(makeArticle({ rawDescriptionHtml: shortHtml }))).toBe(false);
+  });
+
+  it('returns true for content with 100+ words', () => {
+    const longHtml = `<p>${loremWords}</p>`;
+    expect(hasMinimumContent(makeArticle({ rawDescriptionHtml: longHtml }))).toBe(true);
+  });
+
+  it('does not count image-only content toward word count', () => {
+    const imageOnlyHtml = '<figure><img src="https://img.com/photo.jpg" alt="photo"><figcaption>A caption</figcaption></figure>';
+    expect(hasMinimumContent(makeArticle({ rawDescriptionHtml: imageOnlyHtml }))).toBe(false);
+  });
+
+  it('respects custom minWords parameter', () => {
+    const html = '<p>one two three four five</p>';
+    expect(hasMinimumContent(makeArticle({ rawDescriptionHtml: html }), 5)).toBe(true);
+    expect(hasMinimumContent(makeArticle({ rawDescriptionHtml: html }), 6)).toBe(false);
   });
 });

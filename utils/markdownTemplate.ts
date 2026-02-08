@@ -8,14 +8,45 @@ export function generateContentHash(article: Article): string {
   return createHash('md5').update(content).digest('hex');
 }
 
-export function generateMarkdown(article: Article): string {
-  const tagsSection = article.tags?.length ? `tags:\n${article.tags.map((tag : string) => `  - ${tag}`).join('\n')}\n` : '';
-
-    const turndownService = new TurndownService({
+function createTurndownService(): TurndownService {
+  return new TurndownService({
     headingStyle: 'atx', // Use # for h1, ## for h2, etc.
     bulletListMarker: '-',
     codeBlockStyle: 'fenced',
   });
+}
+
+function convertBodyToMarkdown(rawDescriptionHtml: string): string {
+  const turndownService = createTurndownService();
+  const root = parse(rawDescriptionHtml) as HTMLElement;
+  const figureElement = root.querySelector('figure');
+  if (figureElement) {
+    figureElement.remove();
+  }
+  return turndownService.turndown(root.innerHTML);
+}
+
+export function hasMinimumContent(article: Article, minWords = 100): boolean {
+  if (!article.rawDescriptionHtml) return false;
+
+  const bodyMarkdown = convertBodyToMarkdown(article.rawDescriptionHtml);
+
+  // Strip markdown image syntax, headings, and other non-word markup
+  const plainText = bodyMarkdown
+    .replace(/!\[.*?\]\(.*?\)/g, '') // Remove images
+    .replace(/\[([^\]]*)\]\(.*?\)/g, '$1') // Replace links with link text
+    .replace(/#{1,6}\s*/g, '') // Remove heading markers
+    .replace(/[*_~`>|=-]+/g, ' ') // Remove emphasis, code, blockquote markers
+    .replace(/\n/g, ' ');
+
+  const words = plainText.split(/\s+/).filter((w) => w.length > 0);
+  return words.length >= minWords;
+}
+
+export function generateMarkdown(article: Article): string {
+  const tagsSection = article.tags?.length ? `tags:\n${article.tags.map((tag : string) => `  - ${tag}`).join('\n')}\n` : '';
+
+    const turndownService = createTurndownService();
 
   let bodyMarkdown = '';
   let figureMarkdown = '';
@@ -46,7 +77,7 @@ export function generateMarkdown(article: Article): string {
       figureElement.remove(); // Remove the figure from the parsed HTML structure
     }
 
-    
+
     // Trucated first paragraph for Description (TODO: use AI summary)
     const firstParagraph = root.querySelector('p');
     if (firstParagraph) {
