@@ -5,8 +5,8 @@
 - Article Collection
 
   - [x] RSS feed integration
-  - [x] Direct URL scraping (implementation exists, not yet activated in aggregator)
-  - [ ] Scheduled content updates (workflow scaffolded, not functional)
+  - [x] Direct URL scraping
+  - [x] Scheduled content updates
   - [ ] Content deduplication (hash-based change detection exists, not cross-source dedup)
 
 - Content Management

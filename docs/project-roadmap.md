@@ -8,16 +8,14 @@
 - [x] Basic component structure (ArticleCard, ArticleCardDetails, ArticleList, SiteNavigation, Footer)
 - [x] Core type definitions (Article, FavoriteArticle, Source)
 - [x] RSS feed parser (`utils/sources/rssSource.ts` — tested)
-- [x] Direct URL scraper (`utils/sources/directSource.ts` — working, not yet wired into aggregator)
+- [x] Direct URL scraper (`utils/sources/directSource.ts` and `htmlSource.ts`)
 - [x] Markdown storage system (`aggregator.ts` + `fileHelper.ts` + content hashing)
 - [x] Build optimization (caching, prerendering, asset compression)
 - [x] Deployment automation (`nuxt-deploy.yaml`)
 - [x] Vitest unit tests (6 test files) and Playwright E2E tests (4 spec files)
-- [ ] Scheduled content collection pipeline (`collect-content.yaml` exists but script reference is broken and cron is commented out — needs `aggregate:build` integration and correct script wiring)
+- [x] Scheduled content collection pipeline (`collect-content.yaml` runs monthly, triggers `aggregate:build`)
 - [ ] CI test integration (tests exist but don't run in the deploy/collection workflows)
 - [ ] Vue component tests (only util/source unit tests exist so far)
-
-> **Note:** The `collect-content.yaml` workflow references `pnpm run collect` which doesn't exist in `package.json` — this needs to be wired to `aggregate:build` when the scheduled pipeline is built out.
 
 ## Phase 2: User Features
 
