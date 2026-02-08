@@ -31,16 +31,19 @@ jobs:
       - name: Collect Content
         run: pnpm run collect
 
+      - name: Set date
+        run: echo "DATE=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'Update content collection'
-          title: "Content Update $(date +'%Y-%m-%d')"
+          title: "Content Update ${{ env.DATE }}"
           body: |
             Automated content collection update
             - Fetched new content from configured sources
-            - Generated on: $(date +'%Y-%m-%d %H:%M:%S')
+            - Generated on: ${{ env.DATE }}
           branch: update/content-collection
           delete-branch: true
           base: main
