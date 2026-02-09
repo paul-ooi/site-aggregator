@@ -59,26 +59,56 @@ const prettyDate = (dateStr: string) => {
   <Footer />
 </template>
 <style scoped lang="scss">
-.content {
-  margin: 0 auto;
+@use '~/assets/styles/variables' as *;
+
+main.content {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    'content'
+    'sidebar';
+  grid-template-columns: 1fr;
+  padding-inline: var(--gutter);
 }
-.content > * {
-  grid-column: 2/-1;
-  grid-row: 1;
-  margin: 0 auto;
+
+@media screen and (min-width: $lg) {
+  main.content {
+    grid-template-areas: '. sidebar content .';
+    grid-template-columns: minmax(var(--gutter), 1fr) 1fr 3fr minmax(var(--gutter), 1fr);
+    grid-template-rows: minmax(0, auto);
+    padding-inline: 0;
+  }
+
+  .sidebar {
+    grid-row: 1;
+  }
 }
+
 .sidebar {
   grid-area: sidebar;
-  grid-row: 1;
-  margin: 0 auto;
+  min-width: 0;
 }
+
 .sidebar h1 {
   font-size: clamp(1.25rem, 2vw, 1.5em);
   margin-block: 0 0.5em;
 }
+
+.summary {
+  grid-area: content;
+  min-width: 0;
+}
+
+.summary :deep(img) {
+  max-width: 100%;
+  height: auto;
+}
+
 .external-link {
   color: var(--primary);
+  overflow-wrap: break-word;
 }
+
 .external-link::after {
   content: '⇱';
   transform: scaleX(-1);
@@ -87,32 +117,17 @@ const prettyDate = (dateStr: string) => {
   margin-left: 4px;
   font-size: 0.8em;
 }
+
 .external-link:hover::after {
   font-style: normal;
 }
+
 .external-link:hover {
   font-style: oblique;
-}
-.sidebar h2 {
-  font-size: clamp(1rem, 2vw, 1.15em);
-  margin-block: 0.25em;
-}
-
-main.content {
-  display: grid;
-  gap: 1rem;
-  grid-template-areas: '. sidebar content .';
-  grid-template-columns: minmax(var(--gutter), 1fr) 1fr 3fr minmax(var(--gutter), 1fr);
-  grid-template-rows: minmax(0, auto);
-}
-
-.summary {
-  grid-area: content;
 }
 
 .date--published,
 .date--reposted {
   white-space: nowrap;
 }
-
 </style>
