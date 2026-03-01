@@ -1,19 +1,19 @@
 ---
 title: ALT Text Is Read by AT, Search Engines, and AI—Write It Like It Matters
-description: This is the third post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part two, The Most Accessible ALT Text Is
+description: This is the third post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part two,    The Most Accessible ALT Text
 url: https://dubbot.com/dubblog/2026/alt-text-is-read-by-at-search-engines-and-aiwrite-it-like-it-matters.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-25T02:35:07.642Z
+repostedDate: 2026-03-01T09:37:23.721Z
 tags:
   - technology
   - accessibility
 sourcePublishDate: 2026-02-19T00:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: c600c45f0627f869b13b25f1e6665ccb
+contentHash: 852fbc48d27915b43bef5d85b1015b25
 ---
 
-> This is the third post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part two, _[The Most Accessible ALT Text Is Sometimes No ALT Text at All](the-most-accessible-alt-text-is-sometimes-no-alt-text-at-all.html)_. See part four, _[Images With a Job: Writing ALT Text That Works](images-with-a-job-writing-alt-text-that-works.html)_._[](the-most-accessible-alt-text-is-sometimes-no-alt-text-at-all.html)_
+> This is the third post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part two, _[The Most Accessible ALT Text Is Sometimes No ALT Text at All](the-most-accessible-alt-text-is-sometimes-no-alt-text-at-all.html)._ See part four, _[Images With a Job: Writing ALT Text That Works](images-with-a-job-writing-alt-text-that-works.html)_.
 
 ALT text is one of the few content elements designed to be read by screen readers, indexed by search engines, and interpreted by AI models. It's also a strategic advantage. When it's [treated as a content decision](alt-text-isnt-a-description-its-a-content-decision.html), it shifts from being a literal description to purposeful communication.
 
@@ -42,7 +42,7 @@ At its best, ALT text written with intent ensures that screen reader users recei
 ALT text is one of the strongest indicators of an image’s purpose on the page. When it’s crafted with intention, it helps search engines grasp the content’s meaning in several important ways:
 
 -   It reinforces topical relevance.  
-    Intentional ALT text connects the image with the page’s subject. For example, if a blog post is about accessible navigation and you write ALT text that explains the function of a hamburger menu (instead of just saying “three lines icon”), you’re informing the algorithm of meaningful, keyword-aligned data. Search engines then associate the image with the page and reveal it in relevant queries.  
+    Intentional ALT text connects the image with the page’s subject. For example, if a blog post is about accessible navigation and you write ALT text that explains the function of a hamburger menu (instead of just saying _three lines icon_), you’re informing the algorithm of meaningful, keyword-aligned data. Search engines then associate the image with the page and reveal it in relevant queries.  
       
     
 -   It reduces noise in the content.  
@@ -92,7 +92,7 @@ For example:
 
 -   A button image labeled **Submit**  
     vs.
--   ALT text: **Search button with a magnifying glass icon**.
+-   ALT text: **Search button with a magnifying glass icon** .
 
 The ALT text tells the AI the icon’s function, not just its appearance. That teaches models how visuals work in real-world interfaces, improving areas such as UI interpretation, automation, and accessibility tooling.
 
