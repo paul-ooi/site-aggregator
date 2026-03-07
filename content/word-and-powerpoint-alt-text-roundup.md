@@ -4,12 +4,12 @@ description: In Microsoft Word and PowerPoint, there are many types of non-text 
 url: https://webaim.org/blog/word-and-powerpoint-alt-text-roundup/
 source: https://webaim.org/blog
 organization: WebAIM Blog
-repostedDate: 2026-02-04T06:45:00.709Z
+repostedDate: 2026-03-01T09:37:22.417Z
 tags:
   - accessibility
 sourcePublishDate: 2025-10-31T19:14:54.000Z
 author: Jon Whiting
-contentHash: 975867f700a34e93498546a7f5e51255
+contentHash: dc7103f2ec13ffec699a4eb046a4247d
 ---
 
 ## Introduction
