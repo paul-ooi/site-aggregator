@@ -4,13 +4,13 @@ description: Automated accessibility testing is a powerful tool for quickly iden
 url: https://dubbot.com/dubblog/2025/nvda-screen-reader-setup-for-sighted-testers.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:02.119Z
+repostedDate: 2026-04-01T10:11:25.375Z
 tags:
   - technology
   - accessibility
 sourcePublishDate: 2025-07-08T00:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 03e06cb948cfc0e78f8e269f2b5c9476
+contentHash: 1ecf957ee04cd4afc7f4c3352b83ec0b
 ---
 
 Automated accessibility testing is a powerful tool for quickly identifying many common accessibility issues and should be an integral part of your accessibility testing workflow. But it’s only one piece of the puzzle. To truly understand how people with disabilities experience your digital content, you need to go a step further with manual testing. And one of the most impactful manual testing methods is to use a screen reader. By navigating your site with a screen reader, you can experience firsthand how users who rely on assistive technology interact with your content, helping you identify barriers that automated tools may not detect and refine the overall user experience.
@@ -65,7 +65,7 @@ If you would rather not hear the screen reader's output at all, you can visualiz
 There are a couple of settings that can level up your testing by helping you experience web content the way your users do. You’ll find these under **Browse Mode**. **Browse Mode** is the default for reading and moving around a page. Then there’s **Focus Mode**, which takes over when it’s time to interact with elements like form fields, passing your keystrokes directly to them for hands-on interaction.
 
 -   Go to Preferences, then Settings, then to Browse Mode. Verify that **Automatically set focus to focusable elements** is enabled.
--   Next, enable **Say all on page load** if you want NVDA to read the page automatically.  
+-   Next, enable **Say all on page load** to have NVDA read the page automatically.  
     
 
 Once you have completed your initial setup, you can begin testing. When conducting manual testing with a screen reader, some of the issues you want to be on the lookout for are:
@@ -79,7 +79,7 @@ Once you have completed your initial setup, you can begin testing. When conducti
 -   Logical document structure
 -   Table row and/or column headers
 
-These and the other configuration steps outlined in this blog are meant to help you get up and running quickly to begin manual accessibility testing. They are by no means a complete list of customization options. Please refer to the list of videos and articles in the [Resources section](https://docs.google.com/document/d/13XFnZ_6eegYhzpbruVgfwNMiqnyijT6IfZm4hmsmhN4/edit?tab=t.0#bookmark=id.87ny2t6e7ltp "This link leaves the DubBlog website.") for more information.
+These and the other configuration steps outlined in this blog are meant to help you get up and running quickly to begin manual accessibility testing. They are by no means a complete list of customization options. Please refer to the list of videos and articles in the [Resources section](nvda-screen-reader-setup-for-sighted-testers.html#resources) for more information.
 
 Getting comfortable with NVDA (or any other screen reader) is a significant step toward enhancing the testing process in your [accessibility monitoring strategy](https://dubbot.com/dubblog/2025/a-guide-to-continuous-accessibility-monitoring.html "This link leaves the DubBlog website."). By pairing manual screen reader testing with automated tools, you create a more complete picture of your site’s accessibility over time. This proactive approach enables you to identify issues early, adapt to changes, and deliver a consistently inclusive experience for all users.
 
