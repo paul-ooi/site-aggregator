@@ -4,12 +4,12 @@ description: I’ve lived long enough, and worked in accessibility long enough, 
 url: https://webaim.org/blog/2026-predictions/
 source: https://webaim.org/blog
 organization: WebAIM Blog
-repostedDate: 2026-02-04T06:45:00.709Z
+repostedDate: 2026-08-01T10:44:28.233Z
 tags:
   - accessibility
 sourcePublishDate: 2025-12-22T23:22:37.000Z
 author: John Northup
-contentHash: d0a3facabfc69382235598c22852ad46
+contentHash: bedb9664af6681cc78c1cb6efacc151e
 ---
 
 I’ve lived long enough, and worked in accessibility long enough, to have honed a healthy skepticism when I hear about the Next Big Thing. I’ve seen lush website launches that look great, until I activate a screen reader.

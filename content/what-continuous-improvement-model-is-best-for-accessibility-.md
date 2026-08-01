@@ -4,12 +4,12 @@ description: Most organizations start their accessibility journey in reactive mo
 url: https://buttondown.com/access-ability/archive/what-continuous-improvement-model-is-best-for/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-02-04T06:45:00.869Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2025-12-17T11:05:04.000Z
 author: 
-contentHash: 2f6c70d59b9a39deb553fbef8834fa7a
+contentHash: 29a18596c8aef1f70ee357fcadde3474
 ---
 
 ![Hand holding sharpie with the following message “Be better than you were yesterday”](https://assets.buttondown.email/images/55ce6b4c-28f8-45b3-8d56-54a0ddfd9cf3.jpeg?w=960&fit=max)

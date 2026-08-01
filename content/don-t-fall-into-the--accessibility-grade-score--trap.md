@@ -4,12 +4,12 @@ description: In the rush to make digital products accessible, many teams lean on
 url: https://buttondown.com/access-ability/archive/dont-fall-into-the-accessibility-gradescore-trap/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-02-04T06:45:00.869Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2025-12-10T13:31:31.000Z
 author: 
-contentHash: b187caad91b62174b437a6f7aaa06708
+contentHash: 6ee660e37e9e97d95f68a34001d7c022
 ---
 
 ![A wooden box labeled “Accessibility Grades” being propped up with a stick with a string tied to it with a business man about to walk underneath](https://assets.buttondown.email/images/0b3ef14f-c36c-4dfc-8b22-e75679e2d154.jpg?w=960&fit=max)

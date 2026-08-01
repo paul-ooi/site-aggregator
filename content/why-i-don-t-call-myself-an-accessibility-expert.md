@@ -4,12 +4,12 @@ description: I’ve been working in the fields of disability inclusion and digit
 url: https://buttondown.com/access-ability/archive/why-i-dont-call-myself-an-accessibility-expert/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-02-04T06:45:00.869Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2026-01-28T14:34:12.000Z
 author: 
-contentHash: 3a96c5daba4f94a217cbc1d9fb7eff59
+contentHash: 3998b6eb003b8f5a000e3b3007658776
 ---
 
 ![Ovenlike dial that says “skill” with five settings  novice average skilled specialist and expert](https://assets.buttondown.email/images/b8a04593-25c2-4b6c-8097-f7fb7a1fbce9.jpeg?w=960&fit=max)

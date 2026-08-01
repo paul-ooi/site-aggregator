@@ -4,12 +4,12 @@ description: Which WebAIM resource had its 25th birthday on November 1, 2024? Th
 url: https://webaim.org/blog/join-the-discussion/
 source: https://webaim.org/blog
 organization: WebAIM Blog
-repostedDate: 2026-02-04T06:45:00.709Z
+repostedDate: 2026-08-01T10:44:28.236Z
 tags:
   - accessibility
 sourcePublishDate: 2025-01-31T21:01:02.000Z
 author: George Joeckel
-contentHash: bb2e7693fcd5a6cec5cfa28875ba28e0
+contentHash: 7c430be095a506ce78dc7eff6f0b11dd
 ---
 
 Which WebAIM resource had its 25th birthday on November 1, 2024? The answer is our [Web Accessibility Email Discussion List](https://webaim.org/discussion/)! From the halcyon days when Hotmail had over 35 million users, to our modern era where Gmail has 2.5 billion users, the amount of emails in most inboxes has gone from a trickle to a flood. Over the last quarter century WebAIM has delivered over 80 million distinct emails to our list subscribers—currently over 2000 strong. These emails allow subscribers to participate in accessibility discussions across space and time. 

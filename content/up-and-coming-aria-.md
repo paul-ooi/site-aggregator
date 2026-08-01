@@ -4,12 +4,12 @@ description: If you work in web accessibility, you&#8217;ve probably spent a lot
 url: https://webaim.org/blog/up-and-coming-aria/
 source: https://webaim.org/blog
 organization: WebAIM Blog
-repostedDate: 2026-02-04T06:45:00.709Z
+repostedDate: 2026-08-01T10:44:28.233Z
 tags:
   - accessibility
 sourcePublishDate: 2025-05-30T18:19:41.000Z
 author: John Northup
-contentHash: cbed6f05cb243b6430628d3604e258b1
+contentHash: 941bad0401e9bef24b6a3fa551a0801a
 ---
 
 If you work in web accessibility, you’ve probably spent a lot of time explaining and implementing the ARIA roles and attributes that have been around for years—things like `aria-label`, `aria-labelledby`, and `role="dialog"`. But the ARIA landscape isn’t static. In fact, recent ARIA specifications (especially ARIA 1.3) include a number of emerging and lesser-known features that are quietly laying the groundwork for the next phase of inclusive web design. 

@@ -4,12 +4,12 @@ description: Your organization works hard to build accessible digital experience
 url: https://buttondown.com/access-ability/archive/locking-in-accessibility-how-smart-procurement/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-03-01T09:37:23.204Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2026-02-25T14:58:47.000Z
 author: 
-contentHash: 8ddfa1a4d05819b8415b72b4d30e77af
+contentHash: f647538474eb57b9e144de8be90bdd5a
 ---
 
 ![Person holding a number of fannedout $ USD bills](https://assets.buttondown.email/images/48b5023f-dcc6-48ed-b5a5-c501948614f6.jpg?w=960&fit=max)

@@ -4,12 +4,12 @@ description: Every day, there are more articles about AI replacing people in tec
 url: https://buttondown.com/access-ability/archive/ai-will-eliminate-the-need-for-accessibility/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-02-08T06:17:21.663Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2026-02-04T13:54:25.000Z
 author: 
-contentHash: 879c5fbaa3d151e9ea23f2b0cd71dd6b
+contentHash: 3519e27df1dff64316d15035a0526fb3
 ---
 
 ![A robotic hand puts a note saying “You’re fired” into a human hand](https://assets.buttondown.email/images/3ee32e16-fa02-4f44-838f-075f042dd057.jpeg?w=960&fit=max)

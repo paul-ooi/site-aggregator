@@ -4,12 +4,12 @@ description: Compliance failures are triggering urgency or internal organization
 url: https://buttondown.com/access-ability/archive/everyone-loses-when-paying-fines-becomes-a/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-02-04T06:45:00.869Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2026-01-14T12:44:13.000Z
 author: 
-contentHash: c6d20b9cdb31ade25598ca8e38f9cc37
+contentHash: 2ab21e3494297c40c113884bf7efb558
 ---
 
 ![Cartoon of a man and a woman standing on either side of a notepad that says FINE $$$ with money icons](https://assets.buttondown.email/images/71ba5148-2309-4a78-8699-4908a5c2e6ab.jpeg?w=960&fit=max)
