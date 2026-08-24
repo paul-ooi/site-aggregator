@@ -4,12 +4,12 @@ description: When a website links to content it does not own or control, it is e
 url: https://buttondown.com/access-ability/archive/accessibility-considerations-for-off-site/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-03-01T09:37:23.204Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2026-02-25T13:54:59.000Z
 author: 
-contentHash: 0d43b7bc85622c6fe23606d5799faa3e
+contentHash: 99a550e4416a836e4f9352524de93c05
 ---
 
 ![Two websites connected by a link](https://assets.buttondown.email/images/896652c3-a1e8-408c-ad7d-f2aaf39aa3e8.jpeg?w=960&fit=max)

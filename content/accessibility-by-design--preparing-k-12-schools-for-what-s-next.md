@@ -4,12 +4,12 @@ description: Delivering web and digital accessibility in any environment require
 url: https://webaim.org/blog/accessibility-by-design/
 source: https://webaim.org/blog
 organization: WebAIM Blog
-repostedDate: 2026-02-04T06:45:00.709Z
+repostedDate: 2026-08-01T10:44:28.233Z
 tags:
   - accessibility
 sourcePublishDate: 2025-07-30T17:51:46.000Z
 author: Cynthia Curry
-contentHash: 8823e8ef2cc80ca0eafa94dd37163923
+contentHash: 9e73f097ab9536dd5f98c916e61a6674
 ---
 
 Delivering web and digital accessibility in any environment requires strategic planning and cross-organizational commitment. While the goal (ensuring that websites and digital platforms do not present barriers to individuals with disabilities) and the standards (the Web Content Accessibility Guidelines) remain constant, implementation must be tailored to each organization’s needs and context.  

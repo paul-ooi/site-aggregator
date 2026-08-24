@@ -4,12 +4,12 @@ description: The demand letter/lawsuit lands first. The questions come next.
 url: https://buttondown.com/access-ability/archive/the-accessibility-manager-moment-no-one-warns-you/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-02-04T06:45:00.869Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2026-01-21T14:20:32.000Z
 author: 
-contentHash: 0802472c35239142609a73cbb75d9d93
+contentHash: 21eae66b6aa4f83a319047fcc6a38179
 ---
 
 ![Three business people at a table with paper one standing and shaking a finger at the person across from them](https://assets.buttondown.email/images/e9f5a0e2-e339-48b7-8cc3-b67462bfe66d.jpeg?w=960&fit=max)

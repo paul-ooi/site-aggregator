@@ -4,12 +4,12 @@ description: Accessibility methodology continues to mature. In many organization
 url: https://buttondown.com/access-ability/archive/five-accessibility-trends-to-watch-in-2026/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-02-04T06:45:00.869Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2025-12-22T10:43:05.000Z
 author: 
-contentHash: 07d72c643ee88d5e73bfff451ad217f1
+contentHash: a233b667898dd6226794893593abf8bb
 ---
 
 ![Keyboard and pink pen next to a sign that says TREND Photo by Wallsio on Unsplash](https://assets.buttondown.email/images/2a1fa4cc-5bf3-47d9-8e46-6b87305423b8.jpg?w=960&fit=max)

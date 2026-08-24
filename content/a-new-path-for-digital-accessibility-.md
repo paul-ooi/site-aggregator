@@ -4,12 +4,12 @@ description: This post will explore how an adaptive, intelligent system could em
 url: https://webaim.org/blog/a-new-path/
 source: https://webaim.org/blog
 organization: WebAIM Blog
-repostedDate: 2026-03-01T09:37:22.417Z
+repostedDate: 2026-08-01T10:44:28.233Z
 tags:
   - accessibility
 sourcePublishDate: 2026-02-27T19:02:14.000Z
 author: George Joeckel
-contentHash: 3f718827b4964f2311ab6661a995aece
+contentHash: 71e9964ea8c3f67432143c63991a2fb0
 ---
 
 Please note

@@ -4,12 +4,12 @@ description: The all-contractor \"accessibility team\" has become an increasingl
 url: https://buttondown.com/access-ability/archive/accessibility-contractors-have-their-place-but/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-02-25T02:35:06.956Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2026-02-11T14:00:28.000Z
 author: 
-contentHash: 89b09feaaf7f25cd01cf088a5f684dc9
+contentHash: 266e57912e41f215717caed0c95ab217
 ---
 
 ![Oldfashioned balance scale with cartoon images of employees on one side and contractors on the other](https://assets.buttondown.email/images/b003ef36-5ce2-49c5-8715-6b659864b427.jpeg?w=960&fit=max)

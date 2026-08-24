@@ -4,12 +4,12 @@ description: In December 2024 WebAIM conducted a survey to collect salary and jo
 url: https://webaim.org/blog/salary-survey-results/
 source: https://webaim.org/blog
 organization: WebAIM Blog
-repostedDate: 2026-02-04T06:45:00.709Z
+repostedDate: 2026-08-01T10:44:28.236Z
 tags:
   - accessibility
 sourcePublishDate: 2025-02-27T20:45:03.000Z
 author: Jared Smith
-contentHash: fce1c9140c1e8826caaad7bcb6affa99
+contentHash: a6981e671f41ef006ccaa7e7e507a3cc
 ---
 
 In December 2024 WebAIM conducted a survey to collect salary and job-related data from professionals whose job responsibilities primarily focus on making technology and digital products accessible and usable to people with disabilities. 656 responses were collected. [The full survey results are now available.](https://webaim.org/projects/salary/)

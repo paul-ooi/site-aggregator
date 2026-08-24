@@ -4,13 +4,13 @@ description: This is the final post in a four-part series on ALT text. Because w
 url: https://dubbot.com/dubblog/2026/images-with-a-job-writing-alt-text-that-works.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-25T02:35:07.650Z
+repostedDate: 2026-08-01T10:44:30.654Z
 tags:
   - technology
   - accessibility
 sourcePublishDate: 2026-02-24T00:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 2fef4aba59db780858efcc6cf2824650
+contentHash: 192d5b7560c5bdd66612191c0137d2dd
 ---
 
 > This is the final post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part three, _[ALT Text Is Read by AT, Search Engines, and AI—Write It Like It Matters](alt-text-is-read-by-at-search-engines-and-aiwrite-it-like-it-matters.html)._ See part one, [_ALT Text Isn’t a Description. It’s a Content Decision_](alt-text-isnt-a-description-its-a-content-decision.html).
@@ -64,7 +64,7 @@ There are several alternatives to explore to ensure you provide the necessary in
 
 A functional image initiates an action. It's not decoration or explanation.
 
-For functional images (icons, buttons, linked graphics), the ALT text should describe what the image _does_ , not what it looks like. That clarity directly impacts usability. **A magnifying glass icon** is a decorative detail, a noun. **Search** has an actionable meaning. It's a verb.
+For functional images (icons, buttons, linked graphics), the ALT text should describe what the image _does_, not what it looks like. That clarity directly impacts usability. **A magnifying glass icon** is a decorative detail, a noun. **Search** has an actionable meaning. It's a verb.
 
 ### Examples
 

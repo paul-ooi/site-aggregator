@@ -4,12 +4,12 @@ description: Accessibility is often framed as a gigantic task that requires atte
 url: https://buttondown.com/access-ability/archive/137179936how-to-avoid-boiling-the-accessibility/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-02-04T06:45:00.869Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2025-12-03T14:20:53.000Z
 author: 
-contentHash: 922d0e26d88888ac93118e5621f52dd7
+contentHash: 02eaa17afa9baf5213ee61a290740773
 ---
 
 ![Swirling ocean containing a pot of boiling water](https://assets.buttondown.email/images/5ebabc9d-0cd3-466d-8c64-14707acd07e4.png?w=960&fit=max)

@@ -4,12 +4,12 @@ description: User researchers have exhaustively explored the pros and cons of ha
 url: https://buttondown.com/access-ability/archive/accessibility-and-usability-inline-field/
 source: https://buttondown.com/access-ability
 organization: Access * Ability
-repostedDate: 2026-02-04T06:45:00.869Z
+repostedDate: 2026-08-01T10:44:28.599Z
 tags:
   - accessibility
 sourcePublishDate: 2025-11-26T13:53:28.000Z
 author: 
-contentHash: 216ff93a4213b8e3c5c8f3196a2cc5d2
+contentHash: 4953b33ab4958af02f54be96f9a77328
 ---
 
 ![AIgenerated image of a hand against a dark background holding a circle containing a light blue checkmark against a dark background](https://assets.buttondown.email/images/415fef45-5b54-4835-9923-ccbcf7ff5c7c.jpeg?w=960&fit=max)

@@ -4,13 +4,13 @@ description: Broken links happen for many different reasons. And though they may
 url: https://dubbot.com/dubblog/2025/broken-links-break-more-than-just-your-website.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.867Z
+repostedDate: 2026-08-01T10:44:32.247Z
 tags:
   - technology
   - accessibility
 sourcePublishDate: 2025-09-18T00:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: f7e2ce6ee2b1983721562be866c8a120
+contentHash: 3897d18fee0f79e0d9beefbdb3a91c5a
 ---
 
 [Broken links happen for many different reasons](https://dubbot.com/dubblog/2025/broken-links-the-impact-on-accessibility-and-seo.html). And though they may seem minor, they cause ripple effects across accessibility, SEO, AEO, and user experience.
@@ -33,7 +33,7 @@ Let’s break down how broken links affect accessibility, SEO, AEO, and user exp
 
 ## AEO Impact
 
--   **Trustworthiness for AI answer engines**If your site has broken links, engines like [Google’s AI Overview](https://www.techrepublic.com/article/google-ai-overviews/ "This link leaves the DubBlog website.") or [Bing’s Copilot Overview](https://opentools.ai/news/microsoft-integrates-ai-powered-summaries-into-bing-search "This link leaves the DubBlog website.") may flag your content as less reliable. Trustworthiness is a significant factor in whether your content gets pulled into [the direct answer box](https://www.hashmeta.ai/blog/anatomy-of-a-perfect-answer-box-complete-guide-to-featured-snippet-optimization "This link leaves the DubBlog website.").  
+-   **Trustworthiness for AI answer engines**If your site has broken links, engines like [Google’s AI Overview](https://www.techrepublic.com/article/google-ai-overviews/ "This link leaves the DubBlog website.") or [Bing’s Copilot Overview](https://opentools.ai/news/microsoft-integrates-ai-powered-summaries-into-bing-search "This link leaves the DubBlog website.") may flag your content as less reliable. Trustworthiness is a significant factor in whether your content gets pulled into [the direct answer box](https://support.google.com/websearch/answer/9351707?hl=en "This link leaves the DubBlog website.").  
       
     
 -   **Interrupts the knowledge connections**  
