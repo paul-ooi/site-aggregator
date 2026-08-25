@@ -1,19 +1,19 @@
 ---
 title: Strategy, Policy & Continuous Monitoring: Accessibility As a System
-description: Too often, accessibility is viewed as a one-time initiative. In reality, accessibility is a system, and like any system, it needs structure, rules, and oversight. That’s where a strategy, a policy, an
+description: Too often, people view accessibility as a one-time initiative. In reality, accessibility is a system, and like any system, it needs structure, rules, and oversight. That’s where a strategy, a policy, 
 url: https://dubbot.com/dubblog/2026/strategy-policy-continuous-monitoring-accessibility-as-a-system.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.137Z
+repostedDate: 2026-08-25T07:17:39.792Z
 tags:
   - technology
   - accessibility
 sourcePublishDate: 2026-04-23T00:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 9a0519219da0e54a032dc9edf7f4eab1
+contentHash: 9132d6acdb3fda2bbefced4c911f2c00
 ---
 
-Too often, accessibility is viewed as a one-time initiative. In reality, **accessibility is a system**, and like any system, it needs structure, rules, and oversight. That’s where a strategy, a policy, and continuous monitoring come in. They’re all related, but they are not interchangeable. 
+Too often, people view accessibility as a one-time initiative. In reality, [accessibility is a system](accessibility-is-a-system.html), and like any system, it needs structure, rules, and oversight. That’s where a strategy, a policy, and continuous monitoring come in. They’re all related, but they are not interchangeable. 
 
 ## Accessibility Strategy
 
