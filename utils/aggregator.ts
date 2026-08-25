@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { RSSSource, HTMLSource, DirectSource } from './sources/index.ts';
 import { generateMarkdown, generateContentHash, hasMinimumContent } from './markdownTemplate.ts';
 import { shouldUpdateContent, removeEmptyContent } from './fileHelper.ts';
+import { buildRssFromContent } from './rssFeed.ts';
 import type { Article } from '../types/article.d.ts';
 import type { Source } from '../types/source.d.ts';
 
@@ -93,4 +94,7 @@ async function saveArticlesAsMarkdown(articles: Article[]): Promise<void> {
 
   const contentDir = path.join(__dirname, '../content');
   removeEmptyContent(contentDir);
+
+  const publicRssPath = path.join(__dirname, '../public/rss.xml');
+  await buildRssFromContent(contentDir, publicRssPath);
 })();

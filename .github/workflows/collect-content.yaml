@@ -50,3 +50,4 @@ jobs:
           add-paths: |
             content/**
             config/**
+            public/**

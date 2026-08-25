@@ -13,4 +13,3 @@ const __dirname = path.dirname(__filename);
   const count = await buildRssFromContent(contentDir, outputPath);
   console.log(`[RSS] Completed RSS feed generation (${count} articles).`);
 })();
-
