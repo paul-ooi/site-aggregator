@@ -36,6 +36,7 @@
     "prebuild": "pnpm aggregate:build"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
     "@nuxt/content": "3.4.0",
     "axios": "^1.6.7",
     "cheerio": "^1.0.0",
