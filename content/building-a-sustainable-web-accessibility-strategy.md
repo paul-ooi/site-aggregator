@@ -4,13 +4,13 @@ description: An effective web accessibility strategy doesn’t happen overnight.
 url: https://dubbot.com/dubblog/2025/building-a-sustainable-web-accessibility-strategy.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.680Z
+repostedDate: 2026-09-01T14:04:16.251Z
 tags:
   - technology
   - accessibility
 sourcePublishDate: 2025-11-18T00:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: fb839bb9b8b2af247b938969899602bf
+contentHash: 59092e727da459f9a8f5845006c4d0ed
 ---
 
 An effective web accessibility strategy doesn’t happen overnight. It’s a long-term framework that weaves accessibility into everything from leadership and company culture to ideation and design, coding and content creation, and purchasing and maintenance.
@@ -54,13 +54,13 @@ Next, address issues based on the Web Content Accessibility Guidelines (WCAG) le
 -   **Serious** - Results in serious barriers for people with disabilities and will partially prevent them from accessing fundamental features or content. People relying on assistive technologies will experience significant frustration as a result. Issues falling under this category are major problems, and remediation should be a priority. _Should be very common._  
       
     
--   **Moderate** - Results in some barriers for people with disabilities, but will not prevent them from accessing fundamental features or content. Prioritize fixing in this release if there are no higher-priority issues. Will get in the way of compliance if not fixed. _Should be fairly common._  
+-   **Moderate** - Results in some barriers for people with disabilities, but will not prevent them from accessing fundamental features or content. Prioritize fixing in this release if there are no higher-priority issues. Will impact compliance if not fixed. _Should be fairly common._  
       
     
--   **Minor** - Considered to be a nuisance or an annoyance bug. Prioritize fixing if the fix only takes a few minutes and the developer is working on the same screen/feature at the same time. Otherwise, the issue should not be prioritized. Will still get in the way of compliance if not fixed. _Should be very infrequent._  
+-   **Minor** - Considered to be a nuisance or an annoyance bug. Prioritize fixing if the fix only takes a few minutes and the developer is working on the same screen/feature at the same time. Otherwise, don't prioritize the issue. Will still get in the way of compliance if not fixed. _Should be very infrequent._  
     [Courtesy of Deque](https://github.com/dequelabs/axe-core/issues/2798 "This link leaves the DubBlog website.")
 
-Once priorities are clear, create a realistic timeline to resolve the identified issues and maintain [steady, measurable progress](https://meryl.net/accessibility-progress-not-perfection/ "This link leaves the DubBlog website."). 
+Once priorities are clear, create a realistic timeline to resolve the identified issues and maintain [steady, measurable progress](https://meryl.net/accessibility-progress-over-perfection-communication/ "This link leaves the DubBlog website."). 
 
 Finally, assign specific responsibilities across your teams so accessibility improvements become an integrated, ongoing part of your workflow rather than a one-time project, building on the [Accessibility Shift Left model](https://www.lullabot.com/articles/what-it-means-shift-left-accessibility-and-how-do-it-right "This link leaves the DubBlog website.").
 
