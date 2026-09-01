@@ -5,8 +5,50 @@
     <link>https://paul-ooi.github.io/site-aggregator</link>
     <description><![CDATA[A lightweight content aggregation system that collects, stores, and displays articles from web URLs and RSS feeds]]></description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2026 07:17:42 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 14:04:18 GMT</lastBuildDate>
     <atom:link href="https://paul-ooi.github.io/site-aggregator/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[DubBot Joins Texas Digital Accessibility Coffee Chat]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/dubbot-joins-texas-digital-accessibility-coffee-chat</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/dubbot-joins-texas-digital-accessibility-coffee-chat</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[DubBot is pleased to join the Texas Department of Information Resources for its upcoming Texas Digital Accessibility Coffee Chat, a monthly meetup designed for Texas public-sector employees only who w]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[If you have to ask, is it accessible?]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/if-you-have-to-ask--is-it-accessible-</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/if-you-have-to-ask--is-it-accessible-</guid>
+      <pubDate>Mon, 31 Aug 2026 20:02:26 GMT</pubDate>
+      <description><![CDATA[As one of the researchers identifying products and tools for inclusion in the NCADEMI EdTech Accessibility Directory, VPATs have been on my mind. Most of the product vendors in the directory that do h]]></description>
+      <dc:creator><![CDATA[George Joeckel]]></dc:creator>
+      <source url="https://webaim.org/blog"><![CDATA[WebAIM Blog]]></source>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[What Does WCAG Conformance Actually Mean?]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/what-does-wcag-conformance-actually-mean-</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/what-does-wcag-conformance-actually-mean-</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[We’re all working toward WCAG conformance. But what does conformance actually mean?]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[What do prechopped vegetables and self-tying shoes have in common?]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/what-do-prechopped-vegetables-and-self-tying-shoes-have-in-common-</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/what-do-prechopped-vegetables-and-self-tying-shoes-have-in-common-</guid>
+      <pubDate>Wed, 26 Aug 2026 13:32:51 GMT</pubDate>
+      <description><![CDATA[Two things happened to me that appear to have nothing to do with each other.]]></description>
+      <dc:creator><![CDATA[Access * Ability]]></dc:creator>
+      <source url="https://buttondown.com/access-ability"><![CDATA[Access * Ability]]></source>
+      <category><![CDATA[accessibility]]></category>
+    </item>
     <item>
       <title><![CDATA[Enforcing Website Standards: Should I Centralize or Should I Decentralize?]]></title>
       <link>https://paul-ooi.github.io/site-aggregator/enforcing-website-standards--should-i-centralize-or-should-i-decentralize-</link>
