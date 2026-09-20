@@ -1,16 +1,16 @@
 ---
 title: Car Crashes, Insurance Deductibles, and the User Experience
-description: Last week, I was involved in an automobile accident. (No injuries with either driver.) My little Kia Soul sustained some pretty extensive damage. I’ll admit, it was pretty scary. It definitely shook m
+description: Last week, I was involved in an automobile accident. (No injuries with either driver.) My little Kia Soul sustained some pretty extensive damage. I’ll admit, it was pretty scary. It definitely shook
 url: https://dubbot.com/dubblog/2026/car-crashes-insurance-deductibles-and-the-user-experience.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.730Z
+repostedDate: 2026-09-20T07:49:45.686Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-06-09T00:00:00.000Z
+sourcePublishDate: 2026-06-09T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 28d27e8bc038378535bb5329351cd9cf
+contentHash: 331f454ba99c0359687bac928036ef51
 ---
 
 Last week, I was involved in an automobile accident. (No injuries with either driver.) My little Kia Soul sustained some pretty extensive damage. I’ll admit, it was pretty scary. It definitely shook me up.

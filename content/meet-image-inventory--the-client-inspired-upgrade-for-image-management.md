@@ -1,16 +1,16 @@
 ---
 title: Meet Image Inventory: The Client-Inspired Upgrade for Image Management
-description: That’s right! DubBot now inventories all your images with every Site crawl. And the best part? You don’t have to request access to Image Inventory. It’s turned on by default and ready to make you a ro
+description: That’s right! DubBot now inventories all your images with every Site crawl. And the best part? You don’t have to request access to Image Inventory. It’s turned on by default and ready to make you a
 url: https://dubbot.com/dubblog/2026/meet-image-inventory-the-client-inspired-upgrade-for-image-management.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-25T02:35:07.497Z
+repostedDate: 2026-09-20T07:49:47.291Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-02-04T00:00:00.000Z
+sourcePublishDate: 2026-02-04T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 5973eb8830b17bfb2e7c0d3a11afd6d7
+contentHash: d97a98dcbe8a0cf4bbafe85c063ecd61
 ---
 
 That’s right! DubBot now inventories all your images with every Site crawl. And the best part? You don’t have to request access to Image Inventory. It’s turned on by default and ready to make you a rock star. 🤩

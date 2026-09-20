@@ -1,16 +1,16 @@
 ---
 title: Canada, Accessibility & Equitable AI: Designing AI That Actually Includes People
-description: In December 2025, Canada released CAN-ASC-6.2:2025: Accessible and Equitable Artificial Intelligence Systems, the world’s first national standard focused specifically on accessibility in Artificial In
+description: In December 2025, Canada released CAN-ASC-6.2:2025: Accessible and Equitable Artificial Intelligence Systems, the world’s first national standard focused specifically on accessibility in Artificial
 url: https://dubbot.com/dubblog/2026/canada-accessibility-and-equitable-ai.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.045Z
+repostedDate: 2026-09-20T07:49:46.234Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-05-05T00:00:00.000Z
+sourcePublishDate: 2026-05-05T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: ac520ea23316aca8614438e269981cb6
+contentHash: 687b08b28420920b36ad07bd3cee763c
 ---
 
 In December 2025, Canada released [CAN-ASC-6.2:2025: Accessible and Equitable Artificial Intelligence Systems](https://accessible.canada.ca/creating-accessibility-standards/overview-asc-62-accessible-equitable-artificial-intelligence-systems "This link leaves the DubBlog website."), the world’s first national standard focused specifically on accessibility in Artificial Intelligence (AI).

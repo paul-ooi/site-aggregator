@@ -4,13 +4,13 @@ description: DubBot is excited to return as a platinum sponsor of Digital Colleg
 url: https://dubbot.com/dubblog/2026/accessibility-summit-2026-dubbot-returns-as-platinum-sponsor.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.639Z
+repostedDate: 2026-09-20T07:49:45.578Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-06-18T00:00:00.000Z
+sourcePublishDate: 2026-06-18T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 26b77f50f78b6b458af4927b9be34c03
+contentHash: 4fe4cdef0443e941b007d6c8cea192c5
 ---
 
 DubBot is excited to return as a platinum sponsor of [Digital Collegium’s Accessibility Summit](https://events.digicol.org/a11ysummit26/ "This link leaves the DubBlog website.") on Tuesday, July 28, 2026.

@@ -1,16 +1,16 @@
 ---
 title: Automated Monitoring: Its Not Just for Accessibility Compliance
-description: Have you ever looked at the dashboard of an automated testing tool and thought, Why is accessibility sitting next to SEO and broken links?&nbsp;At first, accessibility might seem to belong in a totall
+description: Have you ever looked at the dashboard of an automated testing tool and thought, Why is accessibility sitting next to SEO and broken links?&nbsp;At first, accessibility might seem to belong in a
 url: https://dubbot.com/dubblog/2026/automated-monitoring-its-not-just-for-accessibility-compliance.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.358Z
+repostedDate: 2026-09-20T07:49:47.385Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-01-29T00:00:00.000Z
+sourcePublishDate: 2026-01-29T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 267d13e4499aefeb605ba98709bfe2ed
+contentHash: 490a85a20f214d87913a39edb6b63432
 ---
 
 Have you ever looked at the dashboard of an automated testing tool and thought, _Why is accessibility sitting next to SEO and broken links?_ At first, accessibility might seem to belong in a totally different category. More legal, maybe more technical.

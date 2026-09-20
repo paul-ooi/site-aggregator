@@ -1,16 +1,16 @@
 ---
 title: Why Keyboard-Only Testing Should Be Your First Accessibility Check
-description: Keyboard-only testing is one of the simplest, most revealing ways to evaluate the accessibility and usability of your website. While many people effortlessly glide through websites using a mouse or to
+description: Keyboard-only testing is one of the simplest, most revealing ways to evaluate the accessibility and usability of your website. While many people effortlessly glide through websites using a mouse or
 url: https://dubbot.com/dubblog/2026/why-keyboard-only-testing-should-be-your-first-accessibility-check.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.441Z
+repostedDate: 2026-09-20T07:49:46.787Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-03-24T00:00:00.000Z
+sourcePublishDate: 2026-03-24T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 31d6306842c049e1c0f58bd5cf3b4eb6
+contentHash: 513cf44b7f4e8306e5f7ec0d30414d62
 ---
 
 Keyboard-only testing is one of the simplest, most revealing ways to evaluate the accessibility and usability of your website. While many people effortlessly glide through websites using a mouse or touchscreen, a significant portion of users rely solely on a keyboard for navigation. 

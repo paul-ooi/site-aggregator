@@ -4,13 +4,13 @@ description: This post kicks off a four-part series on web governance. A strateg
 url: https://dubbot.com/dubblog/2026/web-governance-building-structure-for-a-sustainable-user-experience.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.523Z
+repostedDate: 2026-09-20T07:49:45.432Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-06-30T00:00:00.000Z
+sourcePublishDate: 2026-06-30T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 5b2e47abc6ddabb84ad5d2b80c44ab8d
+contentHash: 3ef61403665dbec1fb8ea2b217365d7a
 ---
 
 > This post kicks off a four-part series on web governance. A strategy fueled by people, process, and technology. See part two titled [_People: The Foundation of Web Governance_](people-the-foundation-of-web-governance.html).

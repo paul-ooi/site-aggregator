@@ -4,13 +4,13 @@ description: Working alongside the new Image Inventory upgrade is the new Refere
 url: https://dubbot.com/dubblog/2026/meet-references-see-how-your-website-content-is-connected.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-08T06:17:22.483Z
+repostedDate: 2026-09-20T07:49:47.276Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-02-06T00:00:00.000Z
+sourcePublishDate: 2026-02-06T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 9e2958b6081266882bbb11ff393fe636
+contentHash: d32702c4d9b0aa68eced210a469d85d1
 ---
 
 Working alongside [the new Image Inventory](https://dubbot.com/dubblog/2026/meet-image-inventory-the-client-inspired-upgrade-for-image-management.html) upgrade is the new References panel! References is a powerful way to understand how all the building blocks on your website connect. 

@@ -4,13 +4,13 @@ description: Caveat: This content is provided for informational purposes only. I
 url: https://dubbot.com/dubblog/2026/section-508-in-higher-education-when-it-applies-and-how-wcag-fits-in.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-25T07:17:39.147Z
+repostedDate: 2026-09-20T07:49:44.819Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-08-20T00:00:00.000Z
+sourcePublishDate: 2026-08-20T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 51ba11c8cb371fe246ddd6b65aa36d43
+contentHash: 74f5238e78313d2060a3ff551dd923e1
 ---
 
 **Caveat**: This content is provided for informational purposes only. It is not legal advice and should not be relied upon as such.

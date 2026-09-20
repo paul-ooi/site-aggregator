@@ -1,16 +1,16 @@
 ---
 title: Icons vs Text Labels: Which is Better for Accessibility?
-description: From navigation menus to action buttons, icons can make interfaces feel clean, modern, and compact. But while icons may look sleek and elegant, they don't always clearly communicate meaning, especiall
+description: From navigation menus to action buttons, icons can make interfaces feel clean, modern, and compact. But while icons may look sleek and elegant, they don't always clearly communicate meaning,
 url: https://dubbot.com/dubblog/2026/icons-vs-text-labels-which-is-better-for-accessibility.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.304Z
+repostedDate: 2026-09-20T07:49:45.238Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-07-21T00:00:00.000Z
+sourcePublishDate: 2026-07-21T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 770507c4d444ab2f7df66c646f6da6c2
+contentHash: e661cf64f67d097f501df9cca939cac4
 ---
 
 From navigation menus to action buttons, icons can make interfaces feel clean, modern, and compact. But while icons may look sleek and elegant, they don't always clearly communicate meaning, especially when accessibility is a priority.

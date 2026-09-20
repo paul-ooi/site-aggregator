@@ -1,16 +1,16 @@
 ---
 title: A Footnote on Footnotes: They Need to Be Accessible
-description: Footnotes are notes that are placed at the end of a page and used to reference parts of the text (generally using superscript numbers). Writers use footnotes for several purposes, including citations,
+description: Footnotes are notes that are placed at the end of a page and used to reference parts of the text (generally using superscript numbers). Writers use footnotes for several purposes, including
 url: https://dubbot.com/dubblog/2024/a-footnote-on-footnotes-they-need-to-be-accessible.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.932Z
+repostedDate: 2026-09-20T07:49:47.411Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-02-04T00:00:00.000Z
+sourcePublishDate: 2026-02-04T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 72eb633d5aaa070b85a5283b7ec9dd74
+contentHash: 5534fad4fdb3b30448b1f5010179f8e6
 ---
 
 ## What exactly are footnotes? 

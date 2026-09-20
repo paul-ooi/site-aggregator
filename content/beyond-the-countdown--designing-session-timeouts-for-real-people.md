@@ -1,16 +1,16 @@
 ---
 title: Beyond the Countdown: Designing Session Timeouts for Real People
-description: A session timeout is when a website or app automatically logs you out after a period of inactivity. They are often regarded as a fundamental safeguard driven by legitimate security concerns. Think of 
+description: A session timeout is when a website or app automatically logs you out after a period of inactivity. They are often regarded as a fundamental safeguard driven by legitimate security concerns. Think of
 url: https://dubbot.com/dubblog/2026/beyond-the-countdown-designing-session-timeouts-for-real-people.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.972Z
+repostedDate: 2026-09-20T07:49:46.203Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-04-30T00:00:00.000Z
+sourcePublishDate: 2026-04-30T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: af26c8e1e1c88978a92c0e806edaabe3
+contentHash: 10500e1675a3bcc7922d98576024b9a9
 ---
 
 A session timeout is when a website or app automatically logs you out after a period of inactivity. They are often regarded as a fundamental safeguard driven by legitimate security concerns. Think of them like a safety timer. If you walk away or stop using it for a while, the system assumes you’re done and ends your session to protect your account and data.

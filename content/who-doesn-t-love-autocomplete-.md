@@ -1,16 +1,16 @@
 ---
 title: Who Doesn't Love Autocomplete?
-description: I love autocomplete! It’s one of those tiny internet features that makes my online life so much easier. Especially when I’m logging into a website or app I haven’t visited in months, and my brain has 
+description: I love autocomplete! It’s one of those tiny internet features that makes my online life so much easier. Especially when I’m logging into a website or app I haven’t visited in months, and my brain has
 url: https://dubbot.com/dubblog/2026/who-doesnt-love-autocomplete.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.840Z
+repostedDate: 2026-09-20T07:49:45.795Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-05-28T00:00:00.000Z
+sourcePublishDate: 2026-05-28T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: f899b8e3f064694a4bfd2bcca62d5721
+contentHash: 9ec9ce1425282868ac8247014061e128
 ---
 
 I love autocomplete! It’s one of those tiny internet features that makes my online life so much easier. Especially when I’m logging into a website or app I haven’t visited in months, and my brain has fully deleted whatever username I thought was a good idea at the time. Instead of the whole _reset password → check email → create new password_ cycle, autocomplete just steps in and saves the day. It’s a huge time-saver and completely cuts out any frustration.

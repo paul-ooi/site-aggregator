@@ -1,16 +1,16 @@
 ---
 title: Inclusive Halloween: Simple Ways to Welcome Every Trick-or-Treater
-description: Providing a safe, inclusive, and accessible environment at Halloween for your friends and neighbors involves making simple sensory-friendly adjustments, offering non-food options, accommodating commun
+description: Providing a safe, inclusive, and accessible environment at Halloween for your friends and neighbors involves making simple sensory-friendly adjustments, offering non-food options, accommodating
 url: https://dubbot.com/dubblog/2025/inclusive-halloween-simple-ways-to-welcome-every-trick-or-treater.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.755Z
+repostedDate: 2026-09-20T07:49:48.383Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-10-28T00:00:00.000Z
+sourcePublishDate: 2025-10-28T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: e5587ac5989817ea523ddde1850fb1b6
+contentHash: 47c906478841fddc7641038605374f7c
 ---
 
 Providing a safe, inclusive, and accessible environment at Halloween for your friends and neighbors involves making simple sensory-friendly adjustments, offering non-food options, accommodating communication differences, and ensuring that physical, cognitive, or sensory barriers don’t limit the Halloween spirit.

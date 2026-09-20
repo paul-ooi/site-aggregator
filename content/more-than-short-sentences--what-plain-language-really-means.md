@@ -1,16 +1,16 @@
 ---
 title: More Than Short Sentences: What Plain Language Really Means
-description: Plain language is not about oversimplifying the content. It’s about language that enables people to find what they need, understand it the first time they read or hear it, and use that information suc
+description: Plain language is not about oversimplifying the content. It’s about language that enables people to find what they need, understand it the first time they read or hear it, and use that information
 url: https://dubbot.com/dubblog/2026/more-than-short-sentences-what-plain-language-really-means.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.138Z
+repostedDate: 2026-09-20T07:49:45.118Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-07-30T00:00:00.000Z
+sourcePublishDate: 2026-07-30T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 80e501024290b71bb3acfe8994c3c421
+contentHash: 1bf0e2078ba51ca95bd74bb6488f2c9d
 ---
 
 Plain language is not about oversimplifying the content. It’s about language that enables people to find what they need, understand it the first time they read or hear it, and use that information successfully.

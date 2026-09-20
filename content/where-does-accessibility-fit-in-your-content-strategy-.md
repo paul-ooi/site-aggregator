@@ -1,16 +1,16 @@
 ---
 title: Where Does Accessibility Fit in Your Content Strategy?
-description: Accessibility should be baked in long before a piece of content goes live. When accessibility is addressed only at the review stage, it becomes a last-minute fix rather than a built-in part of your co
+description: Accessibility should be baked in long before a piece of content goes live. When accessibility is addressed only at the review stage, it becomes a last-minute fix rather than a built-in part of your
 url: https://dubbot.com/dubblog/2026/where-does-accessibility-fit-in-your-content-strategy.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.620Z
+repostedDate: 2026-09-20T07:49:47.074Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-03-03T00:00:00.000Z
+sourcePublishDate: 2026-03-03T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 51d1a33cd780b61284318685c6782174
+contentHash: f9d4a464d7e4ce07e0fb0d8f942b999c
 ---
 
 Accessibility should be baked in long before a piece of content goes live. When accessibility is addressed only at the review stage, it becomes a last-minute fix rather than a built-in part of your content strategy. When you make it part of the strategy from the start, it shapes better decisions at every stage.

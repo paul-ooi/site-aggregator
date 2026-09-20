@@ -1,16 +1,16 @@
 ---
 title: Good Design Leaves Clues: Affordances and Accessibility
-description: Good web design doesn’t make users stop and think about how something works. It simply works. That’s the power of affordances. Those subtle design cues that tell people how they can interact with some
+description: Good web design doesn’t make users stop and think about how something works. It simply works. That’s the power of affordances. Those subtle design cues that tell people how they can interact with
 url: https://dubbot.com/dubblog/2026/good-design-leaves-clues-affordances-and-accessibility.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.532Z
+repostedDate: 2026-09-20T07:49:46.673Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-03-17T00:00:00.000Z
+sourcePublishDate: 2026-03-17T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 5304e36e22bd3d869a8bad21974e330a
+contentHash: e1cba3833c9bc2846ff695b26154a11c
 ---
 
 Good web design doesn’t make users stop and think about how something works. It simply works. That’s the power of **affordances**. Those subtle design cues that tell people how they can interact with something.

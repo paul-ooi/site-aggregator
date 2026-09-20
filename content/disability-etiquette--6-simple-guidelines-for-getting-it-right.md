@@ -1,16 +1,16 @@
 ---
 title: Disability Etiquette: 6 Simple Guidelines for Getting It Right
-description: Disability etiquette sounds so formal, but at its core, it’s really just about being a decent human with a bit of extra awareness baked in. Most awkward moments don’t come from bad intentions; they co
+description: Disability etiquette sounds so formal, but at its core, it’s really just about being a decent human with a bit of extra awareness baked in. Most awkward moments don’t come from bad intentions; they
 url: https://dubbot.com/dubblog/2026/six-disability-etiquette-tips-everyone-should-know.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.475Z
+repostedDate: 2026-09-20T07:49:47.754Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-01-08T00:00:00.000Z
+sourcePublishDate: 2026-01-08T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 7c51fbb0ecc289d2e201bcbf4f2d3398
+contentHash: b4aa2814684b04f650fb3887dad53f5a
 ---
 
 Disability etiquette sounds so formal, but at its core, it’s really just about being a decent human with a bit of extra awareness baked in. Most awkward moments don’t come from bad intentions; they come from uncertainty and not knowing.

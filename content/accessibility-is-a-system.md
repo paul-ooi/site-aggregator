@@ -1,16 +1,16 @@
 ---
 title: Accessibility Is a System
-description: Accessibility is often discussed in terms of standards, tools, and compliance. We talk about WCAG success criteria, automated testing platforms, color contrast ratios, semantic markup, and remediation
+description: Accessibility is often discussed in terms of standards, tools, and compliance. We talk about WCAG success criteria, automated testing platforms, color contrast ratios, semantic markup, and
 url: https://dubbot.com/dubblog/2026/accessibility-is-a-system.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-25T07:17:39.345Z
+repostedDate: 2026-09-20T07:49:45.060Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-08-04T00:00:00.000Z
+sourcePublishDate: 2026-08-04T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 999b2e0348c967331d9a000a173f820c
+contentHash: dab5dd558f8ce3d1b33c43db249a79ce
 ---
 
 Accessibility is often discussed in terms of standards, tools, and compliance. We talk about WCAG success criteria, automated testing platforms, color contrast ratios, semantic markup, and remediation plans. These all play a key role in creating an accessible experience, but true accessibility is much more human-centered.

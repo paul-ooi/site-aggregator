@@ -1,16 +1,16 @@
 ---
 title: Headers, headings, and titles - Oh My!
-description: When you're building an accessible website, elements like headers, headings, and titles can seem similar and even inconsequential. But actually, each element plays a significant role in creating prope
+description: When you're building an accessible website, elements like headers, headings, and titles can seem similar and even inconsequential. But actually, each element plays a significant role in creating
 url: https://dubbot.com/dubblog/2025/headers-headings-and-titles-oh-my.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.677Z
+repostedDate: 2026-09-20T07:49:48.271Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-11-11T00:00:00.000Z
+sourcePublishDate: 2025-11-11T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 23c10993a0be4ed7e9f2bbafa7eb3676
+contentHash: 04e7e6ebdae103950ff7fe4de5623a7d
 ---
 
 When you're building an accessible website, elements like headers, headings, and titles can seem similar and even inconsequential. But actually, each element plays a significant role in creating proper content structure that makes it easier for users, especially those relying on assistive technologies, to consume and interact with your website. 

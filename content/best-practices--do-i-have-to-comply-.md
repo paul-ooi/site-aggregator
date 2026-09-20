@@ -1,16 +1,16 @@
 ---
 title: Best Practices: Do I Have to Comply?
-description: If you work in digital accessibility long enough, you start to hear two very different conversations. One is about what’s required to meet Web Content Accessibility Guidelines (WCAG), the criteria tha
+description: If you work in digital accessibility long enough, you start to hear two very different conversations. One is about what’s required to meet Web Content Accessibility Guidelines (WCAG), the criteria
 url: https://dubbot.com/dubblog/2026/best-practices-do-i-have-to-comply.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.618Z
+repostedDate: 2026-09-20T07:49:46.898Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-03-05T00:00:00.000Z
+sourcePublishDate: 2026-03-05T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 7412be963078346aa4ca56c6426a2f18
+contentHash: ee01d5467f6859d9abc3efa8185e7796
 ---
 
 If you work in digital accessibility long enough, you start to hear two very different conversations. One is about what’s required to meet [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/ "This link leaves the DubBlog website.") (WCAG), the criteria that often define legal risk and compliance. The other is about what real people actually expect and need when they visit your website. That’s the gap between **what the law requires** and **what users need and expect**. 

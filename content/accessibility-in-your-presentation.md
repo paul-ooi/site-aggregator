@@ -1,16 +1,16 @@
 ---
 title: Accessibility in Your Presentation
-description: While working on a Google Slides presentation celebrating Global Accessibility Awareness Day (GAAD), I thought it might be a good time to pause and write a few words about accessibility best practices
+description: While working on a Google Slides presentation celebrating Global Accessibility Awareness Day (GAAD), I thought it might be a good time to pause and write a few words about accessibility best
 url: https://dubbot.com/dubblog/2026/accessibility-in-your-presentation.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.926Z
+repostedDate: 2026-09-20T07:49:46.063Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-05-12T00:00:00.000Z
+sourcePublishDate: 2026-05-12T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 322a89785e3d61caf3da33c1a19ba36e
+contentHash: 6ec222aa5df99d1b034f72e412c1c198
 ---
 
 While working on a Google Slides presentation celebrating [Global Accessibility Awareness Day](https://accessibility.day/ "This link leaves the DubBlog website.") (GAAD), I thought it might be a good time to pause and write a few words about accessibility best practices for creating slide presentations.

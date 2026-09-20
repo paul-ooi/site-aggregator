@@ -4,13 +4,13 @@ description: New England Drupal Camp (NEDCamp) was a great success this year, as
 url: https://dubbot.com/dubblog/2025/this-one-time-at-drupal-camp.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.590Z
+repostedDate: 2026-09-20T07:49:47.968Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-12-09T00:00:00.000Z
+sourcePublishDate: 2025-12-09T05:00:00.000Z
 author: Amy Helfman
-contentHash: 798fc02b9902fe05e967728df661360f
+contentHash: e302a1135c41a7c220352f79cd178023
 ---
 
 New England Drupal Camp (NEDCamp) was a great success this year, as it is every year. DubBot is proud to be a NEDCamp sponsor.

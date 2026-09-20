@@ -1,16 +1,16 @@
 ---
 title: Signals from DrupalCon Attendees: The Squeeze of Title II and AI Momentum
-description: Before the DubBot Sales Team headed to the Windy City for DrupalCon Chicago, I asked them to keep an ear out for insights that tend to surface when you’re talking face-to-face, in real time, with prac
+description: Before the DubBot Sales Team headed to the Windy City for DrupalCon Chicago, I asked them to keep an ear out for insights that tend to surface when you’re talking face-to-face, in real time, with
 url: https://dubbot.com/dubblog/2026/signals-from-drupalcon-attendees-the-squeeze-of-title-ii-and-ai-momentum.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.342Z
+repostedDate: 2026-09-20T07:49:46.440Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-04-07T00:00:00.000Z
+sourcePublishDate: 2026-04-07T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: a647df3476780ce6d86a9a14c37c0b50
+contentHash: 308490e01e4218834a30fa30f2948e3b
 ---
 
 Before the DubBot Sales Team headed to the Windy City for [DrupalCon Chicago](https://events.drupal.org/chicago2026 "This link leaves the DubBlog website."), I asked them to keep an ear out for insights that tend to surface when you’re talking face-to-face, in real time, with practitioners, partners, and clients. 

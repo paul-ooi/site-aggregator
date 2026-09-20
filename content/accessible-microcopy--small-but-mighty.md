@@ -1,16 +1,16 @@
 ---
 title: Accessible Microcopy: Small but Mighty
-description: Microcopy is easy to underestimate. Let’s face it, it really doesn’t look like much. It’s a handful of words on a button. A line of helper text under a form field. A quick error message that shows up 
+description: Microcopy is easy to underestimate. Let’s face it, it really doesn’t look like much. It’s a handful of words on a button. A line of helper text under a form field. A quick error message that shows up
 url: https://dubbot.com/dubblog/2026/accessible-microcopy-small-but-mighty.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.336Z
+repostedDate: 2026-09-20T07:49:46.586Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-04-02T00:00:00.000Z
+sourcePublishDate: 2026-04-02T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 2a2b1cf7ff3e9f7b331e882f02c711da
+contentHash: 0376a33763712dd6b17a1cbef7c648fa
 ---
 
 Microcopy is easy to underestimate. Let’s face it, it really doesn’t look like much. It’s a handful of words on a button. A line of helper text under a form field. A quick error message that shows up at exactly the wrong moment.

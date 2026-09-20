@@ -1,16 +1,16 @@
 ---
 title: Customizable Text: More Than Just Zooming In
-description: Your website serves people with a wide range of reading needs and abilities. Some visitors have dyslexia. Others have low vision and rely on magnification or screen readers. Many are reading in a lang
+description: Your website serves people with a wide range of reading needs and abilities. Some visitors have dyslexia. Others have low vision and rely on magnification or screen readers. Many are reading in a
 url: https://dubbot.com/dubblog/2026/customizable-text-more-than-just-zooming-in.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.133Z
+repostedDate: 2026-09-20T07:49:45.224Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-07-28T00:00:00.000Z
+sourcePublishDate: 2026-07-28T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 2cbd9b0849f3db0dcc770d9e5fd10422
+contentHash: 21fbd8c3faf199007e5cf7d242478910
 ---
 
 Your website serves people with a wide range of reading needs and abilities. Some visitors have dyslexia. Others have low vision and rely on magnification or screen readers. Many are reading in a language that isn't their first. And still others may simply be tired, distracted, or trying to complete a task quickly, all while standing in bright sunlight. 

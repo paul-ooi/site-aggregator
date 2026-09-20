@@ -1,16 +1,16 @@
 ---
 title: Accessibility Testing with VoiceOver: A Beginner's Guide
-description: Caveat: This post will discuss accessibility testing with VoiceOver, Apple’s free screen reader. You don’t need to install any software or plugins. You do need to be on a Mac computer or laptop, and f
+description: Caveat: This post will discuss accessibility testing with VoiceOver, Apple’s free screen reader. You don’t need to install any software or plugins. You do need to be on a Mac computer or laptop, and
 url: https://dubbot.com/dubblog/2026/accessibility-testing-with-voiceover-a-beginners-guide.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.527Z
+repostedDate: 2026-09-20T07:49:46.912Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-03-12T00:00:00.000Z
+sourcePublishDate: 2026-03-12T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: ec696942b7fe7444674291809d3716c5
+contentHash: 03b7d81792c61259fcf3646b2f06c87d
 ---
 
 **Caveat:** This post will discuss accessibility testing with VoiceOver, Apple’s free screen reader. You don’t need to install any software or plugins. You do need to be on a Mac computer or laptop, and for the best results, run VoiceOver in Safari. You may also want to [adjust the voice and voice speed](https://support.apple.com/en-us/111798 "This link leaves the DubBlog website.").

@@ -1,16 +1,16 @@
 ---
 title: Process: A Lifecycle for Sustainable Web Governance
-description: This is part three of a four-part series on web governance. A strategy fueled by people, process, and technology. See part two titled People: The Foundation of Web Governance. See part four titled&nbs
+description: This is part three of a four-part series on web governance. A strategy fueled by people, process, and technology. See part two titled People: The Foundation of Web Governance. See part four
 url: https://dubbot.com/dubblog/2026/process-a-lifecycle-for-sustainable-web-governance.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.414Z
+repostedDate: 2026-09-20T07:49:45.469Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-07-07T00:00:00.000Z
+sourcePublishDate: 2026-07-07T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 5a3ceec138a609b4e8dda7a69fc4634a
+contentHash: a69fc266c8908d3348e10737178e1c5f
 ---
 
 > This is part three of a four-part series on web governance. A strategy fueled by people, process, and technology. See part two titled [_People: The Foundation of Web Governance_](people-the-foundation-of-web-governance.html). See part four titled [_Technology: Powering Effective Web Governance_](technology-powering-effective-web-governance.html).

@@ -4,13 +4,13 @@ description: First unveiled on Global Accessibility Awareness Day 2025 and then 
 url: https://dubbot.com/dubblog/2025/apps-and-accessibility-nutrition-labels.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.559Z
+repostedDate: 2026-09-20T07:49:47.931Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-12-16T00:00:00.000Z
+sourcePublishDate: 2025-12-16T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 8796678532bebf67f38118ae3585da8d
+contentHash: 3ca83a0a45d0f1208daac9033289ffab
 ---
 
 First unveiled on [Global Accessibility Awareness Day 2025](https://accessibility.day/) and then expanded during Apple’s [Worldwide Developers’ Conference 2025](https://developer.apple.com/wwdc25/), Apple launched Accessibility Nutrition Labels in their App Store.

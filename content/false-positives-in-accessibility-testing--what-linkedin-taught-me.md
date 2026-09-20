@@ -4,13 +4,13 @@ description: In my blog post, What's So Great About HTML?, I included a link to&
 url: https://dubbot.com/dubblog/2026/false-positives-in-accessibility-testing-what-linkedin-taught-me.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.934Z
+repostedDate: 2026-09-20T07:49:45.916Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-05-19T00:00:00.000Z
+sourcePublishDate: 2026-05-19T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 2f85f1caac2eadd614cd79e4b32b6cd6
+contentHash: 590d304ebf13f80fd1cc293158a3fce7
 ---
 
 In my blog post, _[What's So Great About HTML?](whats-so-great-about-html.html)_, I included a link to [Mark Steadman](https://dev.to/steady5063 "This link leaves the DubBlog website.")'s LinkedIn profile. That link was flagged as an [HTTP 404 error](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/404 "This link leaves the DubBlog website.") in the DubBot app.

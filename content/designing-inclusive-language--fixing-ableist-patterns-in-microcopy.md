@@ -4,13 +4,13 @@ description: Ableist language isn’t always obvious. It can hide in tone, assum
 url: https://dubbot.com/dubblog/2026/designing-inclusive-language-fixing-ableist-patterns-in-microcopy.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.835Z
+repostedDate: 2026-09-20T07:49:45.937Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-05-26T00:00:00.000Z
+sourcePublishDate: 2026-05-26T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 7ab6f601312a35ddc1f0d3a9f4dd4db4
+contentHash: d836a68b1f6c4026c92345703b9fb5b9
 ---
 
 Ableist language isn’t always obvious. It can hide in tone, assumptions, [_euphemisms, backhanded compliments, pity_](https://www.psychologytoday.com/us/blog/disability-is-diversity/202205/the-effects-ableist-language "This link leaves the DubBlog website."), or even the microcopy on a simple button label that seemed harmless at first. 

@@ -1,16 +1,16 @@
 ---
 title: Modals, Dialogs, and Accessibility
-description: A modal dialog is an intentional interruption of the user’s experience. It takes over the underlying page, dimming or locking it down, making it inactive until the user responds to the information in 
+description: A modal dialog is an intentional interruption of the user’s experience. It takes over the underlying page, dimming or locking it down, making it inactive until the user responds to the information in
 url: https://dubbot.com/dubblog/2026/modals-dialogs-and-accessibility.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.371Z
+repostedDate: 2026-09-20T07:49:46.550Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-03-26T00:00:00.000Z
+sourcePublishDate: 2026-03-26T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 276eaa90d194e51f873f631440f3bb9d
+contentHash: aabcbeba4ef7852dd09aef25f5be42a9
 ---
 
 ## What is a Modal Dialog?

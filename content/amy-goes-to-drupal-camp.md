@@ -1,16 +1,16 @@
 ---
 title: Amy Goes to Drupal Camp
-description: New England Drupal Camp (also known as NEDcamp) celebrates its twenty-first birthday this November 14-15. DubBot is proud to be a sponsor, and I'm thrilled to be an attendee. NEDcamp is held at Rhode 
+description: New England Drupal Camp (also known as NEDcamp) celebrates its twenty-first birthday this November 14-15. DubBot is proud to be a sponsor, and I'm thrilled to be an attendee. NEDcamp is held at Rhode
 url: https://dubbot.com/dubblog/2025/amy-goes-to-drupal-camp.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.751Z
+repostedDate: 2026-09-20T07:49:48.504Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-10-21T00:00:00.000Z
+sourcePublishDate: 2025-10-21T04:00:00.000Z
 author: Amy Helfman
-contentHash: e1dfc1a92fdd56a28b30ac0a0f7eb338
+contentHash: 8f5627449b4dd09afc57e7ad7d938acc
 ---
 
 [New England Drupal Camp](https://nedcamp.org/) (also known as NEDcamp) celebrates its twenty-first birthday this November 14-15. DubBot is [proud to be a sponsor](https://nedcamp.org/sponsors), and I'm thrilled to be an attendee. NEDcamp is held at [Rhode Island College](https://www.ric.edu/) in Providence, Rhode Island and is an all-volunteer effort to support and grow the Drupal community in New England.

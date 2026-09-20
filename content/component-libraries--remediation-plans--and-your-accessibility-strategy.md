@@ -1,16 +1,16 @@
 ---
 title: Component Libraries, Remediation Plans, and Your Accessibility Strategy
-description: One of the building blocks for a sustainable accessibility strategy is a remediation plan. An accessibility remediation plan is a structured, repeatable approach that outlines how you'll test for and 
+description: One of the building blocks for a sustainable accessibility strategy is a remediation plan. An accessibility remediation plan is a structured, repeatable approach that outlines how you'll test for and
 url: https://dubbot.com/dubblog/2026/component-libraries-remediation-plans-and-your-accessibility-strategy.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.481Z
+repostedDate: 2026-09-20T07:49:47.610Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-01-13T00:00:00.000Z
+sourcePublishDate: 2026-01-13T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: b0344ad0f841f93fcad93227f22c38ec
+contentHash: 46672cf82e26db02797ddb82ca0a3acd
 ---
 
 One of the building blocks for a [sustainable accessibility strategy](../2025/building-a-sustainable-web-accessibility-strategy.html) is a remediation plan. An accessibility remediation plan is a structured, repeatable approach that outlines how you'll test for and identify accessibility issues, decide what to fix first, implement the fixes, and validate that they actually work, so your website or app meets standards like WCAG.

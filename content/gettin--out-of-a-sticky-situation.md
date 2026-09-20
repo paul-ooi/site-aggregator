@@ -1,16 +1,16 @@
 ---
 title: Gettin' Out of a Sticky Situation
-description: Persistent navigation, or sticky navigation, remains fixed to the top or side of the screen as users scroll. Marketers love it because key links stay visible. Designers love it because it feels sleek 
+description: Persistent navigation, or sticky navigation, remains fixed to the top or side of the screen as users scroll. Marketers love it because key links stay visible. Designers love it because it feels sleek
 url: https://dubbot.com/dubblog/2025/gettin-out-of-a-sticky-situation.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.595Z
+repostedDate: 2026-09-20T07:49:48.079Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-12-02T00:00:00.000Z
+sourcePublishDate: 2025-12-02T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: fde8f3928548993efad439286795e2a2
+contentHash: 70eddb5945dadfdc2825c4476a97808f
 ---
 
 Persistent navigation, or **sticky navigation,** remains fixed to the top or side of the screen as users scroll. Marketers love it because key links stay visible. Designers love it because it feels sleek and convenient. And while sticky navigation _can_ improve usability, it often introduces a range of accessibility barriers that many teams overlook.

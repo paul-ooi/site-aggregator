@@ -1,16 +1,16 @@
 ---
 title: The First Rule of Accessibility: Accessibility is Everyone's Responsibility
-description: Accessibility isn’t a niche. It affects everyone, from the person using a screen reader to an employee who needs an inclusive workplace, to a customer who wants to use a website without getting stuck.
+description: Accessibility isn’t a niche. It affects everyone, from the person using a screen reader to an employee who needs an inclusive workplace, to a customer who wants to use a website without getting
 url: https://dubbot.com/dubblog/2026/the-first-rule-of-accessibility-accessibility-is-everyones-responsibility.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.463Z
+repostedDate: 2026-09-20T07:49:47.736Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-01-06T00:00:00.000Z
+sourcePublishDate: 2026-01-06T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 5e46239cd827ae623ecffe5c81861e37
+contentHash: 969fbd82e3973fc613c67e35ba8393bd
 ---
 
 Accessibility isn’t a niche. It affects **_everyone_**, from the person using a screen reader to an employee who needs an inclusive workplace, to a customer who wants to use a website without getting stuck.  

@@ -1,16 +1,16 @@
 ---
 title: Accessibility Face-Off: How DubBot's 2025 Top Five Accessibility Issues Compare to 2024
-description: The web is constantly evolving. Standards change, design trends come and go, and digital teams are always balancing competing priorities. Yet amid all this movement, one thing remains consistent. Acce
+description: The web is constantly evolving. Standards change, design trends come and go, and digital teams are always balancing competing priorities. Yet amid all this movement, one thing remains consistent.
 url: https://dubbot.com/dubblog/2025/accessibility-face-off-how-dubbots-2025-top-five-accessibility-issues-compare-to-2024.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.556Z
+repostedDate: 2026-09-20T07:49:47.942Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-12-10T00:00:00.000Z
+sourcePublishDate: 2025-12-10T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: ce11763ac9f655c00e753e99fb630ef0
+contentHash: 83b3a29e35dee9bc1dd344d7c1f30cf2
 ---
 
 The web is constantly evolving. Standards change, design trends come and go, and digital teams are always balancing competing priorities. Yet amid all this movement, one thing remains consistent. Accessibility issues continue to surface. Each year, DubBot analyzes hundreds of thousands of client pages to help them identify those accessibility issues. In 2025, several familiar challenges were once again prevalent, but the order of prominence shifted from what we discovered in 2024.

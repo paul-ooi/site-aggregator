@@ -4,13 +4,13 @@ description: Higher education and private agency web teams may use some of the s
 url: https://dubbot.com/dubblog/2026/higher-education-web-accessibility-how-automated-testing-supports-compliance.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.728Z
+repostedDate: 2026-09-20T07:49:45.809Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-06-02T00:00:00.000Z
+sourcePublishDate: 2026-06-02T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: cf1fe5204e8e59efe16f757b03c52ac8
+contentHash: 9aaf13cd424c477c64f1a28494619cee
 ---
 
 Higher education and private agency web teams may use some of the same digital tools, but the operational workflows they rely on are fundamentally different.

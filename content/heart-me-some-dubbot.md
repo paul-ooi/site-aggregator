@@ -1,16 +1,16 @@
 ---
 title: Heart Me Some DubBot
-description: The DubBot Support Team recently received a client request asking whether there was a way to favorite sites in their account for easier access. Their team, like many of our clients, manages a large nu
+description: The DubBot Support Team recently received a client request asking whether there was a way to favorite sites in their account for easier access. Their team, like many of our clients, manages a large
 url: https://dubbot.com/dubblog/2026/heart-me-some-dubbot.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.037Z
+repostedDate: 2026-09-20T07:49:43.984Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-07-14T00:00:00.000Z
+sourcePublishDate: 2026-07-14T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: b22a221e8ba2b855e078aae7da7c8927
+contentHash: 8d4e9296322de2f3e67d1febf237b3dc
 ---
 
 The DubBot Support Team recently received a client request asking whether there was a way to _favorite_ sites in their account for easier access. Their team, like many of our clients, manages a large number of sites but only needs regular access to a few.

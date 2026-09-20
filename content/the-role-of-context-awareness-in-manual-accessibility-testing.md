@@ -1,16 +1,16 @@
 ---
 title: The Role of Context Awareness in Manual Accessibility Testing
-description: I’m a long-time subscriber to Smashing Magazine’s email newsletter and have found articles and webinars that have inspired numerous blog posts over the years. One recent newsletter highlighted an arti
+description: I’m a long-time subscriber to Smashing Magazine’s email newsletter and have found articles and webinars that have inspired numerous blog posts over the years. One recent newsletter highlighted an
 url: https://dubbot.com/dubblog/2026/the-role-of-context-awareness-in-manual-accessibility-testing.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.736Z
+repostedDate: 2026-09-20T07:49:45.826Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-06-04T00:00:00.000Z
+sourcePublishDate: 2026-06-04T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 1cc3eaec70ba00aef1f78e803d5b1c21
+contentHash: a9e87a11d4c6faf03dffc18f3d509a04
 ---
 
 I’m a long-time subscriber to [Smashing Magazine’s email newsletter](https://www.smashingmagazine.com/the-smashing-newsletter/ "This link leaves the DubBlog website.") and have found articles and webinars that have inspired numerous blog posts over the years. One recent newsletter highlighted an article by [David Mello](https://www.davidmello.com/ "This link leaves the DubBlog website."), [_Playwright Accessibility Testing: What axe and Lighthouse Miss_](https://www.davidmello.com/software-testing/test-automation/playwright-accessibility-testing-axe-lighthouse-limitations#_8-when-lighthouse-landmark-recommendations-break-legacy-html "This link leaves the DubBlog website."). The title itself wasn’t what caught my attention. Instead, it was the article summary in the newsletter:

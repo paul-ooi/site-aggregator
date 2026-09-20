@@ -4,13 +4,13 @@ description: This is the final post of a four-part series on web governance. A s
 url: https://dubbot.com/dubblog/2026/technology-powering-effective-web-governance.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.423Z
+repostedDate: 2026-09-20T07:49:45.331Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-07-09T00:00:00.000Z
+sourcePublishDate: 2026-07-09T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 50faed4769db3c748c684547b4b1b877
+contentHash: 380fb2003e9d3f80ac2f13cf6c3d1342
 ---
 
 > This is the final post of a four-part series on web governance. A strategy fueled by people, process, and technology. See part three titled [_Process: A Lifecycle for Sustainable Web Governance_](process-a-lifecycle-for-sustainable-web-governance.html).

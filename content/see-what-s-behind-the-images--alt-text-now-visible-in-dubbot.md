@@ -1,16 +1,16 @@
 ---
 title: See What’s Behind the Images: ALT Text Now Visible in DubBot
-description: ALT text is a vital part of how users experience your content. Yet for most of us, there has been no clear way to evaluate ALT text at scale. Without a clear view, it can be all too easy to overlook a
+description: ALT text is a vital part of how users experience your content. Yet for most of us, there has been no clear way to evaluate ALT text at scale. Without a clear view, it can be all too easy to overlook
 url: https://dubbot.com/dubblog/2026/see-whats-behind-the-images-alt-text-now-visible-in-dubbot.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.237Z
+repostedDate: 2026-09-20T07:49:46.452Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-04-14T00:00:00.000Z
+sourcePublishDate: 2026-04-14T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 73dccdc21e77a7be501dad7d8b62ff5b
+contentHash: 1feeaf27775f55dc600ec4c534666c20
 ---
 
 ALT text is a vital part of how users experience your content. Yet for most of us, there has been no clear way to evaluate ALT text at scale. Without a clear view, it can be all too easy to overlook and even easier to forget.

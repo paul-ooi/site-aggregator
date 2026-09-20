@@ -1,16 +1,16 @@
 ---
 title: What's So Great About HTML?
-description: Early in my career, building websites meant writing HTML by hand, often in Notepad. No visual editors or drag-and-drop tools, just tags and a lot of trial and error. As the tools evolved, so did my wo
+description: Early in my career, building websites meant writing HTML by hand, often in Notepad. No visual editors or drag-and-drop tools, just tags and a lot of trial and error. As the tools evolved, so did my
 url: https://dubbot.com/dubblog/2026/whats-so-great-about-html.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.421Z
+repostedDate: 2026-09-20T07:49:47.595Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-01-15T00:00:00.000Z
+sourcePublishDate: 2026-01-15T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: ee7a777004c76e425d33c17b2613fb1e
+contentHash: 9652006925f8dbf84a370e021c50d262
 ---
 
 Early in my career, building websites meant writing HTML by hand, often in Notepad. No visual editors or drag-and-drop tools, just tags and a lot of trial and error. As the tools evolved, so did my workflow. I moved from Dreamweaver to full-fledged content management systems, and eventually to platforms where the HTML was mostly shielded from view. Over time, I spent less of my day writing HTML and more time learning the tools that generated it for me. The markup was still there, but it was increasingly out of sight, and, unfortunately, I became out of practice.

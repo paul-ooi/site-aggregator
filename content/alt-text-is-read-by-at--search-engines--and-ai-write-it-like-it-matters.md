@@ -1,16 +1,16 @@
 ---
 title: ALT Text Is Read by AT, Search Engines, and AI—Write It Like It Matters
-description: This is the third post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part two,    The Most Accessible ALT Text
+description: This is the third post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part two,    The Most Accessible ALT
 url: https://dubbot.com/dubblog/2026/alt-text-is-read-by-at-search-engines-and-aiwrite-it-like-it-matters.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-03-01T09:37:23.721Z
+repostedDate: 2026-09-20T07:49:47.192Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-02-19T00:00:00.000Z
+sourcePublishDate: 2026-02-19T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 852fbc48d27915b43bef5d85b1015b25
+contentHash: 5e4c70330aa37012c13bd50226e8b1a7
 ---
 
 > This is the third post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part two, _[The Most Accessible ALT Text Is Sometimes No ALT Text at All](the-most-accessible-alt-text-is-sometimes-no-alt-text-at-all.html)._ See part four, _[Images With a Job: Writing ALT Text That Works](images-with-a-job-writing-alt-text-that-works.html)_.

@@ -1,16 +1,16 @@
 ---
 title: Test the Tester: Why Accessibility Matters When Choosing an Accessibility Vendor
-description: Last summer (August 2025), I wrote a blog post (When Your Accessibility Tool Isn’t Accessible) about what to do to prevent purchasing an accessibility tool or platform that itself fails its own access
+description: Last summer (August 2025), I wrote a blog post (When Your Accessibility Tool Isn’t Accessible) about what to do to prevent purchasing an accessibility tool or platform that itself fails its own
 url: https://dubbot.com/dubblog/2026/test-the-tester-why-accessibility-matters-when-choosing-an-accessibility-vendor.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-25T07:17:39.253Z
+repostedDate: 2026-09-20T07:49:44.977Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-08-13T00:00:00.000Z
+sourcePublishDate: 2026-08-13T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 134fa285945e7bd69c58608be7301abe
+contentHash: 9f378a8f750df72ae6636ce3f5866ed7
 ---
 
 Last summer (August 2025), I wrote a blog post ([_When Your Accessibility Tool Isn’t Accessible_](../2025/when-your-accessibility-tool-isnt-accessible.html)) about what to do to prevent purchasing an accessibility tool or platform that itself fails its own accessibility tests.

@@ -1,16 +1,16 @@
 ---
 title: From Scans to Descriptions: How AI is Shaping Accessibility
-description: As a blog writer focused on accessibility topics such as standards, laws, tools, best practices, and the latest trends and developments, I spend roughly 40 – 50% of my 40-hour week conducting research
+description: As a blog writer focused on accessibility topics such as standards, laws, tools, best practices, and the latest trends and developments, I spend roughly 40 – 50% of my 40-hour week conducting
 url: https://dubbot.com/dubblog/2025/from-scans-to-descriptions-how-ai-is-shaping-accessibility.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.552Z
+repostedDate: 2026-09-20T07:49:47.847Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-12-18T00:00:00.000Z
+sourcePublishDate: 2025-12-18T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: d7093cd6702a9df47222d3f7ea352043
+contentHash: 6bdb906ef50ee48672ea35ad8ce55cb5
 ---
 
 As a blog writer focused on accessibility topics such as standards, laws, tools, best practices, and the latest trends and developments, I spend roughly 40 – 50% of my 40-hour week conducting research. That means reading reports and specs, cross-referencing sources, combing through other blog posts, and scrolling LinkedIn for insights, updates, and signals about what’s new in accessibility testing, remediation, and education.

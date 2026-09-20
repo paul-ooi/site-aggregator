@@ -1,16 +1,16 @@
 ---
 title: Accessible Footnotes: Tags, Roles and Navigation
-description: Footnotes look simple on the surface - a tiny superscript link that leads to small print at the bottom. But in digital spaces, they’re anything but simple. On the web, they rely on semantic structure 
+description: Footnotes look simple on the surface - a tiny superscript link that leads to small print at the bottom. But in digital spaces, they’re anything but simple. On the web, they rely on semantic structure
 url: https://dubbot.com/dubblog/2026/accessible-footnotes-tags-roles-and-navigation.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.473Z
+repostedDate: 2026-09-20T07:49:46.931Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-03-10T00:00:00.000Z
+sourcePublishDate: 2026-03-10T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: cceec66d2bc169cd95c383bb18e83475
+contentHash: 060e80e4e24e7e71c00eaee1c7a9f40e
 ---
 
 Footnotes look simple on the surface - a tiny superscript link that leads to small print at the bottom. But in digital spaces, they’re anything but simple. On the web, they rely on semantic structure and sometimes even ARIA to clearly communicate relationships. In PDFs, they depend on proper tagging and reading order to function properly. The difference isn’t cosmetic, it’s structural. What looks identical on the screen can function completely differently for someone using assistive technology.

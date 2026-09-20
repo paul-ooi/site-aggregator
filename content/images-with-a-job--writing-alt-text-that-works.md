@@ -1,16 +1,16 @@
 ---
 title: Images With a Job: Writing ALT Text That Works
-description: This is the final post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part three,&nbsp;ALT Text Is Read by AT, 
+description: This is the final post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part three,&nbsp;ALT Text Is Read by AT,
 url: https://dubbot.com/dubblog/2026/images-with-a-job-writing-alt-text-that-works.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.654Z
+repostedDate: 2026-09-20T07:49:47.044Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-02-24T00:00:00.000Z
+sourcePublishDate: 2026-02-24T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 192d5b7560c5bdd66612191c0137d2dd
+contentHash: e0ff453e42914fcfa6d6baaad54afd8e
 ---
 
 > This is the final post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part three, _[ALT Text Is Read by AT, Search Engines, and AI—Write It Like It Matters](alt-text-is-read-by-at-search-engines-and-aiwrite-it-like-it-matters.html)._ See part one, [_ALT Text Isn’t a Description. It’s a Content Decision_](alt-text-isnt-a-description-its-a-content-decision.html).
