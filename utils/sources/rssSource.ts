@@ -24,6 +24,33 @@ export class RSSSource implements Source {
   ) {}
 
   /**
+   * Converts an rss-parser field value to text. rss-parser usually yields
+   * strings, but namespaced fields and categories can surface as numbers or
+   * objects ({name, _, $text}), which a string-only check would drop.
+   */
+  private toTextValue(raw: unknown): string {
+    if (typeof raw === 'string') return raw;
+    if (typeof raw === 'number' || typeof raw === 'boolean' || typeof raw === 'bigint') return String(raw);
+    if (Array.isArray(raw)) {
+      for (const entry of raw) {
+        const text = this.toTextValue(entry);
+        if (text.trim() !== '') return text;
+      }
+      return '';
+    }
+    if (raw && typeof raw === 'object') {
+      const obj = raw as Record<string, unknown>;
+      for (const key of ['name', '_', '$text', '#text', 'content', 'value']) {
+        if (key in obj) {
+          const text = this.toTextValue(obj[key]);
+          if (text.trim() !== '') return text;
+        }
+      }
+    }
+    return '';
+  }
+
+  /**
    * Helper to get a value from an RSS item based on mappings or defaults.
    * @param item The RSS item from rss-parser.
    * @param articleField The Article property we are trying to populate.
@@ -38,8 +65,8 @@ export class RSSSource implements Source {
       const fieldsToTry = Array.isArray(mapping) ? mapping : [mapping];
       for (const sourceField of fieldsToTry) {
         // rss-parser items can have arbitrary keys, especially with namespaces
-        const potentialValue = (item as any)[sourceField];
-        if (typeof potentialValue === 'string' && potentialValue.trim() !== '') {
+        const potentialValue = this.toTextValue((item as any)[sourceField]);
+        if (potentialValue.trim() !== '') {
           value = potentialValue;
           break;
         }
@@ -48,8 +75,8 @@ export class RSSSource implements Source {
 
     if (!value) { // If mapping didn't yield a value, or no mapping provided, try defaults
       for (const sourceField of defaultSourceFields) {
-        const potentialValue = (item as any)[sourceField];
-        if (typeof potentialValue === 'string' && potentialValue.trim() !== '') {
+        const potentialValue = this.toTextValue((item as any)[sourceField]);
+        if (potentialValue.trim() !== '') {
           value = potentialValue;
           break;
         }
@@ -62,18 +89,30 @@ export class RSSSource implements Source {
     const feed = await parser.parseURL(this.url);
     return feed.items.map((item) => {
       const title = this.getFieldValue(item, 'title', ['title']);
-      const description = this.getFieldValue(item, 'description', ['content', 'description']); // Default: content then description
+      // Prefer the full body (content:encoded) over the excerpt (content/description).
+      // WordPress feeds carry both: content:encoded ~10k chars vs content ~340 chars.
+      const description = this.getFieldValue(item, 'description', ['content:encoded', 'content', 'description']);
       const externalUrl = this.getFieldValue(item, 'externalUrl', ['link', 'guid']);
       const sourcePublishDate = this.getFieldValue(item, 'sourcePublishDate', ['isoDate', 'pubDate']);
       const author = this.getFieldValue(item, 'author', ['creator', 'author', 'dc:creator']);
       const summary = this.getFieldValue(item, 'summary', ['contentSnippet', 'description']); // Default: contentSnippet then description
-      const rawDescriptionHtml = this.getFieldValue(item, 'rawDescriptionHtml', ['content', 'description']); // Default: contentSnippet then description
+      const rawDescriptionHtml = this.getFieldValue(item, 'rawDescriptionHtml', ['content:encoded', 'content', 'description']); // Default: full body, then excerpt fallbacks
 
       // Handle tags (categories) - they are often arrays or need special parsing
       let itemCategories: any[] | string | undefined;
       const tagsMappingKey = this.fieldMappings?.tags;
-      if (tagsMappingKey && (item as any)[Array.isArray(tagsMappingKey) ? tagsMappingKey[0] : tagsMappingKey] !== undefined) { // Simplified check for brevity
-        itemCategories = (item as any)[Array.isArray(tagsMappingKey) ? tagsMappingKey[0] : tagsMappingKey];
+      if (tagsMappingKey) {
+        const keysToTry = Array.isArray(tagsMappingKey) ? tagsMappingKey : [tagsMappingKey];
+        for (const key of keysToTry) {
+          const candidate = (item as any)[key];
+          if (candidate !== undefined && candidate !== null && candidate !== '') {
+            itemCategories = candidate;
+            break;
+          }
+        }
+        if (itemCategories === undefined) {
+          itemCategories = item.categories; // Default
+        }
       } else {
         itemCategories = item.categories; // Default
       }
