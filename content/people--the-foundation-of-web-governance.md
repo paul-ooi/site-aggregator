@@ -1,16 +1,16 @@
 ---
 title: People: The Foundation of Web Governance
-description: This is part two of a four-part series on web governance. A strategy fueled by people, process, and technology. See part one titled&nbsp;Web Governance: Building Structure for a Sustainable User Exper
+description: This is part two of a four-part series on web governance. A strategy fueled by people, process, and technology. See part one titled&nbsp;Web Governance: Building Structure for a Sustainable User
 url: https://dubbot.com/dubblog/2026/people-the-foundation-of-web-governance.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.401Z
+repostedDate: 2026-09-20T07:49:45.454Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-07-02T00:00:00.000Z
+sourcePublishDate: 2026-07-02T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: cb97027d0c2b7dff148bf393019a326c
+contentHash: c89e0d667a0344b7edf8655e6c158248
 ---
 
 > This is part two of a four-part series on web governance. A strategy fueled by people, process, and technology. See part one titled [_Web Governance: Building Structure for a Sustainable User Experience_](web-governance-building-structure-for-a-sustainable-user-experience.html). See part three titled [_Process: A Lifecycle for Sustainable Web Governance_](process-a-lifecycle-for-sustainable-web-governance.html).

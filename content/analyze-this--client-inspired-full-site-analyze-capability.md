@@ -1,16 +1,16 @@
 ---
 title: Analyze This: Client-Inspired Full Site Analyze Capability
-description: The Analyze feature just got an upgrade. Previously, full-site re-analysis was handled behind the scenes by the DubBot team. Thanks to valuable client feedback, account and site-level administrators c
+description: The Analyze feature just got an upgrade. Previously, full-site re-analysis was handled behind the scenes by the DubBot team. Thanks to valuable client feedback, account and site-level administrators
 url: https://dubbot.com/dubblog/2025/analyze-this-client-inspired-full-site-analyze-capability.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.757Z
+repostedDate: 2026-09-20T07:49:48.496Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-10-23T00:00:00.000Z
+sourcePublishDate: 2025-10-23T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: ac4b86a78f87b52ded3794df6e115f85
+contentHash: 038dcbbeffba110c7aa109612a53a0bb
 ---
 
 The **Analyze** feature just got an upgrade. Previously, full-site re-analysis was handled behind the scenes by the DubBot team. Thanks to valuable client feedback, account and site-level administrators can now run a complete **Analyze** across their entire site, right from within their DubBot account.

@@ -1,16 +1,16 @@
 ---
 title: Automated Testing Is a Rockstar, Too!
-description: Conversations about accessibility testing often default to a familiar refrain:   You can’t just automate, it has to be manual, too.  &nbsp;That statement is true, but it’s frequently delivered with an
+description: Conversations about accessibility testing often default to a familiar refrain:   You can’t just automate, it has to be manual, too.  &nbsp;That statement is true, but it’s frequently delivered with
 url: https://dubbot.com/dubblog/2026/automated-testing-is-a-rockstar-too.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.285Z
+repostedDate: 2026-09-20T07:49:47.488Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-01-26T00:00:00.000Z
+sourcePublishDate: 2026-01-26T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 53fc61defe5e87b2b0152c6913a69f72
+contentHash: e9171d224d2caba04b7ec414e938d73b
 ---
 
 Conversations about accessibility testing often default to a familiar refrain: _You can’t just automate, it has to be manual, too._  That statement is true, but it’s frequently delivered with an undertone that sells automated testing short, as if it’s a lesser option or a necessary evil. In reality, accessibility testing isn’t an either-or decision; it’s a partnership.

@@ -1,16 +1,16 @@
 ---
 title: Accessibility Policy: What It Is and Why You Need One
-description: An accessibility policy is a clear, internal framework that spells out your organization’s commitment to building accessible digital products. It defines the standards your organization follows, the r
+description: An accessibility policy is a clear, internal framework that spells out your organization’s commitment to building accessible digital products. It defines the standards your organization follows, the
 url: https://dubbot.com/dubblog/2025/accessibility-policy-what-it-is-and-why-you-need-one.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.641Z
+repostedDate: 2026-09-20T07:49:48.159Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-11-20T00:00:00.000Z
+sourcePublishDate: 2025-11-20T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: e036694750c1b59bbac61e3b71e1bb32
+contentHash: d972cea2c1e1f92cefb21990114e572d
 ---
 
 ## What is an Accessibility Policy?

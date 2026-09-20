@@ -1,16 +1,16 @@
 ---
 title: Helping Your Users Report Accessibility Bugs
-description: After a long day of reading reports, meeting with stakeholders, and returning numerous emails and phone calls, you come home, grab your tablet, and go to your favorite sushi restaurant's website to or
+description: After a long day of reading reports, meeting with stakeholders, and returning numerous emails and phone calls, you come home, grab your tablet, and go to your favorite sushi restaurant's website to
 url: https://dubbot.com/dubblog/2026/helping-your-users-report-accessibility-bugs.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.194Z
+repostedDate: 2026-09-20T07:49:45.209Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-07-23T00:00:00.000Z
+sourcePublishDate: 2026-07-23T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 9dc004294dc91cc0f3196dd700767b5e
+contentHash: 016f1c3ecda64c270c4042578f83c7cd
 ---
 
 After a long day of reading reports, meeting with stakeholders, and returning numerous emails and phone calls, you come home, grab your tablet, and go to your favorite sushi restaurant's website to order dinner. <sigh>

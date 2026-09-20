@@ -4,13 +4,13 @@ description: I recently came across a Slack conversation about a third-party ven
 url: https://dubbot.com/dubblog/2026/third-party-tools-first-party-responsibility-when-your-vendor-isnt-listening.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.244Z
+repostedDate: 2026-09-20T07:49:46.424Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-04-16T00:00:00.000Z
+sourcePublishDate: 2026-04-16T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: e3c849a4fdfbed1a4e01c22ea30fca66
+contentHash: 4e467be52bc14426d36664c752e82436
 ---
 
 I recently came across a Slack conversation about a third-party vendor and their disregard for obvious accessibility issues, and the frustration it was causing their customer.

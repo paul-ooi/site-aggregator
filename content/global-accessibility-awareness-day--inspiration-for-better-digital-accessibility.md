@@ -1,16 +1,16 @@
 ---
 title: Global Accessibility Awareness Day: Inspiration for Better Digital Accessibility
-description: Global Accessibility Awareness Day (GAAD) began in 2012 with a simple but powerful idea: get people talking, thinking, and learning about digital accessibility. What started with a blog post and a gra
+description: Global Accessibility Awareness Day (GAAD) began in 2012 with a simple but powerful idea: get people talking, thinking, and learning about digital accessibility. What started with a blog post and a
 url: https://dubbot.com/dubblog/2026/global-accessibility-awareness-day-inspiration-for-better-digital-accessibility.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.838Z
+repostedDate: 2026-09-20T07:49:45.905Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-05-21T00:00:00.000Z
+sourcePublishDate: 2026-05-21T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: a3b375d30346fdd333b2a00b7582af79
+contentHash: b1cdc6ea781987cdb25aebf27c98db64
 ---
 
 [Global Accessibility Awareness Day](https://accessibility.day/ "This link leaves the DubBlog website.") (GAAD) began in 2012 with a simple but powerful idea: get people talking, thinking, and learning about digital accessibility. [What started with a blog post](https://accessibility.day/about/ "This link leaves the DubBlog website.") and a grassroots collaboration between [Joe Devon](https://www.linkedin.com/in/joedevon/ "This link leaves the DubBlog website.") (LinkedIn**\***) and [Jennison Asuncion](https://www.linkedin.com/in/jennison/ "This link leaves the DubBlog website.") (LinkedIn**\***) has grown into a worldwide movement that reminds us that the web is not just technology, it’s people.

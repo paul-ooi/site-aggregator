@@ -1,16 +1,16 @@
 ---
 title: Yes, Web Teams, Disabled People Use Your Website: Dispelling a Myth
-description: I recently read 9 Accessibility Myths and Pushbacks (And How to Answer Them) by Stephanie Walter. In this blog post, Ms. Walter identifies nine reasons people give for not doing accessibility well or,
+description: I recently read 9 Accessibility Myths and Pushbacks (And How to Answer Them) by Stephanie Walter. In this blog post, Ms. Walter identifies nine reasons people give for not doing accessibility well
 url: https://dubbot.com/dubblog/2026/yes-web-teams-disabled-people-use-your-website-dispelling-a-myth.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.942Z
+repostedDate: 2026-09-20T07:49:46.076Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-05-14T00:00:00.000Z
+sourcePublishDate: 2026-05-14T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 1aed558ae8d574be01568bde75cafd03
+contentHash: 820d4929bd11b3e477fd1805e6cc23b2
 ---
 
 I recently read [_9 Accessibility Myths and Pushbacks (And How to Answer Them)_](https://stephaniewalter.design/blog/9-accessibility-myths-and-pushbacks-and-how-to-answer-them/ "This link leaves the DubBlog website.") by [Stephanie Walter](https://stephaniewalter.design/ "This link leaves the DubBlog website."). In this blog post, Ms. Walter identifies nine reasons people give for not doing accessibility well or, even worse, not doing accessibility at all.

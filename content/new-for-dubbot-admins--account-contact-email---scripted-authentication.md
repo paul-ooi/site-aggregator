@@ -1,16 +1,16 @@
 ---
 title: New for DubBot Admins: Account Contact Email & Scripted Authentication
-description: DubBot has two new updates designed to make life easier for our account administrators. Whether you're managing user accounts or configuring authenticated website crawls, these updates help reduce adm
+description: DubBot has two new updates designed to make life easier for our account administrators. Whether you're managing user accounts or configuring authenticated website crawls, these updates help reduce
 url: https://dubbot.com/dubblog/2026/new-for-dubbot-admins-account-contact-email-scripted-authentication.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.293Z
+repostedDate: 2026-09-20T07:49:45.318Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-07-16T00:00:00.000Z
+sourcePublishDate: 2026-07-16T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 6959c6308f175f23e150c40f9ec89eb0
+contentHash: 05a2fef350842f468d941992f8670fde
 ---
 
 DubBot has two new updates designed to make life easier for our account administrators. Whether you're managing user accounts or configuring authenticated website crawls, these updates help reduce administrative effort and simplify those workflows.

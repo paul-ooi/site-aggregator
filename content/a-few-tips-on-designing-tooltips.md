@@ -1,16 +1,16 @@
 ---
 title: A Few Tips on Designing Tooltips
-description: A tooltip is one of those concepts that's often misunderstood. Many people think of a tooltip as a single UI element, but it's actually made up of two working parts. The trigger element and the toolti
+description: A tooltip is one of those concepts that's often misunderstood. Many people think of a tooltip as a single UI element, but it's actually made up of two working parts. The trigger element and the
 url: https://dubbot.com/dubblog/2026/a-few-tips-on-designing-tooltips.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.287Z
+repostedDate: 2026-09-20T07:49:45.350Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-07-14T00:00:00.000Z
+sourcePublishDate: 2026-07-14T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: b56183f62801968169b31476a7425f67
+contentHash: a3ff2a8be510fb7f3b067f9cd1736509
 ---
 
 A tooltip is one of those concepts that's often misunderstood. Many people think of a tooltip as a single UI element, but it's actually made up of two working parts. The trigger element and the tooltip. That fact was not always evident in some of the various publications I read while preparing this blog post. If those terms aren't clearly defined from the start, it's easy for readers to lose track of what you're talking about.

@@ -4,13 +4,13 @@ description: I recently attended an excellent webinar on accessibility metrics. 
 url: https://dubbot.com/dubblog/2026/accessibility-belongs-in-your-project-requirements.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-25T07:17:39.208Z
+repostedDate: 2026-09-20T07:49:44.939Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-08-18T00:00:00.000Z
+sourcePublishDate: 2026-08-18T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 951c9936c15fc6aae3a05b8d7b4ce0d3
+contentHash: 0d089d43fb49b4f34e36ffdd3ff2b755
 ---
 
 I recently attended an excellent webinar on accessibility metrics. The presenters broke the metrics into three categories, meant to be applied across the software / product development lifecycle:

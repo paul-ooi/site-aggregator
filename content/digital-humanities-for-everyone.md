@@ -1,16 +1,16 @@
 ---
 title: Digital Humanities for Everyone
-description: Imagine&nbsp;a student exploring a digital archive of 19th-century letters, or a researcher diving into an interactive map of historical migration patterns. Now imagine that a student or researcher ca
+description: Imagine&nbsp;a student exploring a digital archive of 19th-century letters, or a researcher diving into an interactive map of historical migration patterns. Now imagine that a student or researcher
 url: https://dubbot.com/dubblog/2025/digital-humanities-for-everyone.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.716Z
+repostedDate: 2026-09-20T07:49:48.287Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-11-06T00:00:00.000Z
+sourcePublishDate: 2025-11-06T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 60d06ff01c11611e4d61fbbe5d320f8e
+contentHash: ecc7b1fcc8fdcc39047017fd168689b2
 ---
 
 Imagine a student exploring a digital archive of 19th-century letters, or a researcher diving into an interactive map of historical migration patterns. Now imagine that a student or researcher can’t fully engage because the site isn’t accessible. It’s full of images without descriptions, charts that can’t be navigated by keyboard, and videos without captions. All that effort and scholarship are suddenly limited to only some audiences. What good is a groundbreaking digital humanities project if not everyone can access it? 

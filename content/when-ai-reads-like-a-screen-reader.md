@@ -1,16 +1,16 @@
 ---
 title: When AI Reads Like a Screen Reader
-description: When people think about AI and websites, they often imagine sophisticated algorithms crawling pages, analyzing keywords, or ranking content. But in reality, AI systems read web content in ways strikin
+description: When people think about AI and websites, they often imagine sophisticated algorithms crawling pages, analyzing keywords, or ranking content. But in reality, AI systems read web content in ways
 url: https://dubbot.com/dubblog/2026/when-ai-reads-like-a-screen-reader.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-08T06:17:22.477Z
+repostedDate: 2026-09-20T07:49:47.397Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-02-03T00:00:00.000Z
+sourcePublishDate: 2026-02-03T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 0a0f67ec3f8f89296bff4144c67c05f5
+contentHash: c59774137700534fbb13ceef22a8326d
 ---
 
 When people think about AI and websites, they often imagine sophisticated algorithms crawling pages, analyzing keywords, or ranking content. But in reality, AI systems **read** web content in ways strikingly similar to how screen readers do. 

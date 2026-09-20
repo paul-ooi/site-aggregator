@@ -1,16 +1,16 @@
 ---
 title: Becoming a Trusted Tester
-description: In December 2024, I wrote&nbsp;a&nbsp;blog post outlining several accessibility certifications, including&nbsp;three from IAAP&nbsp;and the&nbsp;Trusted&nbsp;Tester Process &amp; Certification Program
+description: In December 2024, I wrote&nbsp;a&nbsp;blog post outlining several accessibility certifications, including&nbsp;three from IAAP&nbsp;and the&nbsp;Trusted&nbsp;Tester Process &amp; Certification
 url: https://dubbot.com/dubblog/2026/becoming-a-trusted-tester.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-25T02:35:07.742Z
+repostedDate: 2026-09-20T07:49:47.305Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-02-10T00:00:00.000Z
+sourcePublishDate: 2026-02-10T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: de0c362c9fb59bd779d43455bc2a4b56
+contentHash: ab757201dc1b9be14154da3e3611c338
 ---
 
 In December 2024, I wrote a [blog post outlining several accessibility certifications](../2024/why-get-certified-a-new-years-resolution.html), including [three from IAAP](https://www.accessibilityassociation.org/certification-overview "This link leaves the DubBlog website.") and the [Trusted](https://www.section508.gov/test/trusted-tester/) [Tester Process & Certification Program](https://www.section508.gov/test/trusted-tester/ "This link leaves the DubBlog website."). The post's main idea was to encourage readers to make a New Year’s resolution to earn a certification.

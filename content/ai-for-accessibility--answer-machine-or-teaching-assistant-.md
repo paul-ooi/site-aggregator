@@ -4,13 +4,13 @@ description: As I sometimes do when I'm researching for a blog post, if a commen
 url: https://dubbot.com/dubblog/2026/ai-for-accessibility-answer-machine-or-teaching-assistant.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-25T07:17:39.265Z
+repostedDate: 2026-09-20T07:49:45.081Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-08-06T00:00:00.000Z
+sourcePublishDate: 2026-08-06T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 991753a00f3e6ab607275d3cd485d712
+contentHash: 53d29db2c1de0f717e3619acd1955079
 ---
 
 As I sometimes do when I'm researching for a blog post, if a comment or an idea piques my interest, I immediately jump down a rabbit hole. The [DigiCol A11Y Summit](https://events.digicol.org/a11ysummit26 "This link leaves the DubBlog website.") was no exception.

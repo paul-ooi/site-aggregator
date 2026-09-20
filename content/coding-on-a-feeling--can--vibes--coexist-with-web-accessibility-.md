@@ -1,16 +1,16 @@
 ---
 title: Coding on a Feeling: Can ‘Vibes’ Coexist with Web Accessibility?
-description: Several weeks ago, as I do most mornings, I was scrolling through my copy of the CNN 5 Things newsletter. In the section called Breakfast Browse, there was a link titled 'Vibe coding' named Collins Di
+description: Several weeks ago, as I do most mornings, I was scrolling through my copy of the CNN 5 Things newsletter. In the section called Breakfast Browse, there was a link titled 'Vibe coding' named Collins
 url: https://dubbot.com/dubblog/2025/coding-on-a-feeling-can-vibes-coexist-with-web-accessibility.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.639Z
+repostedDate: 2026-09-20T07:49:48.191Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-11-25T00:00:00.000Z
+sourcePublishDate: 2025-11-25T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 177587a60969a4229160d0ba0bda974e
+contentHash: a86c0e74250dbb54feb590d1074992e6
 ---
 
 Several weeks ago, as I do most mornings, I was scrolling through my copy of the _CNN 5 Things_ newsletter. In the section called Breakfast Browse, there was a link titled ['Vibe coding' named Collins Dictionary’s Word of the Year](https://www.cnn.com/2025/11/06/tech/vibe-coding-collins-word-year-scli-intl?bt_ee=x%2BxrPrKAXATjnkijZ1mATK92k7K7tciqRMfSl1JG9s8euHP0LVkig8S7PsPFzekg&bt_ts=1763074613368 "This link leaves the DubBlog website."). I was intrigued. I’ve been reading about vibe coding and trying to decide whether to write a post about it. Clearly, I’ve made my decision.

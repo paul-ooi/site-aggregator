@@ -4,13 +4,13 @@ description: This is a follow-up post to the four-part ALT text series that bega
 url: https://dubbot.com/dubblog/2026/crafting-alt-text-that-adds-value-a-style-guide.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-03-01T09:37:23.682Z
+repostedDate: 2026-09-20T07:49:47.027Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-02-26T00:00:00.000Z
+sourcePublishDate: 2026-02-26T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: eb6fa2e0493b85968c3541d483d680cc
+contentHash: 43e3cf3fdacec0fd05dff392c1e09c3b
 ---
 
 This is a follow-up post to the four-part ALT text series that began with [_ALT Text Isn’t a Description. It’s a Content Decision_](alt-text-isnt-a-description-its-a-content-decision.html).

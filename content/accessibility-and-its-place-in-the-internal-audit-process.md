@@ -1,16 +1,16 @@
 ---
 title: Accessibility and Its Place in the Internal Audit Process
-description: While researching another project, I noticed a recurring accessibility theme across several sources, often centered on the same ideas, such as budget and resources, accessibility as a business functio
+description: While researching another project, I noticed a recurring accessibility theme across several sources, often centered on the same ideas, such as budget and resources, accessibility as a business
 url: https://dubbot.com/dubblog/2026/accessibility-and-its-place-in-the-internal-audit-process.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.629Z
+repostedDate: 2026-09-20T07:49:45.710Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-06-16T00:00:00.000Z
+sourcePublishDate: 2026-06-16T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 5f79a214f09305a9ca767257d997a9fa
+contentHash: a4957b4f4f8752d8c5a01bb56b223947
 ---
 
 While researching another project, I noticed a recurring accessibility theme across several sources, often centered on the same ideas, such as **budget and resources,** **accessibility as a business function**, **internal accountability is essential**, and **visibility to all stakeholders**.

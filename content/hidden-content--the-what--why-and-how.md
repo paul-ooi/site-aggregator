@@ -1,16 +1,16 @@
 ---
 title: Hidden Content: The What, Why and How
-description: Hidden content refers to elements on a webpage that are visually concealed but remain accessible to assistive technologies like screen readers, or that are hidden for functional reasons, such as progr
+description: Hidden content refers to elements on a webpage that are visually concealed but remain accessible to assistive technologies like screen readers, or that are hidden for functional reasons, such as
 url: https://dubbot.com/dubblog/2026/hidden-content-the-what-why-and-how.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.133Z
+repostedDate: 2026-09-20T07:49:46.223Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-04-28T00:00:00.000Z
+sourcePublishDate: 2026-04-28T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 8c60ef7c94c5f7b80bf5151fcadb42f6
+contentHash: 000cf73b9e941a4361e1c75173dcaba6
 ---
 
 Hidden content refers to elements on a webpage that are visually concealed but remain accessible to assistive technologies like screen readers, or that are hidden for functional reasons, such as [progressive disclosure](https://ixdf.org/literature/topics/progressive-disclosure) or interactive widgets.

@@ -1,16 +1,16 @@
 ---
 title: Budgeting for Acce$$ibility
-description: Budgeting for accessibility is a deliberate, forward-looking process. It requires understanding why accessibility matters, planning for the real costs involved, and thoughtfully allocating resources o
+description: Budgeting for accessibility is a deliberate, forward-looking process. It requires understanding why accessibility matters, planning for the real costs involved, and thoughtfully allocating resources
 url: https://dubbot.com/dubblog/2026/budgeting-for-accessibility.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.380Z
+repostedDate: 2026-09-20T07:49:47.514Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-01-27T00:00:00.000Z
+sourcePublishDate: 2026-01-27T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 5cca1574e637caa122644b60feab4ca3
+contentHash: 98a7b8da14d19dda7d9e44174322716e
 ---
 
 Budgeting for accessibility is a deliberate, forward-looking process. It requires understanding _why_ accessibility matters, planning for the real costs involved, and thoughtfully allocating resources over time.

@@ -1,16 +1,16 @@
 ---
 title: ARIA Is Not Aspirin: Stop Using It to Fix Everything
-description: ARIA can be a powerful tool for creating accessible web content. But it’s not a universal solution. When misused, it can actually generate accessibility barriers rather than removing them, creating co
+description: ARIA can be a powerful tool for creating accessible web content. But it’s not a universal solution. When misused, it can actually generate accessibility barriers rather than removing them, creating
 url: https://dubbot.com/dubblog/2025/aria-is-not-aspirin-stop-using-it-to-fix-everything.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.601Z
+repostedDate: 2026-09-20T07:49:48.058Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-12-04T00:00:00.000Z
+sourcePublishDate: 2025-12-04T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: a8723ecc757a090394dbc1c042ad1fe8
+contentHash: 1acf5e072d142a428c6db63e74379b01
 ---
 
 ARIA can be a powerful tool for creating accessible web content. But it’s not a universal solution. When misused, it can actually generate accessibility barriers rather than removing them, creating confusion for assistive technologies and the users who rely on them. Understanding how and when to use it is key to creating truly accessible experiences.

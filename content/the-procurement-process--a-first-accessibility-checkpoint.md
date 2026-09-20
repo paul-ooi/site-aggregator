@@ -1,16 +1,16 @@
 ---
 title: The Procurement Process: A First Accessibility Checkpoint
-description: For colleges and universities, every technology purchasing decision is an opportunity to create a more accessible and user-centered digital experience for students, faculty, and staff while setting th
+description: For colleges and universities, every technology purchasing decision is an opportunity to create a more accessible and user-centered digital experience for students, faculty, and staff while setting
 url: https://dubbot.com/dubblog/2026/the-procurement-process-a-first-accessibility-checkpoint.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.624Z
+repostedDate: 2026-09-20T07:49:45.670Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-06-11T00:00:00.000Z
+sourcePublishDate: 2026-06-11T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 0e998b98f2c588975e536e6eaa94ed20
+contentHash: 69d9158f4c912b8d5e9ca543f87755ed
 ---
 
 For colleges and universities, every technology purchasing decision is an opportunity to create a more accessible and user-centered digital experience for students, faculty, and staff while setting the standard for inclusion before anyone ever logs in or clicks through.

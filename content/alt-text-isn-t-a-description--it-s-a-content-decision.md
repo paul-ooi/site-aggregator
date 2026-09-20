@@ -1,16 +1,16 @@
 ---
 title: ALT Text Isn’t a Description. It’s a Content Decision
-description: This post begins a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part two&nbsp;The Most Accessible ALT Text Is Some
+description: This post begins a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part two&nbsp;The Most Accessible ALT Text Is
 url: https://dubbot.com/dubblog/2026/alt-text-isnt-a-description-its-a-content-decision.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-25T02:35:07.725Z
+repostedDate: 2026-09-20T07:49:47.171Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-02-12T00:00:00.000Z
+sourcePublishDate: 2026-02-12T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: c30b9045ffa50149414f79d53e2757e2
+contentHash: f64f8114ca013cba65f2ad3f735c0854
 ---
 
 > This post begins a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part two [_The Most Accessible ALT Text Is Sometimes No ALT Text at All_](the-most-accessible-alt-text-is-sometimes-no-alt-text-at-all.html).

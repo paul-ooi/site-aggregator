@@ -1,16 +1,16 @@
 ---
 title: The Most Accessible ALT Text Is Sometimes No ALT Text at All
-description: This is the second post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part one,    ALT Text Isn’t a Descriptio
+description: This is the second post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part one,    ALT Text Isn’t a
 url: https://dubbot.com/dubblog/2026/the-most-accessible-alt-text-is-sometimes-no-alt-text-at-all.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-25T02:35:07.679Z
+repostedDate: 2026-09-20T07:49:47.158Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-02-17T00:00:00.000Z
+sourcePublishDate: 2026-02-17T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 77bd6f203ae8d4f3a4ce036b1f116e7a
+contentHash: 755f749f6938d4b1426e6c8ad79d1225
 ---
 
 > This is the second post in a four-part series on ALT text. Because writing it well (and knowing when not to write it) deserves more than a quick checklist. See part one, [_ALT Text Isn’t a Description. It’s a Content Decision_](alt-text-isnt-a-description-its-a-content-decision.html) . See part three, _[ALT Text Is Read by AT, Search Engines, and AI—Write It Like It Matters](alt-text-is-read-by-at-search-engines-and-aiwrite-it-like-it-matters.html)._

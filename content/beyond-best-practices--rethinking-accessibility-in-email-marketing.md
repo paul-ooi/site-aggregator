@@ -4,13 +4,13 @@ description: Most advice on creating accessible emails centers around ALT text, 
 url: https://dubbot.com/dubblog/2026/beyond-best-practices-rethinking-accessibility-in-email-marketing.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.339Z
+repostedDate: 2026-09-20T07:49:46.570Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-03-31T00:00:00.000Z
+sourcePublishDate: 2026-03-31T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: a2ee1b303ba97c9c52a7a430f6a4f8e8
+contentHash: f6ab44bcd42d6fa0554377e9f1e40651
 ---
 
 Most advice on creating accessible emails centers around ALT text, color contrast, and proper semantic structure. All essential elements for any digital creation to be accessible.

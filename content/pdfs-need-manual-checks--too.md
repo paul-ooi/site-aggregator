@@ -1,16 +1,16 @@
 ---
 title: PDFs Need Manual Checks, Too
-description: I’ve been taking advantage of the mobile nature of podcasts lately (earbuds in, phone in my back pocket) in keeping up to date on accessibility trends and strategies (especially those related to AI) a
+description: I’ve been taking advantage of the mobile nature of podcasts lately (earbuds in, phone in my back pocket) in keeping up to date on accessibility trends and strategies (especially those related to AI)
 url: https://dubbot.com/dubblog/2026/pdfs-need-manual-checks-too.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.429Z
+repostedDate: 2026-09-20T07:49:47.646Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-01-20T00:00:00.000Z
+sourcePublishDate: 2026-01-20T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 9a11de20f0ec18ab7781c03e0d381242
+contentHash: 5b4ae8c6097a6385d00e1aa534f9cd09
 ---
 
 I’ve been taking advantage of the **mobile** nature of podcasts lately (earbuds in, phone in my back pocket) in keeping up to date on accessibility trends and strategies (especially those related to AI) and, in general, what folks are doing to move their accessibility journeys forward. 

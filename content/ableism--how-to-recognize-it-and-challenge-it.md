@@ -1,16 +1,16 @@
 ---
 title: Ableism: How to Recognize It and Challenge It
-description: I try not to begin a blog post with a definition. In fact, some folks have told me it’s just not good form. But in this particular case, I feel it’s necessary. The subject of  ableism, the word itself
+description: I try not to begin a blog post with a definition. In fact, some folks have told me it’s just not good form. But in this particular case, I feel it’s necessary. The subject of  ableism, the word
 url: https://dubbot.com/dubblog/2025/ableism-how-to-recognize-and-challenge-it.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.673Z
+repostedDate: 2026-09-20T07:49:48.299Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-11-13T00:00:00.000Z
+sourcePublishDate: 2025-11-13T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: a80a97a83d48730450d040870e21f46d
+contentHash: 1e57eaacebf2095c63acc64b40281357
 ---
 
 I try not to begin a blog post with a definition. In fact, some folks have told me it’s just not good form. But in this particular case, I feel it’s necessary. The subject of **ableism**, the word itself, even **...does a lot of work for disability culture. It carries the weight of the worst of what plagues disabled people the most, but can be so hard to express.** ~ [Words Matter, And It’s Time To Explore The Meaning Of Ableism](https://www.forbes.com/sites/andrewpulrang/2020/10/25/words-matter-and-its-time-to-explore-the-meaning-of-ableism/), Forbes Magazine

@@ -1,16 +1,16 @@
 ---
 title: Accessibility Maturity Models: Project to Process to Principle
-description: Back in May of this year, I wrote a blog post about the importance of&nbsp;a&nbsp;sustainable, continuous accessibility monitoring strategy for ensuring long-term digital accessibility compliance and 
+description: Back in May of this year, I wrote a blog post about the importance of&nbsp;a&nbsp;sustainable, continuous accessibility monitoring strategy for ensuring long-term digital accessibility compliance and
 url: https://dubbot.com/dubblog/2025/accessibility-maturity-models-project-to-process-to-principle.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.714Z
+repostedDate: 2026-09-20T07:49:48.408Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-11-04T00:00:00.000Z
+sourcePublishDate: 2025-11-04T05:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 0ebb5e07ff394cd9d6808f56678afd75
+contentHash: e54cf7bf2ce323fb0c0d90cd42afd483
 ---
 
 Back in May of this year, I wrote a blog post about the importance of a [sustainable](https://dubbot.com/dubblog/2025/a-guide-to-continuous-accessibility-monitoring.html)[,](https://dubbot.com/dubblog/2025/a-guide-to-continuous-accessibility-monitoring.html) [continuous accessibility monitoring strategy](https://dubbot.com/dubblog/2025/a-guide-to-continuous-accessibility-monitoring.html) for ensuring long-term digital accessibility compliance and improvement.

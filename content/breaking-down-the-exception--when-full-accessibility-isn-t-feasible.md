@@ -4,13 +4,13 @@ description: At the recent&nbsp;Virginia Higher Education Accessibility Partners
 url: https://dubbot.com/dubblog/2026/breaking-down-the-exception-when-full-accessibility-isnt-feasible.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:29.532Z
+repostedDate: 2026-09-20T07:49:45.563Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-06-23T00:00:00.000Z
+sourcePublishDate: 2026-06-23T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: c9fdf8ff2c238581f1416d66d672c6ba
+contentHash: 3afcc018bc93e78c2db933c58573bef8
 ---
 
 At the recent [Virginia Higher Education Accessibility Partners](https://vheap.org/ "This link leaves the DubBlog website.") (VHEAP) conference in May, our sales executive, [Luke Bachelor](https://www.linkedin.com/in/luke-batchelor-26683815/ "This link leaves the DubBlog website. You must be logged into LinkedIn to view the profile."), had an interesting conversation with one of the attendees. 

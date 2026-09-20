@@ -4,13 +4,13 @@ description: Last week I received my copy of the Smashing Newsletter from Smashi
 url: https://dubbot.com/dubblog/2026/wcag-em-a-practical-framework-for-website-accessibility-evaluations.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-25T07:17:39.278Z
+repostedDate: 2026-09-20T07:49:44.964Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-08-11T00:00:00.000Z
+sourcePublishDate: 2026-08-11T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 2c189263c221124f97741207e154af7b
+contentHash: 46fd9d04db8756c4dddc8d7e65576d4d
 ---
 
 Last week I received my copy of the _Smashing Newsletter_ from [_Smashing Magazine_](https://www.smashingmagazine.com/about/ "This link leaves the DubBlog website."). I was especially excited about this issue because every feature section was focused on accessibility.

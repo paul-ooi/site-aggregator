@@ -1,16 +1,16 @@
 ---
 title: ADA Title II Deadline Extended: Two Different Perspectives
-description: If you haven’t heard yet, the DOJ will be&nbsp;extending the ADA Title II web accessibility deadline&nbsp;for public entities with a total population of 50,000 or more by one year, from April 24, 2026
+description: If you haven’t heard yet, the DOJ will be&nbsp;extending the ADA Title II web accessibility deadline&nbsp;for public entities with a total population of 50,000 or more by one year, from April 24,
 url: https://dubbot.com/dubblog/2026/ada-title-ii-deadline-extended-two-different-perspectives.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.247Z
+repostedDate: 2026-09-20T07:49:46.345Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-04-17T00:00:00.000Z
+sourcePublishDate: 2026-04-17T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 0da999fe63fbc37f78f59226b3fa36fd
+contentHash: a7a6fbd6c08df9d50a7e0e2a9abb0c56
 ---
 
 If you haven’t heard yet, the DOJ will be [extending the ADA Title II web accessibility deadline](https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web "This link leaves the DubBlog website.") for **_public entities with a total population of 50,000 or more by one year, from April 24, 2026, to April 26, 2027. It also amends paragraph (b)(2) by extending the compliance date for public entities with a total population of less than 50,000 and for special district governments by one year, from April 26, 2027, to April 26, 2028_****.**

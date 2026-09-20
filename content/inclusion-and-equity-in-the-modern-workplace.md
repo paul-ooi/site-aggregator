@@ -1,16 +1,16 @@
 ---
 title: Inclusion and Equity in the Modern Workplace
-description: As I do most evenings, I was scrolling through LinkedIn posts, looking for content that would inspire a blog post and, in the process, stay up to date with the accessibility space and all that it enco
+description: As I do most evenings, I was scrolling through LinkedIn posts, looking for content that would inspire a blog post and, in the process, stay up to date with the accessibility space and all that it
 url: https://dubbot.com/dubblog/2025/inclusion-and-equity-in-the-modern-workplace.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-02-04T06:45:01.790Z
+repostedDate: 2026-09-20T07:49:48.482Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2025-10-16T00:00:00.000Z
+sourcePublishDate: 2025-10-16T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: 45655f91f047390baf38b4686067ea45
+contentHash: 501d37e3b1619c7515f4f8a0c2b26b36
 ---
 
 As I do most evenings, I was scrolling through LinkedIn posts, looking for content that would inspire a blog post and, in the process, stay up to date with the accessibility space and all that it encompasses. 

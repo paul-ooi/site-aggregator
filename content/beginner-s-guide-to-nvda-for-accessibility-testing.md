@@ -1,16 +1,16 @@
 ---
 title: Beginner’s Guide to NVDA for Accessibility Testing
-description: If you want to understand how accessible your website really is, there’s no substitute for experiencing it as many users do, and that’s with a screen reader. One of the most widely used screen readers
+description: If you want to understand how accessible your website really is, there’s no substitute for experiencing it as many users do, and that’s with a screen reader. One of the most widely used screen
 url: https://dubbot.com/dubblog/2026/beginners-guide-to-nvda-for-accessibility-testing.html
 source: https://dubbot.com/dubblog/index.html
 organization: https://dubbot.com/dubblog/index.html
-repostedDate: 2026-08-01T10:44:30.433Z
+repostedDate: 2026-09-20T07:49:46.694Z
 tags:
   - technology
   - accessibility
-sourcePublishDate: 2026-03-19T00:00:00.000Z
+sourcePublishDate: 2026-03-19T04:00:00.000Z
 author: Maggie Vaughan, CPACC
-contentHash: e5b5a608476817196c4b8eb195e13aa9
+contentHash: a4387945410304e12568597190c6b6aa
 ---
 
 If you want to understand how accessible your website really is, there’s no substitute for experiencing it as many users do, and that’s with a screen reader. One of the most widely used screen readers is **NVDA**, and the good news is that getting started with it is easier than you might think.
