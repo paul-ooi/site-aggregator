@@ -4,6 +4,7 @@ import * as path from 'node:path';
 export interface RssArticleItem {
   title: string;
   description: string;
+  contentEncoded?: string;
   link: string;
   guid: string;
   pubDate: string;
@@ -102,9 +103,14 @@ export function parseMarkdownArticle(fileContent: string, filename: string, base
   const articleUrl = `${cleanBaseUrl}/${slug}`;
   const pubDate = formatRfc822Date(sourcePublishDate || repostedDate);
 
+  // Preserve the full markdown body (everything after frontmatter) so the
+  // feed can carry complete article content, not just the excerpt.
+  const contentEncoded = fileContent.slice(frontmatterMatch[0].length).trim();
+
   return {
     title,
     description,
+    contentEncoded: contentEncoded || undefined,
     link: articleUrl,
     guid: articleUrl,
     pubDate,
@@ -150,7 +156,7 @@ export function generateRssXml(articles: RssArticleItem[], options: RssFeedOptio
       <guid isPermaLink="true">${item.guid}</guid>
       <pubDate>${item.pubDate}</pubDate>
       <description><![CDATA[${escapeCdata(item.description)}]]></description>
-${creatorXml}${sourceXml}${categoriesXml ? categoriesXml + '\n' : ''}    </item>`;
+${item.contentEncoded ? `      <content:encoded><![CDATA[${escapeCdata(item.contentEncoded)}]]></content:encoded>\n` : ''}${creatorXml}${sourceXml}${categoriesXml ? categoriesXml + '\n' : ''}    </item>`;
     })
     .join('\n');
 

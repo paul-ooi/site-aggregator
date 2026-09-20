@@ -84,6 +84,17 @@ describe('generateMarkdown', () => {
     const md = generateMarkdown(makeArticle());
     expect(md).toMatch(/contentHash: [a-f0-9]{32}/);
   });
+
+  it('truncates frontmatter description on a word boundary', () => {
+    const longText = `${'alpha '.repeat(50).trim()}`;
+    expect(longText.length).toBeGreaterThan(200);
+    const md = generateMarkdown(makeArticle({ rawDescriptionHtml: `<p>${longText}</p>` }));
+    const descLine = md.split('\n').find((line) => line.startsWith('description:')) || '';
+    const descValue = descLine.replace(/^description: /, '');
+    expect(descValue.length).toBeLessThanOrEqual(200);
+    expect(descValue).toMatch(/alpha$/);
+    expect(longText[descValue.length]).toBe(' ');
+  });
 });
 
 describe('hasMinimumContent', () => {

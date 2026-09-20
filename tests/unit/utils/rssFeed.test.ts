@@ -107,6 +107,30 @@ description: About page
     const result = parseMarkdownArticle(markdown, 'about.md', 'https://example.com');
     expect(result).toBeNull();
   });
+
+  it('captures the full markdown body as contentEncoded', () => {
+    const markdown = `---
+title: Body Article
+description: Short excerpt
+repostedDate: 2026-06-15T08:00:00.000Z
+---
+
+Body content goes here with the complete article text.
+`;
+    const result = parseMarkdownArticle(markdown, 'body-article.md', 'https://example.com');
+    expect(result?.description).toBe('Short excerpt');
+    expect(result?.contentEncoded).toBe('Body content goes here with the complete article text.');
+  });
+
+  it('leaves contentEncoded undefined when the body is empty', () => {
+    const markdown = `---
+title: Empty Body
+repostedDate: 2026-06-15T08:00:00.000Z
+---
+`;
+    const result = parseMarkdownArticle(markdown, 'empty-body.md', 'https://example.com');
+    expect(result?.contentEncoded).toBeUndefined();
+  });
 });
 
 describe('generateRssXml', () => {
@@ -170,6 +194,54 @@ describe('generateRssXml', () => {
     expect(feed.items.length).toBe(2);
     expect(feed.items[0].title).toBe('Newer Article');
     expect(feed.items[1].title).toBe('Older Article');
+  });
+
+  it('emits full body as content:encoded when present', () => {
+    const full: RssArticleItem[] = [
+      {
+        title: 'Full Article',
+        description: 'Short excerpt',
+        contentEncoded: 'The complete article body with far more text than the excerpt.',
+        link: 'https://example.com/full',
+        guid: 'https://example.com/full',
+        pubDate: 'Sun, 01 Feb 2026 00:00:00 GMT',
+      },
+    ];
+    const xml = generateRssXml(full);
+    expect(xml).toContain(
+      '<content:encoded><![CDATA[The complete article body with far more text than the excerpt.]]></content:encoded>'
+    );
+    const bodyIndex = xml.indexOf('The complete article body');
+    const excerptIndex = xml.indexOf('Short excerpt');
+    expect(bodyIndex).toBeGreaterThan(-1);
+    expect('The complete article body with far more text than the excerpt.'.length).toBeGreaterThan(
+      'Short excerpt'.length
+    );
+    expect(excerptIndex).toBeGreaterThan(-1);
+  });
+
+  it('omits content:encoded when the body is empty', () => {
+    const xml = generateRssXml(articles);
+    expect(xml).not.toContain('<content:encoded>');
+  });
+
+  it('round-trips full content through rss-parser', async () => {
+    const full: RssArticleItem[] = [
+      {
+        title: 'Full Article',
+        description: 'Short excerpt',
+        contentEncoded: 'The complete article body text.',
+        link: 'https://example.com/full',
+        guid: 'https://example.com/full',
+        pubDate: 'Sun, 01 Feb 2026 00:00:00 GMT',
+      },
+    ];
+    const xml = generateRssXml(full);
+    const parser = new Parser();
+    const feed = await parser.parseString(xml);
+    expect((feed.items[0] as Record<string, unknown>)['content:encoded']).toContain(
+      'The complete article body text.'
+    );
   });
 });
 
