@@ -81,7 +81,11 @@ export function generateMarkdown(article: Article): string {
     // Trucated first paragraph for Description (TODO: use AI summary)
     const firstParagraph = root.querySelector('p');
     if (firstParagraph) {
-      frontmatterDescription = firstParagraph.innerText.trim().substring(0, 200); // Limit length
+      const fullText = firstParagraph.innerText.trim();
+      const cut = fullText.slice(0, 200);
+      const lastSpace = cut.lastIndexOf(' ');
+      // Cut on a word boundary so the excerpt never ends mid-word
+      frontmatterDescription = fullText.length <= 200 || lastSpace <= 0 ? cut.trimEnd() : cut.slice(0, lastSpace);
     }
 
     // Sanitize frontmatterDescription for YAML (escape double quotes, newlines)
