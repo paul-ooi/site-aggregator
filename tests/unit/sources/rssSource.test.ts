@@ -186,4 +186,99 @@ describe('RSSSource', () => {
       expect(articles[0].sourceType).toBe('rss');
     });
   });
+
+  describe('full-content preference (content:encoded over excerpt)', () => {
+    it('prefers content:encoded over content for description with no mapping', async () => {
+      mockParseURL.mockResolvedValue(
+        makeFeed([
+          {
+            'title': 'Article',
+            'link': 'https://example.com/1',
+            'content:encoded': '<p>Full body content here</p>',
+            'content': 'Excerpt […]',
+            'description': 'Excerpt […]',
+          },
+        ])
+      );
+
+      const source = new RSSSource('https://feed.com/rss', 'Test');
+      const articles = await source.fetchArticles();
+      expect(articles[0].description).toBe('<p>Full body content here</p>');
+      expect(articles[0].rawDescriptionHtml).toBe('<p>Full body content here</p>');
+    });
+
+    it('falls back to content when content:encoded is absent (Buttondown shape)', async () => {
+      mockParseURL.mockResolvedValue(
+        makeFeed([
+          {
+            title: 'Article',
+            link: 'https://example.com/1',
+            content: '<p>Full body, no namespaced key</p>',
+            contentSnippet: 'Full body, no namespaced key',
+          },
+        ])
+      );
+
+      const source = new RSSSource('https://feed.com/rss', 'Test');
+      const articles = await source.fetchArticles();
+      expect(articles[0].description).toBe('<p>Full body, no namespaced key</p>');
+      expect(articles[0].rawDescriptionHtml).toBe('<p>Full body, no namespaced key</p>');
+    });
+
+    it('resolves mapped fields with non-string values', async () => {
+      mockParseURL.mockResolvedValue(
+        makeFeed([
+          {
+            customTitle: { _: 'Object Title' },
+            title: 'Default Title',
+            link: 'https://example.com/1',
+          },
+        ])
+      );
+
+      const source = new RSSSource('https://feed.com/rss', 'Test', {
+        title: 'customTitle',
+      });
+      const articles = await source.fetchArticles();
+      expect(articles[0].title).toBe('Object Title');
+    });
+
+    it('tries every key of an array tags mapping in order', async () => {
+      mockParseURL.mockResolvedValue(
+        makeFeed([
+          {
+            title: 'Article',
+            link: 'https://example.com/1',
+            altTags: '',
+            customTags: ['tag-a', 'tag-b'],
+            categories: ['fallback'],
+          },
+        ])
+      );
+
+      const source = new RSSSource('https://feed.com/rss', 'Test', {
+        tags: ['altTags', 'customTags'],
+      });
+      const articles = await source.fetchArticles();
+      expect(articles[0].tags).toEqual(['tag-a', 'tag-b']);
+    });
+
+    it('falls back to categories when no tags mapping key matches', async () => {
+      mockParseURL.mockResolvedValue(
+        makeFeed([
+          {
+            title: 'Article',
+            link: 'https://example.com/1',
+            categories: ['fallback'],
+          },
+        ])
+      );
+
+      const source = new RSSSource('https://feed.com/rss', 'Test', {
+        tags: ['missingKey', 'alsoMissing'],
+      });
+      const articles = await source.fetchArticles();
+      expect(articles[0].tags).toEqual(['fallback']);
+    });
+  });
 });
