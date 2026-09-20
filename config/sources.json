@@ -8,7 +8,7 @@
     "tags": "accessibility",
     "fieldMappings": {
       "description": "content:encoded",
-      "summary": "content",
+      "summary": "contentSnippet",
       "rawDescriptionHtml": "content:encoded"
     }
   },
@@ -20,9 +20,9 @@
     "language": "en",
     "tags": "accessibility",
     "fieldMappings": {
-      "summary": "description",
-      "description": "title",
-      "rawDescriptionHtml": "description"
+      "summary": "contentSnippet",
+      "description": "contentSnippet",
+      "rawDescriptionHtml": "content"
     }
   },
   {
