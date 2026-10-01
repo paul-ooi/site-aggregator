@@ -43,7 +43,7 @@
     "feed-reader": "^1.1.6",
     "nuxt": "^3.10.0",
     "rss-parser": "^3.13.0",
-    "vue": "^3.4.0"
+    "vue": "^3.5.43"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.2.0",
