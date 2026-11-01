@@ -5,8 +5,287 @@
     <link>https://paul-ooi.github.io/site-aggregator</link>
     <description><![CDATA[A lightweight content aggregation system that collects, stores, and displays articles from web URLs and RSS feeds]]></description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2026 07:17:42 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 15:55:20 GMT</lastBuildDate>
     <atom:link href="https://paul-ooi.github.io/site-aggregator/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[Captioned Doesn’t Always Mean Accessible]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/captioned-doesn-t-always-mean-accessible</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/captioned-doesn-t-always-mean-accessible</guid>
+      <pubDate>Thu, 29 Oct 2026 16:40:55 GMT</pubDate>
+      <description><![CDATA[Video captions are essential to accessible video experiences. Captions are required by the Web Content Accessibility Guidelines (WCAG) in Success Criterion 1.2.2 and are a legal requirement for many v]]></description>
+      <dc:creator><![CDATA[Christopher Phillips]]></dc:creator>
+      <source url="https://webaim.org/blog"><![CDATA[WebAIM Blog]]></source>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Is Your Website Relying on Color Alone?]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/is-your-website-relying-on-color-alone-</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/is-your-website-relying-on-color-alone-</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[One of the easiest accessibility mistakes to make, and one that I think is often overlooked, is relying on color to communicate something important. It might be a red outline around a form field, a bl]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[More Than Documentation: Getting to Know the DubBot Help Center]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/more-than-documentation--getting-to-know-the-dubbot-help-center</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/more-than-documentation--getting-to-know-the-dubbot-help-center</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Getting the most from your website monitoring platform takes more than just running scans and reviewing results. You need to understand what you’re seeing, know what to do next, and have resources rea]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Why the Right Conference Makes a Difference]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/why-the-right-conference-makes-a-difference</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/why-the-right-conference-makes-a-difference</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[As the 2026 Digital Collegium Annual Conference wrapped up yesterday, I found myself thinking about other conferences I’ve attended over the years, specifically the ones I got the most from and looked]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[End-to-End Accessibility Testing: Going Beyond the Page]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/end-to-end-accessibility-testing--going-beyond-the-page</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/end-to-end-accessibility-testing--going-beyond-the-page</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A website can pass automated and manual accessibility checks and still fail someone trying to accomplish a task.]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Celebrate NDEAM: Build Accessibility Into Everyday Work]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/celebrate-ndeam--build-accessibility-into-everyday-work</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/celebrate-ndeam--build-accessibility-into-everyday-work</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[October is National Disability Employment Awareness Month (NDEAM), a time to recognize the contributions of workers with disabilities and promote accessible workplaces. It’s also a good reminder that]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Riding the Magic Escalator of Acquired Knowledge]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/riding-the-magic-escalator-of-acquired-knowledge</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/riding-the-magic-escalator-of-acquired-knowledge</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Years ago, while working in higher education, I came across a concept called the Magic Escalator of Acquired Knowledge. I don’t remember exactly where or when I found it, but I do remember thinking so]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Landmarks: Your Webpage’s Table of Contents]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/landmarks--your-webpage-s-table-of-contents</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/landmarks--your-webpage-s-table-of-contents</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Recently, the DubBot app flagged several landmark issues across a few of my blog posts. And so, naturally, I began to investigate.]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[From Accessibility Testing to Karaoke: DubBot Heads to DigiCol 2026]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/from-accessibility-testing-to-karaoke--dubbot-heads-to-digicol-2026</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/from-accessibility-testing-to-karaoke--dubbot-heads-to-digicol-2026</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[DubBot is excited to once again join the DigiCol community as a Platinum Sponsor and Accessibility Partner for the 2026 Digital Collegium Annual Conference in Pittsburgh, PA.]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Keeping Your Website Accessible: The Case for Regression Testing]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/keeping-your-website-accessible--the-case-for-regression-testing</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/keeping-your-website-accessible--the-case-for-regression-testing</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[You spend a lot of time remediating accessibility issues. Every image has ALT text, focus order makes sense, and forms work with screen readers. But a new feature, design update, content change, or co]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Use and Misuse: How Abuse of Disability Accommodations Comes Back to Hurt Disabled People]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/use-and-misuse--how-abuse-of-disability-accommodations-comes-back-to-hurt-disabled-people</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/use-and-misuse--how-abuse-of-disability-accommodations-comes-back-to-hurt-disabled-people</guid>
+      <pubDate>Wed, 30 Sep 2026 13:48:27 GMT</pubDate>
+      <description><![CDATA[Most accommodations start with a narrow purpose.]]></description>
+      <dc:creator><![CDATA[Access * Ability]]></dc:creator>
+      <source url="https://buttondown.com/access-ability"><![CDATA[Access * Ability]]></source>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Graphical Objects, UI Components, and Contrast]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/graphical-objects--ui-components--and-contrast</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/graphical-objects--ui-components--and-contrast</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[While working to correct some minor policy issues reported in the DubBot app, two pages were flagged for Image alt text is less than 12 characters.]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Organize DubBot Your Way with Labels]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/organize-dubbot-your-way-with-labels</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/organize-dubbot-your-way-with-labels</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Every organization manages its websites, page sets, and task responsibilities in different ways. You could manage sites by department, audience, campus, or business unit. You may want to distinguish t]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Your Personalized Message Isn’t Very Personal If I Can’t Use It]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/your-personalized-message-isn-t-very-personal-if-i-can-t-use-it</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/your-personalized-message-isn-t-very-personal-if-i-can-t-use-it</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Think about the last personalized email you received. That message that greets you by name, recommends exactly what you’ve been looking for, and arrives at precisely the right moment.]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Foldable Phones and Accessibility: Benefits, Barriers, Weight, Care, and Cost]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/foldable-phones-and-accessibility--benefits--barriers--weight--care--and-cost</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/foldable-phones-and-accessibility--benefits--barriers--weight--care--and-cost</guid>
+      <pubDate>Thu, 17 Sep 2026 15:49:21 GMT</pubDate>
+      <description><![CDATA[]]></description>
+      <dc:creator><![CDATA[Access * Ability]]></dc:creator>
+      <source url="https://buttondown.com/access-ability"><![CDATA[Access * Ability]]></source>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Table or List? Choosing the Right Structure for Accessible Content]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/table-or-list--choosing-the-right-structure-for-accessible-content</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/table-or-list--choosing-the-right-structure-for-accessible-content</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Tables and lists are both very useful ways to organize and present content. But they’re both structured to present different types of content. Choosing the right one isn't just a design decision. It’s]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Understanding Accessibility Debt: How It Happens and What to Do About It]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/understanding-accessibility-debt--how-it-happens-and-what-to-do-about-it</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/understanding-accessibility-debt--how-it-happens-and-what-to-do-about-it</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Folks rarely set out to build something inaccessible. But tight deadlines, understaffing, and budget constraints can push shift-left accessibility activities to the sidelines, creating gaps and misste]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Interview Accommodations: A Legal Necessity, not a Favor]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/interview-accommodations--a-legal-necessity--not-a-favor</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/interview-accommodations--a-legal-necessity--not-a-favor</guid>
+      <pubDate>Thu, 10 Sep 2026 13:46:28 GMT</pubDate>
+      <description><![CDATA[When companies talk about diversity and inclusion, they often forget about a crucial aspect: accessibility in the hiring process.]]></description>
+      <dc:creator><![CDATA[Access * Ability]]></dc:creator>
+      <source url="https://buttondown.com/access-ability"><![CDATA[Access * Ability]]></source>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Why don't we use black text anymore? That's an Excellent Question, Diana!]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/why-don-t-we-use-black-text-anymore--that-s-an-excellent-question--diana-</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/why-don-t-we-use-black-text-anymore--that-s-an-excellent-question--diana-</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Sometimes it's a good thing I’m not in an office during work hours. Here’s a perfect example of why. When I saw the headline of one of my regular email subscriptions, I screamed out loud, Damn skippy!]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[How Much ALT Text is Too Much ALT Text?]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/how-much-alt-text-is-too-much-alt-text-</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/how-much-alt-text-is-too-much-alt-text-</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[While scrolling through LinkedIn the other day, I came across a post from a former intern from my higher-education days. He was sharing a website redesign project he had worked on, and I was excited t]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Dark Mode vs. Light Mode: Preference, Trend, or an Accessibility Question?]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/dark-mode-vs--light-mode--preference--trend--or-an-accessibility-question-</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/dark-mode-vs--light-mode--preference--trend--or-an-accessibility-question-</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Dark mode is no longer a niche developer preference. With the 2019-2020 releases of iOS 13, Android 10, and Windows / macOS system-level toggles into the mainstream, dark mode has since become a widel]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Accessible Color Choices Are About So Much More Than Just Contrast]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/accessible-color-choices-are-about-so-much-more-than-just-contrast</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/accessible-color-choices-are-about-so-much-more-than-just-contrast</guid>
+      <pubDate>Wed, 02 Sep 2026 13:37:49 GMT</pubDate>
+      <description><![CDATA[Most accessibility conversations about color stop at the contrast ratio between a foreground color and its background. That number is easy to determine, which is why automated tools report it and why]]></description>
+      <dc:creator><![CDATA[Access * Ability]]></dc:creator>
+      <source url="https://buttondown.com/access-ability"><![CDATA[Access * Ability]]></source>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[DubBot Joins Texas Digital Accessibility Coffee Chat]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/dubbot-joins-texas-digital-accessibility-coffee-chat</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/dubbot-joins-texas-digital-accessibility-coffee-chat</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[DubBot is pleased to join the Texas Department of Information Resources for its upcoming Texas Digital Accessibility Coffee Chat, a monthly meetup designed for Texas public-sector employees only who w]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[If you have to ask, is it accessible?]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/if-you-have-to-ask--is-it-accessible-</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/if-you-have-to-ask--is-it-accessible-</guid>
+      <pubDate>Mon, 31 Aug 2026 20:02:26 GMT</pubDate>
+      <description><![CDATA[As one of the researchers identifying products and tools for inclusion in the NCADEMI EdTech Accessibility Directory, VPATs have been on my mind. Most of the product vendors in the directory that do h]]></description>
+      <dc:creator><![CDATA[George Joeckel]]></dc:creator>
+      <source url="https://webaim.org/blog"><![CDATA[WebAIM Blog]]></source>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[What Does WCAG Conformance Actually Mean?]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/what-does-wcag-conformance-actually-mean-</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/what-does-wcag-conformance-actually-mean-</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[We’re all working toward WCAG conformance. But what does conformance actually mean?]]></description>
+      <dc:creator><![CDATA[Maggie Vaughan, CPACC]]></dc:creator>
+      <source url="https://dubbot.com/dubblog/index.html"><![CDATA[https://dubbot.com/dubblog/index.html]]></source>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[accessibility]]></category>
+    </item>
+    <item>
+      <title><![CDATA[What do prechopped vegetables and self-tying shoes have in common?]]></title>
+      <link>https://paul-ooi.github.io/site-aggregator/what-do-prechopped-vegetables-and-self-tying-shoes-have-in-common-</link>
+      <guid isPermaLink="true">https://paul-ooi.github.io/site-aggregator/what-do-prechopped-vegetables-and-self-tying-shoes-have-in-common-</guid>
+      <pubDate>Wed, 26 Aug 2026 13:32:51 GMT</pubDate>
+      <description><![CDATA[Two things happened to me that appear to have nothing to do with each other.]]></description>
+      <dc:creator><![CDATA[Access * Ability]]></dc:creator>
+      <source url="https://buttondown.com/access-ability"><![CDATA[Access * Ability]]></source>
+      <category><![CDATA[accessibility]]></category>
+    </item>
     <item>
       <title><![CDATA[Enforcing Website Standards: Should I Centralize or Should I Decentralize?]]></title>
       <link>https://paul-ooi.github.io/site-aggregator/enforcing-website-standards--should-i-centralize-or-should-i-decentralize-</link>
